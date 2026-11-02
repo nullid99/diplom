@@ -1,0 +1,63 @@
+{
+  "id": "d467831f-bb4b-474e-a62c-b72785c24e7f",
+  "video_source_id": "5f217757-4d66-4f12-95f1-613632830e34",
+  "model_version_id": "8c37f231-7e6e-4db4-8405-0e4f731c4b87",
+  "video_source_name": "FIRESENSE demo S02 — reference",
+  "model_version_name": "YOLO11n baseline 50 epochs (val, development)",
+  "mode": "full",
+  "status": "completed",
+  "settings_snapshot": {
+    "imgsz": 640,
+    "zones": [],
+    "device": "cuda:0",
+    "temporal": {
+      "min_hits": 3,
+      "match_iou": 0.1,
+      "window_seconds": 3.0,
+      "absence_seconds": 2.0,
+      "center_distance": 0.12,
+      "min_span_seconds": 1.0,
+      "clip_after_seconds": 3.0,
+      "clip_before_seconds": 2.0
+    },
+    "analysis_fps": 2.0,
+    "model_sha256": "d0fb93c60b88dcf27eb3933a66e49d88f475aafd8c13faf11971e3b590b0e4d7",
+    "class_mapping": {
+      "0": "smoke",
+      "1": "fire"
+    },
+    "source_sha256": "74734cfc51a9199ddaa63ecaa8283561b6d32166c5cd38902d32e86f928f0b49",
+    "fire_threshold": 0.25,
+    "schema_version": 2,
+    "smoke_threshold": 0.25
+  },
+  "progress": 1.0,
+  "error_message": null,
+  "cancel_requested_at": null,
+  "created_at": "2026-11-02T22:02:03.546414+02:00",
+  "started_at": "2026-11-02T22:02:04.255835+02:00",
+  "finished_at": "2026-11-02T22:02:09.902781+02:00",
+  "heartbeat_at": "2026-11-02T22:02:09.322443+02:00",
+  "summary_metrics": {
+    "stage": "completed",
+    "device": "cuda:0",
+    "frames_read": 120,
+    "output_audio": false,
+    "wall_seconds": 5.467999999999847,
+    "frames_analyzed": 24,
+    "confirmed_events": 0,
+    "detections_by_class": {
+      "fire": 0,
+      "smoke": 0
+    },
+    "video_duration_seconds": 12.0,
+    "source_first_pts_seconds": 0.0,
+    "timestamp_precision_seconds": 1e-06,
+    "all_original_frames_retained": true
+  },
+  "result_paths": {
+    "video": "results/analysis/d467831f-bb4b-474e-a62c-b72785c24e7f/9b9b3664-4d04-419f-a5f2-9d3a4b87bb3c/annotated.mp4",
+    "summary": "results/analysis/d467831f-bb4b-474e-a62c-b72785c24e7f/9b9b3664-4d04-419f-a5f2-9d3a4b87bb3c/summary.json",
+    "detections": "results/analysis/d467831f-bb4b-474e-a62c-b72785c24e7f/9b9b3664-4d04-419f-a5f2-9d3a4b87bb3c/detections.jsonl"
+  }
+}

@@ -1,0 +1,77 @@
+﻿{
+  "id": "yolo11n_baseline_20261101T203432Z_b1931c45",
+  "status": "completed",
+  "pid": 9496,
+  "started_at": "2026-11-02T09:41:57.551112+00:00",
+  "completed_epochs": 50,
+  "batch": 4,
+  "device": "cuda:0",
+  "losses_finite": true,
+  "resume_checkpoint": "D:\\FireVision\\runs\\full\\yolo11n_baseline_20261101T203432Z_b1931c45\\resume-history\\before_20261102T094214Z_89207a\\selected-resume.pt",
+  "gpu_name": "NVIDIA GeForce RTX 2060",
+  "input_verification": {
+    "verified_at": "2026-11-02T09:42:13.833276+00:00",
+    "images": 8674,
+    "image_and_label_sha256_match": true,
+    "main_manifests_unchanged": true
+  },
+  "actual_train_images": 7238,
+  "actual_val_images": 1436,
+  "actual_batch": 4,
+  "updated_at": "2026-11-02T13:10:23.510005+00:00",
+  "peak_allocated_bytes": 761832448,
+  "peak_reserved_bytes": 1264582656,
+  "free_vram_bytes": 5074059264,
+  "total_vram_bytes": 6442123264,
+  "wall_seconds": 13726.315914299996,
+  "active_device": "cuda:0",
+  "active_epoch": 50,
+  "batch_in_epoch": 1810,
+  "latest_loss": 11.608314514160156,
+  "latest_checkpoint": {
+    "file": "D:\\FireVision\\runs\\full\\yolo11n_baseline_20261101T203432Z_b1931c45\\training\\weights\\epoch49.pt",
+    "sha256": "5b75bbccb7d7db5041538e101e700cb9e74a47f3c4949e5a94cf72487b438d1e",
+    "bytes": 26578083,
+    "epoch_zero_based": 49,
+    "completed_epochs": 50,
+    "resumable": true,
+    "optimizer_present": true,
+    "scaler_present": true,
+    "ema_updates": 6347,
+    "train_epochs": 50,
+    "data": "D:\\FireVision\\runs\\full\\yolo11n_baseline_20261101T203432Z_b1931c45\\input\\data.yaml",
+    "names": {
+      "0": "smoke",
+      "1": "fire"
+    },
+    "fitness": 0.3917,
+    "best_fitness": 0.3917
+  },
+  "best_fitness": 0.3917,
+  "current_fitness": 0.3917,
+  "first_epoch_input_verification": {
+    "verified_at": "2026-11-02T09:47:43.993234+00:00",
+    "images": 8674,
+    "image_and_label_sha256_match": true,
+    "main_manifests_unchanged": true
+  },
+  "final_input_verification": {
+    "verified_at": "2026-11-02T13:10:23.510005+00:00",
+    "images": 8674,
+    "image_and_label_sha256_match": true,
+    "main_manifests_unchanged": true
+  },
+  "finished_at": "2026-11-02T13:10:23.510005+00:00",
+  "reason": "max_epochs",
+  "best_epoch_one_based": 50,
+  "final_best_metrics": {
+    "metrics/precision(B)": 0.733129850800579,
+    "metrics/recall(B)": 0.6086966725337356,
+    "metrics/mAP50(B)": 0.691355917621606,
+    "metrics/mAP50-95(B)": 0.39159190248088643
+  },
+  "process_lock_held": false,
+  "recent_mean_epoch_seconds": 264.09898366666613,
+  "eta_to_50_seconds_ignoring_early_stopping": 0.0,
+  "run_dir": "D:\\FireVision\\runs\\full\\yolo11n_baseline_20261101T203432Z_b1931c45"
+}

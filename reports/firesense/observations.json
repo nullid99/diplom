@@ -1,0 +1,1745 @@
+{
+  "created_at": "2026-11-02T20:06:09.507463+00:00",
+  "demonstration_only": true,
+  "independent_test": false,
+  "configuration": {
+    "smoke_threshold": 0.25,
+    "fire_threshold": 0.25,
+    "imgsz": 640,
+    "analysis_fps": 2,
+    "device": "cuda:0",
+    "temporal": {
+      "window_seconds": 3,
+      "min_hits": 3,
+      "min_span_seconds": 1,
+      "absence_seconds": 2,
+      "match_iou": 0.1,
+      "center_distance": 0.12,
+      "clip_before_seconds": 2,
+      "clip_after_seconds": 3
+    }
+  },
+  "observations": [
+    {
+      "id": "F01",
+      "fire_visible": true,
+      "smoke_visible": false,
+      "transform": "reference",
+      "duration_seconds": 12.012,
+      "width": 480,
+      "height": 272,
+      "analyzed_frames": 24,
+      "fire_detection_frames": 24,
+      "smoke_detection_frames": 0,
+      "fire_events": 1,
+      "smoke_events": 0,
+      "run_id": "5227c628-f49d-41e2-8cf1-ce9e8e2d4224",
+      "source_id": "85ec652f-a11f-4097-8457-6f811579b078",
+      "wall_seconds": 24.032000000000153,
+      "notes": [],
+      "example_seconds": 2.002,
+      "example_detections": [
+        {
+          "class_id": 1,
+          "class_name": "fire",
+          "confidence": 0.7039267420768738,
+          "xyxy": [
+            86.2877197265625,
+            10.000085830688477,
+            414.9198303222656,
+            213.1078643798828
+          ]
+        }
+      ]
+    },
+    {
+      "id": "F02",
+      "fire_visible": true,
+      "smoke_visible": true,
+      "transform": "reference",
+      "duration_seconds": 12.0,
+      "width": 352,
+      "height": 288,
+      "analyzed_frames": 24,
+      "fire_detection_frames": 24,
+      "smoke_detection_frames": 7,
+      "fire_events": 1,
+      "smoke_events": 1,
+      "run_id": "6f7795a1-0c1d-4ddc-a311-fa0e7713a846",
+      "source_id": "1649ead0-cd54-485a-b0e2-844d514175df",
+      "wall_seconds": 7.328000000000429,
+      "notes": [],
+      "example_seconds": 2.0,
+      "example_detections": [
+        {
+          "class_id": 1,
+          "class_name": "fire",
+          "confidence": 0.7707141041755676,
+          "xyxy": [
+            214.1796875,
+            189.0223388671875,
+            263.0855712890625,
+            222.4081573486328
+          ]
+        },
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.3526473343372345,
+          "xyxy": [
+            242.8923797607422,
+            87.07699584960938,
+            351.4245910644531,
+            206.24517822265625
+          ]
+        }
+      ]
+    },
+    {
+      "id": "F03",
+      "fire_visible": true,
+      "smoke_visible": true,
+      "transform": "reference",
+      "duration_seconds": 7.007007,
+      "width": 400,
+      "height": 256,
+      "analyzed_frames": 14,
+      "fire_detection_frames": 14,
+      "smoke_detection_frames": 14,
+      "fire_events": 5,
+      "smoke_events": 1,
+      "run_id": "22bedde8-1fdc-41ca-803a-6743bc573637",
+      "source_id": "98291e3e-35b5-4e18-aa90-66569717cbe7",
+      "wall_seconds": 9.686999999999898,
+      "notes": [],
+      "example_seconds": 2.002002,
+      "example_detections": [
+        {
+          "class_id": 1,
+          "class_name": "fire",
+          "confidence": 0.6534296274185181,
+          "xyxy": [
+            94.53163146972656,
+            105.68209075927734,
+            255.40753173828125,
+            195.2753448486328
+          ]
+        },
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.5841220021247864,
+          "xyxy": [
+            4.434814453125,
+            0.5183308124542236,
+            400.0,
+            176.7382049560547
+          ]
+        },
+        {
+          "class_id": 1,
+          "class_name": "fire",
+          "confidence": 0.5586105585098267,
+          "xyxy": [
+            86.84553527832031,
+            177.70693969726562,
+            178.51708984375,
+            223.2663116455078
+          ]
+        },
+        {
+          "class_id": 1,
+          "class_name": "fire",
+          "confidence": 0.47220858931541443,
+          "xyxy": [
+            88.47278594970703,
+            100.4664535522461,
+            261.40545654296875,
+            221.7769775390625
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S01",
+      "fire_visible": false,
+      "smoke_visible": true,
+      "transform": "reference",
+      "duration_seconds": 12.0,
+      "width": 640,
+      "height": 360,
+      "analyzed_frames": 24,
+      "fire_detection_frames": 0,
+      "smoke_detection_frames": 24,
+      "fire_events": 0,
+      "smoke_events": 1,
+      "run_id": "2c1c98d0-eedc-4b4d-b61d-0a2d4af99765",
+      "source_id": "d8d7b668-ee96-46b1-bb62-2dfb786b2185",
+      "wall_seconds": 7.42200000000048,
+      "notes": [],
+      "example_seconds": 2.0,
+      "example_detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.5502661466598511,
+          "xyxy": [
+            242.75128173828125,
+            102.83920288085938,
+            389.43341064453125,
+            189.7491455078125
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S02",
+      "fire_visible": false,
+      "smoke_visible": true,
+      "transform": "reference",
+      "duration_seconds": 12.0,
+      "width": 320,
+      "height": 240,
+      "analyzed_frames": 24,
+      "fire_detection_frames": 0,
+      "smoke_detection_frames": 0,
+      "fire_events": 0,
+      "smoke_events": 0,
+      "run_id": "d467831f-bb4b-474e-a62c-b72785c24e7f",
+      "source_id": "5f217757-4d66-4f12-95f1-613632830e34",
+      "wall_seconds": 5.467999999999847,
+      "notes": [
+        "No confirmed smoke event despite visually present class"
+      ],
+      "example_seconds": 2.0,
+      "example_detections": []
+    },
+    {
+      "id": "S03",
+      "fire_visible": true,
+      "smoke_visible": true,
+      "transform": "reference",
+      "duration_seconds": 11.990648,
+      "width": 480,
+      "height": 270,
+      "analyzed_frames": 24,
+      "fire_detection_frames": 1,
+      "smoke_detection_frames": 23,
+      "fire_events": 0,
+      "smoke_events": 1,
+      "run_id": "9fe156c8-7968-4a4a-a837-22394c3d1735",
+      "source_id": "52386f20-d4ef-43d2-b559-7c57b0666dd1",
+      "wall_seconds": 7.155999999999949,
+      "notes": [
+        "No confirmed fire event despite visually present class"
+      ],
+      "example_seconds": 2.004008,
+      "example_detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.690992534160614,
+          "xyxy": [
+            268.9825744628906,
+            7.144523620605469,
+            479.6859130859375,
+            238.62863159179688
+          ]
+        }
+      ]
+    },
+    {
+      "id": "N01",
+      "fire_visible": false,
+      "smoke_visible": false,
+      "transform": "reference",
+      "duration_seconds": 11.933321000000001,
+      "width": 640,
+      "height": 480,
+      "analyzed_frames": 24,
+      "fire_detection_frames": 0,
+      "smoke_detection_frames": 0,
+      "fire_events": 0,
+      "smoke_events": 0,
+      "run_id": "4686fda3-9511-4653-99ba-673efe0fd6a4",
+      "source_id": "46714d49-3566-4acb-92dd-35c83c72a171",
+      "wall_seconds": 5.984000000000378,
+      "notes": [],
+      "example_seconds": 2.099998,
+      "example_detections": []
+    },
+    {
+      "id": "N02",
+      "fire_visible": false,
+      "smoke_visible": false,
+      "transform": "reference",
+      "duration_seconds": 9.0,
+      "width": 352,
+      "height": 288,
+      "analyzed_frames": 18,
+      "fire_detection_frames": 1,
+      "smoke_detection_frames": 0,
+      "fire_events": 0,
+      "smoke_events": 0,
+      "run_id": "d1133157-b219-4e35-87b7-488369ac3ab2",
+      "source_id": "41fc56b8-6cd8-4fbb-98cf-7c43298ce8b6",
+      "wall_seconds": 5.811999999999898,
+      "notes": [
+        "False fire frame detections without confirmed event"
+      ],
+      "example_seconds": 2.52,
+      "example_detections": [
+        {
+          "class_id": 1,
+          "class_name": "fire",
+          "confidence": 0.30519527196884155,
+          "xyxy": [
+            130.01805114746094,
+            95.66226196289062,
+            147.82057189941406,
+            105.86920928955078
+          ]
+        }
+      ]
+    },
+    {
+      "id": "H01",
+      "fire_visible": false,
+      "smoke_visible": false,
+      "transform": "reference",
+      "duration_seconds": 12.0,
+      "width": 320,
+      "height": 240,
+      "analyzed_frames": 24,
+      "fire_detection_frames": 1,
+      "smoke_detection_frames": 0,
+      "fire_events": 0,
+      "smoke_events": 0,
+      "run_id": "5c5f858b-4d4f-488a-bf98-13fe01c08d6f",
+      "source_id": "2f62c7eb-3e61-4223-9d25-7cbcce9b58ba",
+      "wall_seconds": 5.484999999999673,
+      "notes": [
+        "False fire frame detections without confirmed event"
+      ],
+      "example_seconds": 3.0,
+      "example_detections": [
+        {
+          "class_id": 1,
+          "class_name": "fire",
+          "confidence": 0.538698136806488,
+          "xyxy": [
+            104.40763854980469,
+            122.72416687011719,
+            148.3748016357422,
+            174.7519073486328
+          ]
+        }
+      ]
+    },
+    {
+      "id": "H02",
+      "fire_visible": false,
+      "smoke_visible": false,
+      "transform": "reference",
+      "duration_seconds": 12.0,
+      "width": 640,
+      "height": 368,
+      "analyzed_frames": 24,
+      "fire_detection_frames": 2,
+      "smoke_detection_frames": 0,
+      "fire_events": 0,
+      "smoke_events": 0,
+      "run_id": "80d951ef-726d-403a-8a62-54a7d8f835f3",
+      "source_id": "d0fa401e-72a0-4621-8c63-0866c369dc73",
+      "wall_seconds": 6.405999999999949,
+      "notes": [
+        "False fire frame detections without confirmed event"
+      ],
+      "example_seconds": 0.0,
+      "example_detections": [
+        {
+          "class_id": 1,
+          "class_name": "fire",
+          "confidence": 0.26266080141067505,
+          "xyxy": [
+            0.1239776611328125,
+            6.766716003417969,
+            229.94522094726562,
+            257.07489013671875
+          ]
+        }
+      ]
+    },
+    {
+      "id": "F02-lowres",
+      "fire_visible": true,
+      "smoke_visible": true,
+      "transform": "low_resolution",
+      "duration_seconds": 12.0,
+      "width": 160,
+      "height": 130,
+      "analyzed_frames": 24,
+      "fire_detection_frames": 24,
+      "smoke_detection_frames": 6,
+      "fire_events": 1,
+      "smoke_events": 1,
+      "run_id": "10c95613-70a7-4749-bb34-b981b4bb1262",
+      "source_id": "137cae44-74b4-4a3e-a87c-26f575098279",
+      "wall_seconds": 6.469000000000051,
+      "notes": [],
+      "example_seconds": 2.0,
+      "example_detections": [
+        {
+          "class_id": 1,
+          "class_name": "fire",
+          "confidence": 0.7503100633621216,
+          "xyxy": [
+            97.27406311035156,
+            85.86393737792969,
+            119.34346008300781,
+            100.56108093261719
+          ]
+        },
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.26011672616004944,
+          "xyxy": [
+            109.96450805664062,
+            34.905120849609375,
+            159.97198486328125,
+            92.81307983398438
+          ]
+        }
+      ]
+    },
+    {
+      "id": "F02-blur",
+      "fire_visible": true,
+      "smoke_visible": true,
+      "transform": "blur",
+      "duration_seconds": 12.0,
+      "width": 352,
+      "height": 288,
+      "analyzed_frames": 24,
+      "fire_detection_frames": 1,
+      "smoke_detection_frames": 9,
+      "fire_events": 0,
+      "smoke_events": 2,
+      "run_id": "d3863743-5961-4084-9f83-5b4538317106",
+      "source_id": "861fe929-031a-4ace-839c-c3028b853e85",
+      "wall_seconds": 6.546999999999571,
+      "notes": [
+        "No confirmed fire event despite visually present class"
+      ],
+      "example_seconds": 2.0,
+      "example_detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.26426228880882263,
+          "xyxy": [
+            0.0,
+            0.0,
+            351.0738830566406,
+            283.1202392578125
+          ]
+        }
+      ]
+    },
+    {
+      "id": "F02-compressed",
+      "fire_visible": true,
+      "smoke_visible": true,
+      "transform": "strong_compression",
+      "duration_seconds": 12.0,
+      "width": 352,
+      "height": 288,
+      "analyzed_frames": 24,
+      "fire_detection_frames": 24,
+      "smoke_detection_frames": 1,
+      "fire_events": 2,
+      "smoke_events": 0,
+      "run_id": "50c610f0-80a4-4b22-bad1-b7448d0399e3",
+      "source_id": "8435e197-44ab-4644-af64-836f7cbb6830",
+      "wall_seconds": 6.734000000000378,
+      "notes": [
+        "No confirmed smoke event despite visually present class"
+      ],
+      "example_seconds": 2.0,
+      "example_detections": [
+        {
+          "class_id": 1,
+          "class_name": "fire",
+          "confidence": 0.6686565279960632,
+          "xyxy": [
+            220.97401428222656,
+            191.04466247558594,
+            262.0402526855469,
+            220.23683166503906
+          ]
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "87d96694-99c9-535e-88d7-25848e3abca1",
+      "analysis_run_id": "5227c628-f49d-41e2-8cf1-ce9e8e2d4224",
+      "video_source_id": "85ec652f-a11f-4097-8457-6f811579b078",
+      "source_name": "FIRESENSE demo F01 — reference",
+      "model_version_id": "8c37f231-7e6e-4db4-8405-0e4f731c4b87",
+      "feature_type": "fire",
+      "automatic_status": "completed",
+      "start_seconds": 0.0,
+      "confirmed_seconds": 1.001,
+      "last_seen_seconds": 11.5115,
+      "end_seconds": 12.012,
+      "closed_seconds": 12.012,
+      "closure_reason": "eof",
+      "confidence": 0.78069,
+      "review_status": "unreviewed",
+      "operator_comment": null,
+      "created_at": "2026-11-02T22:01:27.970682+02:00",
+      "updated_at": "2026-11-02T22:01:29.285017+02:00",
+      "has_frame": true,
+      "has_clip": true,
+      "region": {
+        "xyxy": [
+          0.1399285634358724,
+          0.017643530579174265,
+          0.8517865498860677,
+          0.7938546573414522
+        ],
+        "last_xyxy": [
+          0.14383261998494465,
+          0.018343166393392226,
+          0.8540397644042969,
+          0.8146922167609719
+        ],
+        "clip_end_seconds": 4.0040000000000004,
+        "coordinate_system": "normalized",
+        "clip_start_seconds": 0.0,
+        "confirmation_seconds": 1.001,
+        "source_duration_seconds": 12.012,
+        "clip_confirmation_seconds": 1.001,
+        "clip_measured_duration_seconds": 4.004
+      },
+      "settings_snapshot": {
+        "imgsz": 640,
+        "zones": [],
+        "device": "cuda:0",
+        "temporal": {
+          "min_hits": 3,
+          "match_iou": 0.1,
+          "window_seconds": 3.0,
+          "absence_seconds": 2.0,
+          "center_distance": 0.12,
+          "min_span_seconds": 1.0,
+          "clip_after_seconds": 3.0,
+          "clip_before_seconds": 2.0
+        },
+        "analysis_fps": 2.0,
+        "model_sha256": "d0fb93c60b88dcf27eb3933a66e49d88f475aafd8c13faf11971e3b590b0e4d7",
+        "class_mapping": {
+          "0": "smoke",
+          "1": "fire"
+        },
+        "source_sha256": "2cfb2c7dcdb420858c541a6a8a2f90f8e044840edc7604a0ff11f8e69d1d7d7c",
+        "fire_threshold": 0.25,
+        "schema_version": 2,
+        "smoke_threshold": 0.25
+      },
+      "run_status": "completed",
+      "clip_id": "F01"
+    },
+    {
+      "id": "08e38274-9576-5e31-91ea-88d627cb76cd",
+      "analysis_run_id": "6f7795a1-0c1d-4ddc-a311-fa0e7713a846",
+      "video_source_id": "1649ead0-cd54-485a-b0e2-844d514175df",
+      "source_name": "FIRESENSE demo F02 — reference",
+      "model_version_id": "8c37f231-7e6e-4db4-8405-0e4f731c4b87",
+      "feature_type": "smoke",
+      "automatic_status": "completed",
+      "start_seconds": 0.5,
+      "confirmed_seconds": 2.0,
+      "last_seen_seconds": 3.5,
+      "end_seconds": 5.5,
+      "closed_seconds": 5.5,
+      "closure_reason": "absence",
+      "confidence": 0.42941,
+      "review_status": "unreviewed",
+      "operator_comment": null,
+      "created_at": "2026-11-02T22:01:39.340512+02:00",
+      "updated_at": "2026-11-02T22:01:39.590766+02:00",
+      "has_frame": true,
+      "has_clip": true,
+      "region": {
+        "xyxy": [
+          0.6900351697748358,
+          0.3023506800333659,
+          0.9983653155240145,
+          0.7161290910508897
+        ],
+        "last_xyxy": [
+          0.6356767307628285,
+          0.06465772125456068,
+          1.0,
+          0.7123591105143229
+        ],
+        "clip_end_seconds": 5.0,
+        "coordinate_system": "normalized",
+        "clip_start_seconds": 0.0,
+        "confirmation_seconds": 2.0,
+        "source_duration_seconds": 12.0,
+        "clip_confirmation_seconds": 2.0,
+        "clip_measured_duration_seconds": 5.0
+      },
+      "settings_snapshot": {
+        "imgsz": 640,
+        "zones": [],
+        "device": "cuda:0",
+        "temporal": {
+          "min_hits": 3,
+          "match_iou": 0.1,
+          "window_seconds": 3.0,
+          "absence_seconds": 2.0,
+          "center_distance": 0.12,
+          "min_span_seconds": 1.0,
+          "clip_after_seconds": 3.0,
+          "clip_before_seconds": 2.0
+        },
+        "analysis_fps": 2.0,
+        "model_sha256": "d0fb93c60b88dcf27eb3933a66e49d88f475aafd8c13faf11971e3b590b0e4d7",
+        "class_mapping": {
+          "0": "smoke",
+          "1": "fire"
+        },
+        "source_sha256": "5bcc142de1a22e05305503b88c63b38913a72006390130c6e5a86c1b45be6455",
+        "fire_threshold": 0.25,
+        "schema_version": 2,
+        "smoke_threshold": 0.25
+      },
+      "run_status": "completed",
+      "clip_id": "F02"
+    },
+    {
+      "id": "a8ad1448-2727-5410-857a-54ae8d0fdd3f",
+      "analysis_run_id": "6f7795a1-0c1d-4ddc-a311-fa0e7713a846",
+      "video_source_id": "1649ead0-cd54-485a-b0e2-844d514175df",
+      "source_name": "FIRESENSE demo F02 — reference",
+      "model_version_id": "8c37f231-7e6e-4db4-8405-0e4f731c4b87",
+      "feature_type": "fire",
+      "automatic_status": "completed",
+      "start_seconds": 0.0,
+      "confirmed_seconds": 1.0,
+      "last_seen_seconds": 11.5,
+      "end_seconds": 12.0,
+      "closed_seconds": 12.0,
+      "closure_reason": "eof",
+      "confidence": 0.77071,
+      "review_status": "unreviewed",
+      "operator_comment": null,
+      "created_at": "2026-11-02T22:01:38.676265+02:00",
+      "updated_at": "2026-11-02T22:01:40.517210+02:00",
+      "has_frame": true,
+      "has_clip": true,
+      "region": {
+        "xyxy": [
+          0.6087117195129395,
+          0.6722077793545194,
+          0.7466941313310103,
+          0.7756844626532661
+        ],
+        "last_xyxy": [
+          0.606281193819913,
+          0.6261697875128852,
+          0.7673653689297762,
+          0.7748255729675293
+        ],
+        "clip_end_seconds": 4.0,
+        "coordinate_system": "normalized",
+        "clip_start_seconds": 0.0,
+        "confirmation_seconds": 1.0,
+        "source_duration_seconds": 12.0,
+        "clip_confirmation_seconds": 1.0,
+        "clip_measured_duration_seconds": 4.0
+      },
+      "settings_snapshot": {
+        "imgsz": 640,
+        "zones": [],
+        "device": "cuda:0",
+        "temporal": {
+          "min_hits": 3,
+          "match_iou": 0.1,
+          "window_seconds": 3.0,
+          "absence_seconds": 2.0,
+          "center_distance": 0.12,
+          "min_span_seconds": 1.0,
+          "clip_after_seconds": 3.0,
+          "clip_before_seconds": 2.0
+        },
+        "analysis_fps": 2.0,
+        "model_sha256": "d0fb93c60b88dcf27eb3933a66e49d88f475aafd8c13faf11971e3b590b0e4d7",
+        "class_mapping": {
+          "0": "smoke",
+          "1": "fire"
+        },
+        "source_sha256": "5bcc142de1a22e05305503b88c63b38913a72006390130c6e5a86c1b45be6455",
+        "fire_threshold": 0.25,
+        "schema_version": 2,
+        "smoke_threshold": 0.25
+      },
+      "run_status": "completed",
+      "clip_id": "F02"
+    },
+    {
+      "id": "3a37f894-8b99-54ac-b0c7-d6c1bb6fcfd3",
+      "analysis_run_id": "22bedde8-1fdc-41ca-803a-6743bc573637",
+      "video_source_id": "98291e3e-35b5-4e18-aa90-66569717cbe7",
+      "source_name": "FIRESENSE demo F03 — reference",
+      "model_version_id": "8c37f231-7e6e-4db4-8405-0e4f731c4b87",
+      "feature_type": "fire",
+      "automatic_status": "completed",
+      "start_seconds": 4.004004,
+      "confirmed_seconds": 6.506507,
+      "last_seen_seconds": 6.506507,
+      "end_seconds": 7.007007,
+      "closed_seconds": 7.007007,
+      "closure_reason": "eof",
+      "confidence": 0.27476,
+      "review_status": "unreviewed",
+      "operator_comment": null,
+      "created_at": "2026-11-02T22:01:51.875853+02:00",
+      "updated_at": "2026-11-02T22:01:52.499634+02:00",
+      "has_frame": true,
+      "has_clip": true,
+      "region": {
+        "xyxy": [
+          0.8067192840576172,
+          0.8347951173782349,
+          0.9146956634521485,
+          0.8770818710327148
+        ],
+        "last_xyxy": [
+          0.8067192840576172,
+          0.8347951173782349,
+          0.9146956634521485,
+          0.8770818710327148
+        ],
+        "clip_end_seconds": 7.007007,
+        "coordinate_system": "normalized",
+        "clip_start_seconds": 4.504505,
+        "confirmation_seconds": 6.506507,
+        "source_duration_seconds": 7.007007,
+        "clip_confirmation_seconds": 2.002002,
+        "clip_measured_duration_seconds": 2.5025
+      },
+      "settings_snapshot": {
+        "imgsz": 640,
+        "zones": [],
+        "device": "cuda:0",
+        "temporal": {
+          "min_hits": 3,
+          "match_iou": 0.1,
+          "window_seconds": 3.0,
+          "absence_seconds": 2.0,
+          "center_distance": 0.12,
+          "min_span_seconds": 1.0,
+          "clip_after_seconds": 3.0,
+          "clip_before_seconds": 2.0
+        },
+        "analysis_fps": 2.0,
+        "model_sha256": "d0fb93c60b88dcf27eb3933a66e49d88f475aafd8c13faf11971e3b590b0e4d7",
+        "class_mapping": {
+          "0": "smoke",
+          "1": "fire"
+        },
+        "source_sha256": "5046db873bd427a2aa98f8bf6587dba871b3010d532ad2620bf2659eab1741be",
+        "fire_threshold": 0.25,
+        "schema_version": 2,
+        "smoke_threshold": 0.25
+      },
+      "run_status": "completed",
+      "clip_id": "F03"
+    },
+    {
+      "id": "f7fc15a8-0156-51c3-b69e-ffc9502a6718",
+      "analysis_run_id": "22bedde8-1fdc-41ca-803a-6743bc573637",
+      "video_source_id": "98291e3e-35b5-4e18-aa90-66569717cbe7",
+      "source_name": "FIRESENSE demo F03 — reference",
+      "model_version_id": "8c37f231-7e6e-4db4-8405-0e4f731c4b87",
+      "feature_type": "fire",
+      "automatic_status": "completed",
+      "start_seconds": 0.500501,
+      "confirmed_seconds": 2.502503,
+      "last_seen_seconds": 6.506507,
+      "end_seconds": 7.007007,
+      "closed_seconds": 7.007007,
+      "closure_reason": "eof",
+      "confidence": 0.7082,
+      "review_status": "unreviewed",
+      "operator_comment": null,
+      "created_at": "2026-11-02T22:01:50.920473+02:00",
+      "updated_at": "2026-11-02T22:01:52.497045+02:00",
+      "has_frame": true,
+      "has_clip": true,
+      "region": {
+        "xyxy": [
+          0.23270111083984374,
+          0.40367698669433594,
+          0.6424906921386718,
+          0.7050160765647888
+        ],
+        "last_xyxy": [
+          0.1772661590576172,
+          0.3658773899078369,
+          0.6671240234375,
+          0.7346899509429932
+        ],
+        "clip_end_seconds": 5.505506,
+        "coordinate_system": "normalized",
+        "clip_start_seconds": 0.500501,
+        "confirmation_seconds": 2.502503,
+        "source_duration_seconds": 7.007007,
+        "clip_confirmation_seconds": 2.002002,
+        "clip_measured_duration_seconds": 5.005
+      },
+      "settings_snapshot": {
+        "imgsz": 640,
+        "zones": [],
+        "device": "cuda:0",
+        "temporal": {
+          "min_hits": 3,
+          "match_iou": 0.1,
+          "window_seconds": 3.0,
+          "absence_seconds": 2.0,
+          "center_distance": 0.12,
+          "min_span_seconds": 1.0,
+          "clip_after_seconds": 3.0,
+          "clip_before_seconds": 2.0
+        },
+        "analysis_fps": 2.0,
+        "model_sha256": "d0fb93c60b88dcf27eb3933a66e49d88f475aafd8c13faf11971e3b590b0e4d7",
+        "class_mapping": {
+          "0": "smoke",
+          "1": "fire"
+        },
+        "source_sha256": "5046db873bd427a2aa98f8bf6587dba871b3010d532ad2620bf2659eab1741be",
+        "fire_threshold": 0.25,
+        "schema_version": 2,
+        "smoke_threshold": 0.25
+      },
+      "run_status": "completed",
+      "clip_id": "F03"
+    },
+    {
+      "id": "12d1f0b6-0bb1-5dce-9a31-2bd8339cccd5",
+      "analysis_run_id": "22bedde8-1fdc-41ca-803a-6743bc573637",
+      "video_source_id": "98291e3e-35b5-4e18-aa90-66569717cbe7",
+      "source_name": "FIRESENSE demo F03 — reference",
+      "model_version_id": "8c37f231-7e6e-4db4-8405-0e4f731c4b87",
+      "feature_type": "fire",
+      "automatic_status": "completed",
+      "start_seconds": 0.0,
+      "confirmed_seconds": 1.501502,
+      "last_seen_seconds": 1.501502,
+      "end_seconds": 3.501502,
+      "closed_seconds": 3.501502,
+      "closure_reason": "absence",
+      "confidence": 0.64329,
+      "review_status": "unreviewed",
+      "operator_comment": null,
+      "created_at": "2026-11-02T22:01:50.189532+02:00",
+      "updated_at": "2026-11-02T22:01:51.003216+02:00",
+      "has_frame": true,
+      "has_clip": true,
+      "region": {
+        "xyxy": [
+          0.2320460319519043,
+          0.298266738653183,
+          0.6370663452148437,
+          0.6932923197746277
+        ],
+        "last_xyxy": [
+          0.2320460319519043,
+          0.298266738653183,
+          0.6370663452148437,
+          0.6932923197746277
+        ],
+        "clip_end_seconds": 4.504505,
+        "coordinate_system": "normalized",
+        "clip_start_seconds": 0.0,
+        "confirmation_seconds": 1.501502,
+        "source_duration_seconds": 7.007007,
+        "clip_confirmation_seconds": 1.501502,
+        "clip_measured_duration_seconds": 4.5045
+      },
+      "settings_snapshot": {
+        "imgsz": 640,
+        "zones": [],
+        "device": "cuda:0",
+        "temporal": {
+          "min_hits": 3,
+          "match_iou": 0.1,
+          "window_seconds": 3.0,
+          "absence_seconds": 2.0,
+          "center_distance": 0.12,
+          "min_span_seconds": 1.0,
+          "clip_after_seconds": 3.0,
+          "clip_before_seconds": 2.0
+        },
+        "analysis_fps": 2.0,
+        "model_sha256": "d0fb93c60b88dcf27eb3933a66e49d88f475aafd8c13faf11971e3b590b0e4d7",
+        "class_mapping": {
+          "0": "smoke",
+          "1": "fire"
+        },
+        "source_sha256": "5046db873bd427a2aa98f8bf6587dba871b3010d532ad2620bf2659eab1741be",
+        "fire_threshold": 0.25,
+        "schema_version": 2,
+        "smoke_threshold": 0.25
+      },
+      "run_status": "completed",
+      "clip_id": "F03"
+    },
+    {
+      "id": "7434fa4d-9a89-52d4-9daf-5fde0005aa78",
+      "analysis_run_id": "22bedde8-1fdc-41ca-803a-6743bc573637",
+      "video_source_id": "98291e3e-35b5-4e18-aa90-66569717cbe7",
+      "source_name": "FIRESENSE demo F03 — reference",
+      "model_version_id": "8c37f231-7e6e-4db4-8405-0e4f731c4b87",
+      "feature_type": "fire",
+      "automatic_status": "completed",
+      "start_seconds": 0.500501,
+      "confirmed_seconds": 1.501502,
+      "last_seen_seconds": 4.004004,
+      "end_seconds": 6.004004,
+      "closed_seconds": 6.004004,
+      "closure_reason": "absence",
+      "confidence": 0.60545,
+      "review_status": "unreviewed",
+      "operator_comment": null,
+      "created_at": "2026-11-02T22:01:49.525126+02:00",
+      "updated_at": "2026-11-02T22:01:51.186319+02:00",
+      "has_frame": true,
+      "has_clip": true,
+      "region": {
+        "xyxy": [
+          0.22092857360839843,
+          0.30293816328048706,
+          0.6419882202148437,
+          0.8615509867668152
+        ],
+        "last_xyxy": [
+          0.21218761444091797,
+          0.351064532995224,
+          0.6424153900146484,
+          0.764609158039093
+        ],
+        "clip_end_seconds": 4.504505,
+        "coordinate_system": "normalized",
+        "clip_start_seconds": 0.0,
+        "confirmation_seconds": 1.501502,
+        "source_duration_seconds": 7.007007,
+        "clip_confirmation_seconds": 1.501502,
+        "clip_measured_duration_seconds": 4.5045
+      },
+      "settings_snapshot": {
+        "imgsz": 640,
+        "zones": [],
+        "device": "cuda:0",
+        "temporal": {
+          "min_hits": 3,
+          "match_iou": 0.1,
+          "window_seconds": 3.0,
+          "absence_seconds": 2.0,
+          "center_distance": 0.12,
+          "min_span_seconds": 1.0,
+          "clip_after_seconds": 3.0,
+          "clip_before_seconds": 2.0
+        },
+        "analysis_fps": 2.0,
+        "model_sha256": "d0fb93c60b88dcf27eb3933a66e49d88f475aafd8c13faf11971e3b590b0e4d7",
+        "class_mapping": {
+          "0": "smoke",
+          "1": "fire"
+        },
+        "source_sha256": "5046db873bd427a2aa98f8bf6587dba871b3010d532ad2620bf2659eab1741be",
+        "fire_threshold": 0.25,
+        "schema_version": 2,
+        "smoke_threshold": 0.25
+      },
+      "run_status": "completed",
+      "clip_id": "F03"
+    },
+    {
+      "id": "0623c045-c21d-5977-b0d5-e51aef75c897",
+      "analysis_run_id": "22bedde8-1fdc-41ca-803a-6743bc573637",
+      "video_source_id": "98291e3e-35b5-4e18-aa90-66569717cbe7",
+      "source_name": "FIRESENSE demo F03 — reference",
+      "model_version_id": "8c37f231-7e6e-4db4-8405-0e4f731c4b87",
+      "feature_type": "smoke",
+      "automatic_status": "completed",
+      "start_seconds": 0.0,
+      "confirmed_seconds": 1.001001,
+      "last_seen_seconds": 6.506507,
+      "end_seconds": 7.007007,
+      "closed_seconds": 7.007007,
+      "closure_reason": "eof",
+      "confidence": 0.65515,
+      "review_status": "unreviewed",
+      "operator_comment": null,
+      "created_at": "2026-11-02T22:01:48.831660+02:00",
+      "updated_at": "2026-11-02T22:01:52.494444+02:00",
+      "has_frame": true,
+      "has_clip": true,
+      "region": {
+        "xyxy": [
+          0.004864692687988281,
+          0.005291524808853865,
+          1.0,
+          0.598695695400238
+        ],
+        "last_xyxy": [
+          0.0950765609741211,
+          0.011965272948145866,
+          0.9994215393066406,
+          0.6473166942596436
+        ],
+        "clip_end_seconds": 4.004004,
+        "coordinate_system": "normalized",
+        "clip_start_seconds": 0.0,
+        "confirmation_seconds": 1.001001,
+        "source_duration_seconds": 7.007007,
+        "clip_confirmation_seconds": 1.001001,
+        "clip_measured_duration_seconds": 4.004
+      },
+      "settings_snapshot": {
+        "imgsz": 640,
+        "zones": [],
+        "device": "cuda:0",
+        "temporal": {
+          "min_hits": 3,
+          "match_iou": 0.1,
+          "window_seconds": 3.0,
+          "absence_seconds": 2.0,
+          "center_distance": 0.12,
+          "min_span_seconds": 1.0,
+          "clip_after_seconds": 3.0,
+          "clip_before_seconds": 2.0
+        },
+        "analysis_fps": 2.0,
+        "model_sha256": "d0fb93c60b88dcf27eb3933a66e49d88f475aafd8c13faf11971e3b590b0e4d7",
+        "class_mapping": {
+          "0": "smoke",
+          "1": "fire"
+        },
+        "source_sha256": "5046db873bd427a2aa98f8bf6587dba871b3010d532ad2620bf2659eab1741be",
+        "fire_threshold": 0.25,
+        "schema_version": 2,
+        "smoke_threshold": 0.25
+      },
+      "run_status": "completed",
+      "clip_id": "F03"
+    },
+    {
+      "id": "16a285f8-31e1-5153-9503-f7da97eeb683",
+      "analysis_run_id": "22bedde8-1fdc-41ca-803a-6743bc573637",
+      "video_source_id": "98291e3e-35b5-4e18-aa90-66569717cbe7",
+      "source_name": "FIRESENSE demo F03 — reference",
+      "model_version_id": "8c37f231-7e6e-4db4-8405-0e4f731c4b87",
+      "feature_type": "fire",
+      "automatic_status": "completed",
+      "start_seconds": 0.0,
+      "confirmed_seconds": 1.001001,
+      "last_seen_seconds": 6.506507,
+      "end_seconds": 7.007007,
+      "closed_seconds": 7.007007,
+      "closure_reason": "eof",
+      "confidence": 0.64113,
+      "review_status": "unreviewed",
+      "operator_comment": null,
+      "created_at": "2026-11-02T22:01:48.192337+02:00",
+      "updated_at": "2026-11-02T22:01:52.490815+02:00",
+      "has_frame": true,
+      "has_clip": true,
+      "region": {
+        "xyxy": [
+          0.22066011428833007,
+          0.6931116580963135,
+          0.4425069808959961,
+          0.8720289468765259
+        ],
+        "last_xyxy": [
+          0.2143310546875,
+          0.684786319732666,
+          0.42434349060058596,
+          0.8742014765739441
+        ],
+        "clip_end_seconds": 4.004004,
+        "coordinate_system": "normalized",
+        "clip_start_seconds": 0.0,
+        "confirmation_seconds": 1.001001,
+        "source_duration_seconds": 7.007007,
+        "clip_confirmation_seconds": 1.001001,
+        "clip_measured_duration_seconds": 4.004
+      },
+      "settings_snapshot": {
+        "imgsz": 640,
+        "zones": [],
+        "device": "cuda:0",
+        "temporal": {
+          "min_hits": 3,
+          "match_iou": 0.1,
+          "window_seconds": 3.0,
+          "absence_seconds": 2.0,
+          "center_distance": 0.12,
+          "min_span_seconds": 1.0,
+          "clip_after_seconds": 3.0,
+          "clip_before_seconds": 2.0
+        },
+        "analysis_fps": 2.0,
+        "model_sha256": "d0fb93c60b88dcf27eb3933a66e49d88f475aafd8c13faf11971e3b590b0e4d7",
+        "class_mapping": {
+          "0": "smoke",
+          "1": "fire"
+        },
+        "source_sha256": "5046db873bd427a2aa98f8bf6587dba871b3010d532ad2620bf2659eab1741be",
+        "fire_threshold": 0.25,
+        "schema_version": 2,
+        "smoke_threshold": 0.25
+      },
+      "run_status": "completed",
+      "clip_id": "F03"
+    },
+    {
+      "id": "50187844-0810-5417-95d7-994b7b2ded7e",
+      "analysis_run_id": "2c1c98d0-eedc-4b4d-b61d-0a2d4af99765",
+      "video_source_id": "d8d7b668-ee96-46b1-bb62-2dfb786b2185",
+      "source_name": "FIRESENSE demo S01 — reference",
+      "model_version_id": "8c37f231-7e6e-4db4-8405-0e4f731c4b87",
+      "feature_type": "smoke",
+      "automatic_status": "completed",
+      "start_seconds": 0.0,
+      "confirmed_seconds": 1.0,
+      "last_seen_seconds": 11.5,
+      "end_seconds": 12.0,
+      "closed_seconds": 12.0,
+      "closure_reason": "eof",
+      "confidence": 0.83489,
+      "review_status": "unreviewed",
+      "operator_comment": null,
+      "created_at": "2026-11-02T22:02:00.876720+02:00",
+      "updated_at": "2026-11-02T22:02:02.275326+02:00",
+      "has_frame": true,
+      "has_clip": true,
+      "region": {
+        "xyxy": [
+          0.3519986867904663,
+          0.219508785671658,
+          0.7273408889770507,
+          0.6259065416124132
+        ],
+        "last_xyxy": [
+          0.016625022888183592,
+          0.02200588650173611,
+          0.874443244934082,
+          0.9295900980631511
+        ],
+        "clip_end_seconds": 4.0,
+        "coordinate_system": "normalized",
+        "clip_start_seconds": 0.0,
+        "confirmation_seconds": 1.0,
+        "source_duration_seconds": 12.0,
+        "clip_confirmation_seconds": 1.0,
+        "clip_measured_duration_seconds": 4.0
+      },
+      "settings_snapshot": {
+        "imgsz": 640,
+        "zones": [],
+        "device": "cuda:0",
+        "temporal": {
+          "min_hits": 3,
+          "match_iou": 0.1,
+          "window_seconds": 3.0,
+          "absence_seconds": 2.0,
+          "center_distance": 0.12,
+          "min_span_seconds": 1.0,
+          "clip_after_seconds": 3.0,
+          "clip_before_seconds": 2.0
+        },
+        "analysis_fps": 2.0,
+        "model_sha256": "d0fb93c60b88dcf27eb3933a66e49d88f475aafd8c13faf11971e3b590b0e4d7",
+        "class_mapping": {
+          "0": "smoke",
+          "1": "fire"
+        },
+        "source_sha256": "b476df35f04aec0b57dde8e7086ebf3b50a6830a38f94fab235d2e9a34729464",
+        "fire_threshold": 0.25,
+        "schema_version": 2,
+        "smoke_threshold": 0.25
+      },
+      "run_status": "completed",
+      "clip_id": "S01"
+    },
+    {
+      "id": "ac7c6437-6439-5a6b-896d-e1fdd6eac4e2",
+      "analysis_run_id": "9fe156c8-7968-4a4a-a837-22394c3d1735",
+      "video_source_id": "52386f20-d4ef-43d2-b559-7c57b0666dd1",
+      "source_name": "FIRESENSE demo S03 — reference",
+      "model_version_id": "8c37f231-7e6e-4db4-8405-0e4f731c4b87",
+      "feature_type": "smoke",
+      "automatic_status": "completed",
+      "start_seconds": 0.501002,
+      "confirmed_seconds": 1.503006,
+      "last_seen_seconds": 11.523046,
+      "end_seconds": 11.990648,
+      "closed_seconds": 11.990648,
+      "closure_reason": "eof",
+      "confidence": 0.82929,
+      "review_status": "unreviewed",
+      "operator_comment": null,
+      "created_at": "2026-11-02T22:02:17.913560+02:00",
+      "updated_at": "2026-11-02T22:02:19.199368+02:00",
+      "has_frame": true,
+      "has_clip": true,
+      "region": {
+        "xyxy": [
+          0.4079714775085449,
+          0.03244510226779514,
+          0.9924310684204102,
+          0.7804063585069444
+        ],
+        "last_xyxy": [
+          0.26675761540730797,
+          0.018157958984375,
+          0.8046781539916992,
+          0.9058342827690973
+        ],
+        "clip_end_seconds": 4.509018,
+        "coordinate_system": "normalized",
+        "clip_start_seconds": 0.0,
+        "confirmation_seconds": 1.503006,
+        "source_duration_seconds": 11.990648,
+        "clip_confirmation_seconds": 1.503006,
+        "clip_measured_duration_seconds": 4.512535
+      },
+      "settings_snapshot": {
+        "imgsz": 640,
+        "zones": [],
+        "device": "cuda:0",
+        "temporal": {
+          "min_hits": 3,
+          "match_iou": 0.1,
+          "window_seconds": 3.0,
+          "absence_seconds": 2.0,
+          "center_distance": 0.12,
+          "min_span_seconds": 1.0,
+          "clip_after_seconds": 3.0,
+          "clip_before_seconds": 2.0
+        },
+        "analysis_fps": 2.0,
+        "model_sha256": "d0fb93c60b88dcf27eb3933a66e49d88f475aafd8c13faf11971e3b590b0e4d7",
+        "class_mapping": {
+          "0": "smoke",
+          "1": "fire"
+        },
+        "source_sha256": "7eb044b3d81b38ae50b9d3b86d990c631c8a28197cd0c9b2b4a5f3f2e9752a7c",
+        "fire_threshold": 0.25,
+        "schema_version": 2,
+        "smoke_threshold": 0.25
+      },
+      "run_status": "completed",
+      "clip_id": "S03"
+    },
+    {
+      "id": "4791fd58-7858-5058-9434-b9794ca6cf00",
+      "analysis_run_id": "10c95613-70a7-4749-bb34-b981b4bb1262",
+      "video_source_id": "137cae44-74b4-4a3e-a87c-26f575098279",
+      "source_name": "FIRESENSE demo F02-lowres — low_resolution",
+      "model_version_id": "8c37f231-7e6e-4db4-8405-0e4f731c4b87",
+      "feature_type": "smoke",
+      "automatic_status": "completed",
+      "start_seconds": 0.5,
+      "confirmed_seconds": 2.0,
+      "last_seen_seconds": 3.0,
+      "end_seconds": 5.0,
+      "closed_seconds": 5.0,
+      "closure_reason": "absence",
+      "confidence": 0.48078,
+      "review_status": "unreviewed",
+      "operator_comment": null,
+      "created_at": "2026-11-02T22:02:59.741509+02:00",
+      "updated_at": "2026-11-02T22:02:59.886875+02:00",
+      "has_frame": true,
+      "has_clip": true,
+      "region": {
+        "xyxy": [
+          0.6872781753540039,
+          0.2685009296123798,
+          0.9998249053955078,
+          0.7139467679537259
+        ],
+        "last_xyxy": [
+          0.6733119010925293,
+          0.04826842087965745,
+          1.0,
+          0.7242241492638222
+        ],
+        "clip_end_seconds": 5.0,
+        "coordinate_system": "normalized",
+        "clip_start_seconds": 0.0,
+        "confirmation_seconds": 2.0,
+        "source_duration_seconds": 12.0,
+        "clip_confirmation_seconds": 2.0,
+        "clip_measured_duration_seconds": 5.0
+      },
+      "settings_snapshot": {
+        "imgsz": 640,
+        "zones": [],
+        "device": "cuda:0",
+        "temporal": {
+          "min_hits": 3,
+          "match_iou": 0.1,
+          "window_seconds": 3.0,
+          "absence_seconds": 2.0,
+          "center_distance": 0.12,
+          "min_span_seconds": 1.0,
+          "clip_after_seconds": 3.0,
+          "clip_before_seconds": 2.0
+        },
+        "analysis_fps": 2.0,
+        "model_sha256": "d0fb93c60b88dcf27eb3933a66e49d88f475aafd8c13faf11971e3b590b0e4d7",
+        "class_mapping": {
+          "0": "smoke",
+          "1": "fire"
+        },
+        "source_sha256": "28b73459f06a8e122065d0950cc72f98d830711c8947e0c570f70dd9a9612873",
+        "fire_threshold": 0.25,
+        "schema_version": 2,
+        "smoke_threshold": 0.25
+      },
+      "run_status": "completed",
+      "clip_id": "F02-lowres"
+    },
+    {
+      "id": "ff8730b6-5915-583d-abd4-f7855086da1e",
+      "analysis_run_id": "10c95613-70a7-4749-bb34-b981b4bb1262",
+      "video_source_id": "137cae44-74b4-4a3e-a87c-26f575098279",
+      "source_name": "FIRESENSE demo F02-lowres — low_resolution",
+      "model_version_id": "8c37f231-7e6e-4db4-8405-0e4f731c4b87",
+      "feature_type": "fire",
+      "automatic_status": "completed",
+      "start_seconds": 0.0,
+      "confirmed_seconds": 1.0,
+      "last_seen_seconds": 11.5,
+      "end_seconds": 12.0,
+      "closed_seconds": 12.0,
+      "closure_reason": "eof",
+      "confidence": 0.75031,
+      "review_status": "unreviewed",
+      "operator_comment": null,
+      "created_at": "2026-11-02T22:02:59.166089+02:00",
+      "updated_at": "2026-11-02T22:03:00.740139+02:00",
+      "has_frame": true,
+      "has_clip": true,
+      "region": {
+        "xyxy": [
+          0.6125195503234864,
+          0.6726105323204628,
+          0.7442026138305664,
+          0.7746894836425782
+        ],
+        "last_xyxy": [
+          0.6113728523254395,
+          0.6254488431490385,
+          0.7683602333068847,
+          0.7759436974158653
+        ],
+        "clip_end_seconds": 4.0,
+        "coordinate_system": "normalized",
+        "clip_start_seconds": 0.0,
+        "confirmation_seconds": 1.0,
+        "source_duration_seconds": 12.0,
+        "clip_confirmation_seconds": 1.0,
+        "clip_measured_duration_seconds": 4.0
+      },
+      "settings_snapshot": {
+        "imgsz": 640,
+        "zones": [],
+        "device": "cuda:0",
+        "temporal": {
+          "min_hits": 3,
+          "match_iou": 0.1,
+          "window_seconds": 3.0,
+          "absence_seconds": 2.0,
+          "center_distance": 0.12,
+          "min_span_seconds": 1.0,
+          "clip_after_seconds": 3.0,
+          "clip_before_seconds": 2.0
+        },
+        "analysis_fps": 2.0,
+        "model_sha256": "d0fb93c60b88dcf27eb3933a66e49d88f475aafd8c13faf11971e3b590b0e4d7",
+        "class_mapping": {
+          "0": "smoke",
+          "1": "fire"
+        },
+        "source_sha256": "28b73459f06a8e122065d0950cc72f98d830711c8947e0c570f70dd9a9612873",
+        "fire_threshold": 0.25,
+        "schema_version": 2,
+        "smoke_threshold": 0.25
+      },
+      "run_status": "completed",
+      "clip_id": "F02-lowres"
+    },
+    {
+      "id": "b2531f21-b0d3-5b76-897b-fee88092674e",
+      "analysis_run_id": "d3863743-5961-4084-9f83-5b4538317106",
+      "video_source_id": "861fe929-031a-4ace-839c-c3028b853e85",
+      "source_name": "FIRESENSE demo F02-blur — blur",
+      "model_version_id": "8c37f231-7e6e-4db4-8405-0e4f731c4b87",
+      "feature_type": "smoke",
+      "automatic_status": "completed",
+      "start_seconds": 7.0,
+      "confirmed_seconds": 8.0,
+      "last_seen_seconds": 11.5,
+      "end_seconds": 12.0,
+      "closed_seconds": 12.0,
+      "closure_reason": "eof",
+      "confidence": 0.3632,
+      "review_status": "unreviewed",
+      "operator_comment": null,
+      "created_at": "2026-11-02T22:03:08.845038+02:00",
+      "updated_at": "2026-11-02T22:03:09.563852+02:00",
+      "has_frame": true,
+      "has_clip": true,
+      "region": {
+        "xyxy": [
+          0.0,
+          0.0,
+          0.9996537295254794,
+          0.9770479202270508
+        ],
+        "last_xyxy": [
+          0.0,
+          0.0,
+          0.9991761120882902,
+          0.9782814449734158
+        ],
+        "clip_end_seconds": 11.0,
+        "coordinate_system": "normalized",
+        "clip_start_seconds": 6.0,
+        "confirmation_seconds": 8.0,
+        "source_duration_seconds": 12.0,
+        "clip_confirmation_seconds": 2.0,
+        "clip_measured_duration_seconds": 5.0
+      },
+      "settings_snapshot": {
+        "imgsz": 640,
+        "zones": [],
+        "device": "cuda:0",
+        "temporal": {
+          "min_hits": 3,
+          "match_iou": 0.1,
+          "window_seconds": 3.0,
+          "absence_seconds": 2.0,
+          "center_distance": 0.12,
+          "min_span_seconds": 1.0,
+          "clip_after_seconds": 3.0,
+          "clip_before_seconds": 2.0
+        },
+        "analysis_fps": 2.0,
+        "model_sha256": "d0fb93c60b88dcf27eb3933a66e49d88f475aafd8c13faf11971e3b590b0e4d7",
+        "class_mapping": {
+          "0": "smoke",
+          "1": "fire"
+        },
+        "source_sha256": "7b5b95c75e12ec463154d03d6a33ffb94951436ee439cf8952360ff5a254bc0c",
+        "fire_threshold": 0.25,
+        "schema_version": 2,
+        "smoke_threshold": 0.25
+      },
+      "run_status": "completed",
+      "clip_id": "F02-blur"
+    },
+    {
+      "id": "e337b49f-4439-5ec8-adff-10f8c961b7cb",
+      "analysis_run_id": "d3863743-5961-4084-9f83-5b4538317106",
+      "video_source_id": "861fe929-031a-4ace-839c-c3028b853e85",
+      "source_name": "FIRESENSE demo F02-blur — blur",
+      "model_version_id": "8c37f231-7e6e-4db4-8405-0e4f731c4b87",
+      "feature_type": "smoke",
+      "automatic_status": "completed",
+      "start_seconds": 2.0,
+      "confirmed_seconds": 4.0,
+      "last_seen_seconds": 4.0,
+      "end_seconds": 6.0,
+      "closed_seconds": 6.0,
+      "closure_reason": "absence",
+      "confidence": 0.33487,
+      "review_status": "unreviewed",
+      "operator_comment": null,
+      "created_at": "2026-11-02T22:03:08.159130+02:00",
+      "updated_at": "2026-11-02T22:03:08.225913+02:00",
+      "has_frame": true,
+      "has_clip": true,
+      "region": {
+        "xyxy": [
+          0.0,
+          0.04537486036618551,
+          0.9992763345891779,
+          0.9737066692776151
+        ],
+        "last_xyxy": [
+          0.0,
+          0.04537486036618551,
+          0.9992763345891779,
+          0.9737066692776151
+        ],
+        "clip_end_seconds": 7.0,
+        "coordinate_system": "normalized",
+        "clip_start_seconds": 2.0,
+        "confirmation_seconds": 4.0,
+        "source_duration_seconds": 12.0,
+        "clip_confirmation_seconds": 2.0,
+        "clip_measured_duration_seconds": 5.0
+      },
+      "settings_snapshot": {
+        "imgsz": 640,
+        "zones": [],
+        "device": "cuda:0",
+        "temporal": {
+          "min_hits": 3,
+          "match_iou": 0.1,
+          "window_seconds": 3.0,
+          "absence_seconds": 2.0,
+          "center_distance": 0.12,
+          "min_span_seconds": 1.0,
+          "clip_after_seconds": 3.0,
+          "clip_before_seconds": 2.0
+        },
+        "analysis_fps": 2.0,
+        "model_sha256": "d0fb93c60b88dcf27eb3933a66e49d88f475aafd8c13faf11971e3b590b0e4d7",
+        "class_mapping": {
+          "0": "smoke",
+          "1": "fire"
+        },
+        "source_sha256": "7b5b95c75e12ec463154d03d6a33ffb94951436ee439cf8952360ff5a254bc0c",
+        "fire_threshold": 0.25,
+        "schema_version": 2,
+        "smoke_threshold": 0.25
+      },
+      "run_status": "completed",
+      "clip_id": "F02-blur"
+    },
+    {
+      "id": "0fa16b33-2b4f-53da-a479-52700c091dec",
+      "analysis_run_id": "50c610f0-80a4-4b22-bad1-b7448d0399e3",
+      "video_source_id": "8435e197-44ab-4644-af64-836f7cbb6830",
+      "source_name": "FIRESENSE demo F02-compressed — strong_compression",
+      "model_version_id": "8c37f231-7e6e-4db4-8405-0e4f731c4b87",
+      "feature_type": "fire",
+      "automatic_status": "completed",
+      "start_seconds": 5.5,
+      "confirmed_seconds": 6.5,
+      "last_seen_seconds": 11.5,
+      "end_seconds": 12.0,
+      "closed_seconds": 12.0,
+      "closure_reason": "eof",
+      "confidence": 0.70318,
+      "review_status": "unreviewed",
+      "operator_comment": null,
+      "created_at": "2026-11-02T22:03:17.839646+02:00",
+      "updated_at": "2026-11-02T22:03:18.645686+02:00",
+      "has_frame": true,
+      "has_clip": true,
+      "region": {
+        "xyxy": [
+          0.635742881081321,
+          0.6439798143174913,
+          0.7157702445983887,
+          0.7568424542744955
+        ],
+        "last_xyxy": [
+          0.6233016360889782,
+          0.6346448262532552,
+          0.7662337043068626,
+          0.7747493849860297
+        ],
+        "clip_end_seconds": 9.5,
+        "coordinate_system": "normalized",
+        "clip_start_seconds": 4.5,
+        "confirmation_seconds": 6.5,
+        "source_duration_seconds": 12.0,
+        "clip_confirmation_seconds": 2.0,
+        "clip_measured_duration_seconds": 5.0
+      },
+      "settings_snapshot": {
+        "imgsz": 640,
+        "zones": [],
+        "device": "cuda:0",
+        "temporal": {
+          "min_hits": 3,
+          "match_iou": 0.1,
+          "window_seconds": 3.0,
+          "absence_seconds": 2.0,
+          "center_distance": 0.12,
+          "min_span_seconds": 1.0,
+          "clip_after_seconds": 3.0,
+          "clip_before_seconds": 2.0
+        },
+        "analysis_fps": 2.0,
+        "model_sha256": "d0fb93c60b88dcf27eb3933a66e49d88f475aafd8c13faf11971e3b590b0e4d7",
+        "class_mapping": {
+          "0": "smoke",
+          "1": "fire"
+        },
+        "source_sha256": "4534b4d09ab0faa01ee612d58abe1eb7d1e94420654883a3146922233f7686b4",
+        "fire_threshold": 0.25,
+        "schema_version": 2,
+        "smoke_threshold": 0.25
+      },
+      "run_status": "completed",
+      "clip_id": "F02-compressed"
+    },
+    {
+      "id": "20543234-a56a-5086-9385-6ca1e9b0cd72",
+      "analysis_run_id": "50c610f0-80a4-4b22-bad1-b7448d0399e3",
+      "video_source_id": "8435e197-44ab-4644-af64-836f7cbb6830",
+      "source_name": "FIRESENSE demo F02-compressed — strong_compression",
+      "model_version_id": "8c37f231-7e6e-4db4-8405-0e4f731c4b87",
+      "feature_type": "fire",
+      "automatic_status": "completed",
+      "start_seconds": 0.0,
+      "confirmed_seconds": 1.0,
+      "last_seen_seconds": 9.0,
+      "end_seconds": 11.0,
+      "closed_seconds": 11.0,
+      "closure_reason": "absence",
+      "confidence": 0.71066,
+      "review_status": "unreviewed",
+      "operator_comment": null,
+      "created_at": "2026-11-02T22:03:17.055248+02:00",
+      "updated_at": "2026-11-02T22:03:18.033836+02:00",
+      "has_frame": true,
+      "has_clip": true,
+      "region": {
+        "xyxy": [
+          0.6169594851407137,
+          0.6757213804456923,
+          0.7433919039639559,
+          0.7656536102294922
+        ],
+        "last_xyxy": [
+          0.6189014694907449,
+          0.6207157770792643,
+          0.7715364802967418,
+          0.7590644094679091
+        ],
+        "clip_end_seconds": 4.0,
+        "coordinate_system": "normalized",
+        "clip_start_seconds": 0.0,
+        "confirmation_seconds": 1.0,
+        "source_duration_seconds": 12.0,
+        "clip_confirmation_seconds": 1.0,
+        "clip_measured_duration_seconds": 4.0
+      },
+      "settings_snapshot": {
+        "imgsz": 640,
+        "zones": [],
+        "device": "cuda:0",
+        "temporal": {
+          "min_hits": 3,
+          "match_iou": 0.1,
+          "window_seconds": 3.0,
+          "absence_seconds": 2.0,
+          "center_distance": 0.12,
+          "min_span_seconds": 1.0,
+          "clip_after_seconds": 3.0,
+          "clip_before_seconds": 2.0
+        },
+        "analysis_fps": 2.0,
+        "model_sha256": "d0fb93c60b88dcf27eb3933a66e49d88f475aafd8c13faf11971e3b590b0e4d7",
+        "class_mapping": {
+          "0": "smoke",
+          "1": "fire"
+        },
+        "source_sha256": "4534b4d09ab0faa01ee612d58abe1eb7d1e94420654883a3146922233f7686b4",
+        "fire_threshold": 0.25,
+        "schema_version": 2,
+        "smoke_threshold": 0.25
+      },
+      "run_status": "completed",
+      "clip_id": "F02-compressed"
+    }
+  ],
+  "timeline_checks": [
+    {
+      "id": "F01",
+      "frames": 360,
+      "max_pts_error_seconds": 1.7763568394002505e-15
+    },
+    {
+      "id": "F02",
+      "frames": 120,
+      "max_pts_error_seconds": 0.0
+    },
+    {
+      "id": "F03",
+      "frames": 210,
+      "max_pts_error_seconds": 0.0
+    },
+    {
+      "id": "S01",
+      "frames": 288,
+      "max_pts_error_seconds": 0.0
+    },
+    {
+      "id": "S02",
+      "frames": 120,
+      "max_pts_error_seconds": 0.0
+    },
+    {
+      "id": "S03",
+      "frames": 359,
+      "max_pts_error_seconds": 0.0
+    },
+    {
+      "id": "N01",
+      "frames": 85,
+      "max_pts_error_seconds": 1.7763568394002505e-15
+    },
+    {
+      "id": "N02",
+      "frames": 225,
+      "max_pts_error_seconds": 0.0
+    },
+    {
+      "id": "H01",
+      "frames": 120,
+      "max_pts_error_seconds": 0.0
+    },
+    {
+      "id": "H02",
+      "frames": 360,
+      "max_pts_error_seconds": 0.0
+    },
+    {
+      "id": "F02-lowres",
+      "frames": 120,
+      "max_pts_error_seconds": 0.0
+    },
+    {
+      "id": "F02-blur",
+      "frames": 120,
+      "max_pts_error_seconds": 0.0
+    },
+    {
+      "id": "F02-compressed",
+      "frames": 120,
+      "max_pts_error_seconds": 0.0
+    }
+  ],
+  "notes": "Descriptive clip-level presence/counts; no spatial or temporal ground-truth matching, no precision/recall claims."
+}

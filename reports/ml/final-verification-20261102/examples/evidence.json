@@ -1,0 +1,1549 @@
+{
+  "report": "reports\\ml\\final-verification-20261102\\final-report\\report.json",
+  "test_used": false,
+  "video": "reports\\ml\\final-verification-20261102\\examples\\val-derived-technical-NOT-independent-video.mp4",
+  "video_sha256": "9782e2d4daeebc06ce3494b651e4819ea5f84df3bc015e409358f878fe115c3c",
+  "fps": 4,
+  "duration_seconds": 16.0,
+  "frames": [
+    {
+      "frame_index": 0,
+      "time_seconds": 0.0,
+      "image": "raw/data/val/images/PublicDataset00004.jpg",
+      "ground_truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            72.00000000000001,
+            253.0,
+            306.0,
+            309.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame_index": 1,
+      "time_seconds": 0.25,
+      "image": "raw/data/val/images/PublicDataset00004.jpg",
+      "ground_truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            72.00000000000001,
+            253.0,
+            306.0,
+            309.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame_index": 2,
+      "time_seconds": 0.5,
+      "image": "raw/data/val/images/PublicDataset00004.jpg",
+      "ground_truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            72.00000000000001,
+            253.0,
+            306.0,
+            309.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame_index": 3,
+      "time_seconds": 0.75,
+      "image": "raw/data/val/images/PublicDataset00004.jpg",
+      "ground_truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            72.00000000000001,
+            253.0,
+            306.0,
+            309.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame_index": 4,
+      "time_seconds": 1.0,
+      "image": "raw/data/val/images/PublicDataset00004.jpg",
+      "ground_truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            72.00000000000001,
+            253.0,
+            306.0,
+            309.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame_index": 5,
+      "time_seconds": 1.25,
+      "image": "raw/data/val/images/PublicDataset00004.jpg",
+      "ground_truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            72.00000000000001,
+            253.0,
+            306.0,
+            309.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame_index": 6,
+      "time_seconds": 1.5,
+      "image": "raw/data/val/images/PublicDataset00004.jpg",
+      "ground_truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            72.00000000000001,
+            253.0,
+            306.0,
+            309.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame_index": 7,
+      "time_seconds": 1.75,
+      "image": "raw/data/val/images/PublicDataset00004.jpg",
+      "ground_truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            72.00000000000001,
+            253.0,
+            306.0,
+            309.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame_index": 8,
+      "time_seconds": 2.0,
+      "image": "raw/data/val/images/PublicDataset00006.jpg",
+      "ground_truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            310.00000000000006,
+            214.0,
+            466.0000000000001,
+            269.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame_index": 9,
+      "time_seconds": 2.25,
+      "image": "raw/data/val/images/PublicDataset00006.jpg",
+      "ground_truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            310.00000000000006,
+            214.0,
+            466.0000000000001,
+            269.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame_index": 10,
+      "time_seconds": 2.5,
+      "image": "raw/data/val/images/PublicDataset00006.jpg",
+      "ground_truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            310.00000000000006,
+            214.0,
+            466.0000000000001,
+            269.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame_index": 11,
+      "time_seconds": 2.75,
+      "image": "raw/data/val/images/PublicDataset00006.jpg",
+      "ground_truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            310.00000000000006,
+            214.0,
+            466.0000000000001,
+            269.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame_index": 12,
+      "time_seconds": 3.0,
+      "image": "raw/data/val/images/PublicDataset00006.jpg",
+      "ground_truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            310.00000000000006,
+            214.0,
+            466.0000000000001,
+            269.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame_index": 13,
+      "time_seconds": 3.25,
+      "image": "raw/data/val/images/PublicDataset00006.jpg",
+      "ground_truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            310.00000000000006,
+            214.0,
+            466.0000000000001,
+            269.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame_index": 14,
+      "time_seconds": 3.5,
+      "image": "raw/data/val/images/PublicDataset00006.jpg",
+      "ground_truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            310.00000000000006,
+            214.0,
+            466.0000000000001,
+            269.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame_index": 15,
+      "time_seconds": 3.75,
+      "image": "raw/data/val/images/PublicDataset00006.jpg",
+      "ground_truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            310.00000000000006,
+            214.0,
+            466.0000000000001,
+            269.0
+          ]
+        }
+      ]
+    },
+    {
+      "frame_index": 16,
+      "time_seconds": 4.0,
+      "image": "raw/data/val/images/PublicDataset00135.jpg",
+      "ground_truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            23.48749999999999,
+            97.95555555555558,
+            447.60625,
+            280.8888888888889
+          ]
+        }
+      ]
+    },
+    {
+      "frame_index": 17,
+      "time_seconds": 4.25,
+      "image": "raw/data/val/images/PublicDataset00135.jpg",
+      "ground_truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            23.48749999999999,
+            97.95555555555558,
+            447.60625,
+            280.8888888888889
+          ]
+        }
+      ]
+    },
+    {
+      "frame_index": 18,
+      "time_seconds": 4.5,
+      "image": "raw/data/val/images/PublicDataset00135.jpg",
+      "ground_truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            23.48749999999999,
+            97.95555555555558,
+            447.60625,
+            280.8888888888889
+          ]
+        }
+      ]
+    },
+    {
+      "frame_index": 19,
+      "time_seconds": 4.75,
+      "image": "raw/data/val/images/PublicDataset00135.jpg",
+      "ground_truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            23.48749999999999,
+            97.95555555555558,
+            447.60625,
+            280.8888888888889
+          ]
+        }
+      ]
+    },
+    {
+      "frame_index": 20,
+      "time_seconds": 5.0,
+      "image": "raw/data/val/images/PublicDataset00135.jpg",
+      "ground_truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            23.48749999999999,
+            97.95555555555558,
+            447.60625,
+            280.8888888888889
+          ]
+        }
+      ]
+    },
+    {
+      "frame_index": 21,
+      "time_seconds": 5.25,
+      "image": "raw/data/val/images/PublicDataset00135.jpg",
+      "ground_truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            23.48749999999999,
+            97.95555555555558,
+            447.60625,
+            280.8888888888889
+          ]
+        }
+      ]
+    },
+    {
+      "frame_index": 22,
+      "time_seconds": 5.5,
+      "image": "raw/data/val/images/PublicDataset00135.jpg",
+      "ground_truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            23.48749999999999,
+            97.95555555555558,
+            447.60625,
+            280.8888888888889
+          ]
+        }
+      ]
+    },
+    {
+      "frame_index": 23,
+      "time_seconds": 5.75,
+      "image": "raw/data/val/images/PublicDataset00135.jpg",
+      "ground_truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            23.48749999999999,
+            97.95555555555558,
+            447.60625,
+            280.8888888888889
+          ]
+        }
+      ]
+    },
+    {
+      "frame_index": 24,
+      "time_seconds": 6.0,
+      "image": "raw/data/val/images/PublicDataset00136.jpg",
+      "ground_truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            28.462500000000023,
+            105.42222222222222,
+            323.23125,
+            278.40000000000003
+          ]
+        }
+      ]
+    },
+    {
+      "frame_index": 25,
+      "time_seconds": 6.25,
+      "image": "raw/data/val/images/PublicDataset00136.jpg",
+      "ground_truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            28.462500000000023,
+            105.42222222222222,
+            323.23125,
+            278.40000000000003
+          ]
+        }
+      ]
+    },
+    {
+      "frame_index": 26,
+      "time_seconds": 6.5,
+      "image": "raw/data/val/images/PublicDataset00136.jpg",
+      "ground_truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            28.462500000000023,
+            105.42222222222222,
+            323.23125,
+            278.40000000000003
+          ]
+        }
+      ]
+    },
+    {
+      "frame_index": 27,
+      "time_seconds": 6.75,
+      "image": "raw/data/val/images/PublicDataset00136.jpg",
+      "ground_truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            28.462500000000023,
+            105.42222222222222,
+            323.23125,
+            278.40000000000003
+          ]
+        }
+      ]
+    },
+    {
+      "frame_index": 28,
+      "time_seconds": 7.0,
+      "image": "raw/data/val/images/PublicDataset00136.jpg",
+      "ground_truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            28.462500000000023,
+            105.42222222222222,
+            323.23125,
+            278.40000000000003
+          ]
+        }
+      ]
+    },
+    {
+      "frame_index": 29,
+      "time_seconds": 7.25,
+      "image": "raw/data/val/images/PublicDataset00136.jpg",
+      "ground_truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            28.462500000000023,
+            105.42222222222222,
+            323.23125,
+            278.40000000000003
+          ]
+        }
+      ]
+    },
+    {
+      "frame_index": 30,
+      "time_seconds": 7.5,
+      "image": "raw/data/val/images/PublicDataset00136.jpg",
+      "ground_truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            28.462500000000023,
+            105.42222222222222,
+            323.23125,
+            278.40000000000003
+          ]
+        }
+      ]
+    },
+    {
+      "frame_index": 31,
+      "time_seconds": 7.75,
+      "image": "raw/data/val/images/PublicDataset00136.jpg",
+      "ground_truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            28.462500000000023,
+            105.42222222222222,
+            323.23125,
+            278.40000000000003
+          ]
+        }
+      ]
+    },
+    {
+      "frame_index": 32,
+      "time_seconds": 8.0,
+      "image": "raw/data/val/images/PublicDataset00114.jpg",
+      "ground_truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            305.77777777777777,
+            260.2444444444445,
+            328.2962962962963,
+            272.10555555555555
+          ]
+        },
+        {
+          "class_id": 1,
+          "xyxy": [
+            389.9259259259259,
+            240.08055555555555,
+            423.1111111111111,
+            257.87222222222226
+          ]
+        },
+        {
+          "class_id": 0,
+          "xyxy": [
+            58.07407407407407,
+            172.47222222222223,
+            432.59259259259267,
+            270.9194444444445
+          ]
+        }
+      ]
+    },
+    {
+      "frame_index": 33,
+      "time_seconds": 8.25,
+      "image": "raw/data/val/images/PublicDataset00114.jpg",
+      "ground_truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            305.77777777777777,
+            260.2444444444445,
+            328.2962962962963,
+            272.10555555555555
+          ]
+        },
+        {
+          "class_id": 1,
+          "xyxy": [
+            389.9259259259259,
+            240.08055555555555,
+            423.1111111111111,
+            257.87222222222226
+          ]
+        },
+        {
+          "class_id": 0,
+          "xyxy": [
+            58.07407407407407,
+            172.47222222222223,
+            432.59259259259267,
+            270.9194444444445
+          ]
+        }
+      ]
+    },
+    {
+      "frame_index": 34,
+      "time_seconds": 8.5,
+      "image": "raw/data/val/images/PublicDataset00114.jpg",
+      "ground_truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            305.77777777777777,
+            260.2444444444445,
+            328.2962962962963,
+            272.10555555555555
+          ]
+        },
+        {
+          "class_id": 1,
+          "xyxy": [
+            389.9259259259259,
+            240.08055555555555,
+            423.1111111111111,
+            257.87222222222226
+          ]
+        },
+        {
+          "class_id": 0,
+          "xyxy": [
+            58.07407407407407,
+            172.47222222222223,
+            432.59259259259267,
+            270.9194444444445
+          ]
+        }
+      ]
+    },
+    {
+      "frame_index": 35,
+      "time_seconds": 8.75,
+      "image": "raw/data/val/images/PublicDataset00114.jpg",
+      "ground_truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            305.77777777777777,
+            260.2444444444445,
+            328.2962962962963,
+            272.10555555555555
+          ]
+        },
+        {
+          "class_id": 1,
+          "xyxy": [
+            389.9259259259259,
+            240.08055555555555,
+            423.1111111111111,
+            257.87222222222226
+          ]
+        },
+        {
+          "class_id": 0,
+          "xyxy": [
+            58.07407407407407,
+            172.47222222222223,
+            432.59259259259267,
+            270.9194444444445
+          ]
+        }
+      ]
+    },
+    {
+      "frame_index": 36,
+      "time_seconds": 9.0,
+      "image": "raw/data/val/images/PublicDataset00114.jpg",
+      "ground_truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            305.77777777777777,
+            260.2444444444445,
+            328.2962962962963,
+            272.10555555555555
+          ]
+        },
+        {
+          "class_id": 1,
+          "xyxy": [
+            389.9259259259259,
+            240.08055555555555,
+            423.1111111111111,
+            257.87222222222226
+          ]
+        },
+        {
+          "class_id": 0,
+          "xyxy": [
+            58.07407407407407,
+            172.47222222222223,
+            432.59259259259267,
+            270.9194444444445
+          ]
+        }
+      ]
+    },
+    {
+      "frame_index": 37,
+      "time_seconds": 9.25,
+      "image": "raw/data/val/images/PublicDataset00114.jpg",
+      "ground_truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            305.77777777777777,
+            260.2444444444445,
+            328.2962962962963,
+            272.10555555555555
+          ]
+        },
+        {
+          "class_id": 1,
+          "xyxy": [
+            389.9259259259259,
+            240.08055555555555,
+            423.1111111111111,
+            257.87222222222226
+          ]
+        },
+        {
+          "class_id": 0,
+          "xyxy": [
+            58.07407407407407,
+            172.47222222222223,
+            432.59259259259267,
+            270.9194444444445
+          ]
+        }
+      ]
+    },
+    {
+      "frame_index": 38,
+      "time_seconds": 9.5,
+      "image": "raw/data/val/images/PublicDataset00114.jpg",
+      "ground_truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            305.77777777777777,
+            260.2444444444445,
+            328.2962962962963,
+            272.10555555555555
+          ]
+        },
+        {
+          "class_id": 1,
+          "xyxy": [
+            389.9259259259259,
+            240.08055555555555,
+            423.1111111111111,
+            257.87222222222226
+          ]
+        },
+        {
+          "class_id": 0,
+          "xyxy": [
+            58.07407407407407,
+            172.47222222222223,
+            432.59259259259267,
+            270.9194444444445
+          ]
+        }
+      ]
+    },
+    {
+      "frame_index": 39,
+      "time_seconds": 9.75,
+      "image": "raw/data/val/images/PublicDataset00114.jpg",
+      "ground_truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            305.77777777777777,
+            260.2444444444445,
+            328.2962962962963,
+            272.10555555555555
+          ]
+        },
+        {
+          "class_id": 1,
+          "xyxy": [
+            389.9259259259259,
+            240.08055555555555,
+            423.1111111111111,
+            257.87222222222226
+          ]
+        },
+        {
+          "class_id": 0,
+          "xyxy": [
+            58.07407407407407,
+            172.47222222222223,
+            432.59259259259267,
+            270.9194444444445
+          ]
+        }
+      ]
+    },
+    {
+      "frame_index": 40,
+      "time_seconds": 10.0,
+      "image": "raw/data/val/images/PublicDataset00125.jpg",
+      "ground_truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            376.8888888888889,
+            232.9638888888889,
+            395.8518518518519,
+            249.56944444444446
+          ]
+        },
+        {
+          "class_id": 0,
+          "xyxy": [
+            124.44444444444447,
+            196.19444444444446,
+            370.962962962963,
+            260.2444444444444
+          ]
+        }
+      ]
+    },
+    {
+      "frame_index": 41,
+      "time_seconds": 10.25,
+      "image": "raw/data/val/images/PublicDataset00125.jpg",
+      "ground_truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            376.8888888888889,
+            232.9638888888889,
+            395.8518518518519,
+            249.56944444444446
+          ]
+        },
+        {
+          "class_id": 0,
+          "xyxy": [
+            124.44444444444447,
+            196.19444444444446,
+            370.962962962963,
+            260.2444444444444
+          ]
+        }
+      ]
+    },
+    {
+      "frame_index": 42,
+      "time_seconds": 10.5,
+      "image": "raw/data/val/images/PublicDataset00125.jpg",
+      "ground_truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            376.8888888888889,
+            232.9638888888889,
+            395.8518518518519,
+            249.56944444444446
+          ]
+        },
+        {
+          "class_id": 0,
+          "xyxy": [
+            124.44444444444447,
+            196.19444444444446,
+            370.962962962963,
+            260.2444444444444
+          ]
+        }
+      ]
+    },
+    {
+      "frame_index": 43,
+      "time_seconds": 10.75,
+      "image": "raw/data/val/images/PublicDataset00125.jpg",
+      "ground_truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            376.8888888888889,
+            232.9638888888889,
+            395.8518518518519,
+            249.56944444444446
+          ]
+        },
+        {
+          "class_id": 0,
+          "xyxy": [
+            124.44444444444447,
+            196.19444444444446,
+            370.962962962963,
+            260.2444444444444
+          ]
+        }
+      ]
+    },
+    {
+      "frame_index": 44,
+      "time_seconds": 11.0,
+      "image": "raw/data/val/images/PublicDataset00125.jpg",
+      "ground_truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            376.8888888888889,
+            232.9638888888889,
+            395.8518518518519,
+            249.56944444444446
+          ]
+        },
+        {
+          "class_id": 0,
+          "xyxy": [
+            124.44444444444447,
+            196.19444444444446,
+            370.962962962963,
+            260.2444444444444
+          ]
+        }
+      ]
+    },
+    {
+      "frame_index": 45,
+      "time_seconds": 11.25,
+      "image": "raw/data/val/images/PublicDataset00125.jpg",
+      "ground_truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            376.8888888888889,
+            232.9638888888889,
+            395.8518518518519,
+            249.56944444444446
+          ]
+        },
+        {
+          "class_id": 0,
+          "xyxy": [
+            124.44444444444447,
+            196.19444444444446,
+            370.962962962963,
+            260.2444444444444
+          ]
+        }
+      ]
+    },
+    {
+      "frame_index": 46,
+      "time_seconds": 11.5,
+      "image": "raw/data/val/images/PublicDataset00125.jpg",
+      "ground_truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            376.8888888888889,
+            232.9638888888889,
+            395.8518518518519,
+            249.56944444444446
+          ]
+        },
+        {
+          "class_id": 0,
+          "xyxy": [
+            124.44444444444447,
+            196.19444444444446,
+            370.962962962963,
+            260.2444444444444
+          ]
+        }
+      ]
+    },
+    {
+      "frame_index": 47,
+      "time_seconds": 11.75,
+      "image": "raw/data/val/images/PublicDataset00125.jpg",
+      "ground_truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            376.8888888888889,
+            232.9638888888889,
+            395.8518518518519,
+            249.56944444444446
+          ]
+        },
+        {
+          "class_id": 0,
+          "xyxy": [
+            124.44444444444447,
+            196.19444444444446,
+            370.962962962963,
+            260.2444444444444
+          ]
+        }
+      ]
+    },
+    {
+      "frame_index": 48,
+      "time_seconds": 12.0,
+      "image": "raw/data/val/images/PublicDataset00863.jpg",
+      "ground_truth": []
+    },
+    {
+      "frame_index": 49,
+      "time_seconds": 12.25,
+      "image": "raw/data/val/images/PublicDataset00863.jpg",
+      "ground_truth": []
+    },
+    {
+      "frame_index": 50,
+      "time_seconds": 12.5,
+      "image": "raw/data/val/images/PublicDataset00863.jpg",
+      "ground_truth": []
+    },
+    {
+      "frame_index": 51,
+      "time_seconds": 12.75,
+      "image": "raw/data/val/images/PublicDataset00863.jpg",
+      "ground_truth": []
+    },
+    {
+      "frame_index": 52,
+      "time_seconds": 13.0,
+      "image": "raw/data/val/images/PublicDataset00863.jpg",
+      "ground_truth": []
+    },
+    {
+      "frame_index": 53,
+      "time_seconds": 13.25,
+      "image": "raw/data/val/images/PublicDataset00863.jpg",
+      "ground_truth": []
+    },
+    {
+      "frame_index": 54,
+      "time_seconds": 13.5,
+      "image": "raw/data/val/images/PublicDataset00863.jpg",
+      "ground_truth": []
+    },
+    {
+      "frame_index": 55,
+      "time_seconds": 13.75,
+      "image": "raw/data/val/images/PublicDataset00863.jpg",
+      "ground_truth": []
+    },
+    {
+      "frame_index": 56,
+      "time_seconds": 14.0,
+      "image": "raw/data/val/images/PublicDataset00871.jpg",
+      "ground_truth": []
+    },
+    {
+      "frame_index": 57,
+      "time_seconds": 14.25,
+      "image": "raw/data/val/images/PublicDataset00871.jpg",
+      "ground_truth": []
+    },
+    {
+      "frame_index": 58,
+      "time_seconds": 14.5,
+      "image": "raw/data/val/images/PublicDataset00871.jpg",
+      "ground_truth": []
+    },
+    {
+      "frame_index": 59,
+      "time_seconds": 14.75,
+      "image": "raw/data/val/images/PublicDataset00871.jpg",
+      "ground_truth": []
+    },
+    {
+      "frame_index": 60,
+      "time_seconds": 15.0,
+      "image": "raw/data/val/images/PublicDataset00871.jpg",
+      "ground_truth": []
+    },
+    {
+      "frame_index": 61,
+      "time_seconds": 15.25,
+      "image": "raw/data/val/images/PublicDataset00871.jpg",
+      "ground_truth": []
+    },
+    {
+      "frame_index": 62,
+      "time_seconds": 15.5,
+      "image": "raw/data/val/images/PublicDataset00871.jpg",
+      "ground_truth": []
+    },
+    {
+      "frame_index": 63,
+      "time_seconds": 15.75,
+      "image": "raw/data/val/images/PublicDataset00871.jpg",
+      "ground_truth": []
+    }
+  ],
+  "samples": [
+    {
+      "image": "raw/data/val/images/PublicDataset00004.jpg",
+      "sha256": "ea916a15fbafccb2c27aeeb6c6a3e3633aac0aa7410f1b87b43a6d98c76359c4",
+      "ground_truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            72.00000000000001,
+            177.0,
+            306.0,
+            232.99999999999997
+          ]
+        }
+      ],
+      "predictions": [
+        {
+          "class_id": 1,
+          "name": "fire",
+          "confidence": 0.7370646595954895,
+          "xyxy": [
+            83.92416381835938,
+            175.01434326171875,
+            301.7628173828125,
+            232.15325927734375
+          ]
+        }
+      ],
+      "comparison": {
+        "true_positives": [
+          {
+            "class_id": 1,
+            "name": "fire",
+            "confidence": 0.7370646595954895,
+            "xyxy": [
+              83.92416381835938,
+              175.01434326171875,
+              301.7628173828125,
+              232.15325927734375
+            ],
+            "gt_index": 0,
+            "iou": 0.8875606608847757
+          }
+        ],
+        "false_positives": [],
+        "false_negatives": []
+      },
+      "preview": "D:\\FireVision\\reports\\ml\\final-verification-20261102\\final-report\\predictions\\PublicDataset00004.jpg"
+    },
+    {
+      "image": "raw/data/val/images/PublicDataset00006.jpg",
+      "sha256": "121ab3f68379817e092d031e9978c08961bf75aaa6506c6519e47ee6f26b6128",
+      "ground_truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            310.00000000000006,
+            138.0,
+            466.0000000000001,
+            193.00000000000003
+          ]
+        }
+      ],
+      "predictions": [
+        {
+          "class_id": 1,
+          "name": "fire",
+          "confidence": 0.7154546976089478,
+          "xyxy": [
+            325.40692138671875,
+            143.45892333984375,
+            467.77337646484375,
+            192.73358154296875
+          ]
+        }
+      ],
+      "comparison": {
+        "true_positives": [
+          {
+            "class_id": 1,
+            "name": "fire",
+            "confidence": 0.7154546976089478,
+            "xyxy": [
+              325.40692138671875,
+              143.45892333984375,
+              467.77337646484375,
+              192.73358154296875
+            ],
+            "gt_index": 0,
+            "iou": 0.7992811992630748
+          }
+        ],
+        "false_positives": [],
+        "false_negatives": []
+      },
+      "preview": "D:\\FireVision\\reports\\ml\\final-verification-20261102\\final-report\\predictions\\PublicDataset00006.jpg"
+    },
+    {
+      "image": "raw/data/val/images/PublicDataset00135.jpg",
+      "sha256": "80dc1c61e4a27c6c88559044753491f589aecc257eba9b8b7b51eebeacd0c8c6",
+      "ground_truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            1.999999999999993,
+            53.000000000000014,
+            343.0,
+            200.0
+          ]
+        }
+      ],
+      "predictions": [
+        {
+          "class_id": 0,
+          "name": "smoke",
+          "confidence": 0.5940110087394714,
+          "xyxy": [
+            0.9935302734375,
+            47.333518981933594,
+            344.36669921875,
+            198.17630004882812
+          ]
+        }
+      ],
+      "comparison": {
+        "true_positives": [
+          {
+            "class_id": 0,
+            "name": "smoke",
+            "confidence": 0.5940110087394714,
+            "xyxy": [
+              0.9935302734375,
+              47.333518981933594,
+              344.36669921875,
+              198.17630004882812
+            ],
+            "gt_index": 0,
+            "iou": 0.9444433393966387
+          }
+        ],
+        "false_positives": [],
+        "false_negatives": []
+      },
+      "preview": "D:\\FireVision\\reports\\ml\\final-verification-20261102\\final-report\\predictions\\PublicDataset00135.jpg"
+    },
+    {
+      "image": "raw/data/val/images/PublicDataset00136.jpg",
+      "sha256": "38f7c9ac039290cf55a85cda0a38ba7fc8c5c699e54ba3d1e4e1ae3c3767a079",
+      "ground_truth": [
+        {
+          "class_id": 0,
+          "xyxy": [
+            6.000000000000019,
+            59.0,
+            243.0,
+            198.00000000000003
+          ]
+        }
+      ],
+      "predictions": [
+        {
+          "class_id": 0,
+          "name": "smoke",
+          "confidence": 0.7133050560951233,
+          "xyxy": [
+            13.609130859375,
+            89.83012390136719,
+            248.82760620117188,
+            197.925537109375
+          ]
+        }
+      ],
+      "comparison": {
+        "true_positives": [
+          {
+            "class_id": 0,
+            "name": "smoke",
+            "confidence": 0.7133050560951233,
+            "xyxy": [
+              13.609130859375,
+              89.83012390136719,
+              248.82760620117188,
+              197.925537109375
+            ],
+            "gt_index": 0,
+            "iou": 0.7385740608982087
+          }
+        ],
+        "false_positives": [],
+        "false_negatives": []
+      },
+      "preview": "D:\\FireVision\\reports\\ml\\final-verification-20261102\\final-report\\predictions\\PublicDataset00136.jpg"
+    },
+    {
+      "image": "raw/data/val/images/PublicDataset00114.jpg",
+      "sha256": "7d0f12d84ff534700bcc76ef61afc3f3673fa5dbd069abbe82cfb89121965e45",
+      "ground_truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            258.0,
+            184.00000000000003,
+            277.0,
+            194.0
+          ]
+        },
+        {
+          "class_id": 1,
+          "xyxy": [
+            329.0,
+            167.0,
+            357.0,
+            182.0
+          ]
+        },
+        {
+          "class_id": 0,
+          "xyxy": [
+            48.99999999999999,
+            110.00000000000001,
+            365.00000000000006,
+            193.0
+          ]
+        }
+      ],
+      "predictions": [
+        {
+          "class_id": 1,
+          "name": "fire",
+          "confidence": 0.3906926214694977,
+          "xyxy": [
+            332.4263916015625,
+            168.87936401367188,
+            356.4154357910156,
+            181.4373779296875
+          ]
+        },
+        {
+          "class_id": 1,
+          "name": "fire",
+          "confidence": 0.376962810754776,
+          "xyxy": [
+            342.5271911621094,
+            168.6351776123047,
+            356.4230041503906,
+            180.4091033935547
+          ]
+        },
+        {
+          "class_id": 1,
+          "name": "fire",
+          "confidence": 0.34148362278938293,
+          "xyxy": [
+            259.6727600097656,
+            184.08697509765625,
+            276.20147705078125,
+            194.10867309570312
+          ]
+        },
+        {
+          "class_id": 1,
+          "name": "fire",
+          "confidence": 0.25592127442359924,
+          "xyxy": [
+            227.59898376464844,
+            183.16824340820312,
+            278.4906921386719,
+            195.86341857910156
+          ]
+        }
+      ],
+      "comparison": {
+        "true_positives": [
+          {
+            "class_id": 1,
+            "name": "fire",
+            "confidence": 0.3906926214694977,
+            "xyxy": [
+              332.4263916015625,
+              168.87936401367188,
+              356.4154357910156,
+              181.4373779296875
+            ],
+            "gt_index": 1,
+            "iou": 0.7172732161025384
+          },
+          {
+            "class_id": 1,
+            "name": "fire",
+            "confidence": 0.34148362278938293,
+            "xyxy": [
+              259.6727600097656,
+              184.08697509765625,
+              276.20147705078125,
+              194.10867309570312
+            ],
+            "gt_index": 0,
+            "iou": 0.8542899217746831
+          }
+        ],
+        "false_positives": [
+          {
+            "class_id": 1,
+            "name": "fire",
+            "confidence": 0.376962810754776,
+            "xyxy": [
+              342.5271911621094,
+              168.6351776123047,
+              356.4230041503906,
+              180.4091033935547
+            ],
+            "best_unmatched_same_class_iou": 0.0
+          },
+          {
+            "class_id": 1,
+            "name": "fire",
+            "confidence": 0.25592127442359924,
+            "xyxy": [
+              227.59898376464844,
+              183.16824340820312,
+              278.4906921386719,
+              195.86341857910156
+            ],
+            "best_unmatched_same_class_iou": 0
+          }
+        ],
+        "false_negatives": [
+          {
+            "class_id": 0,
+            "xyxy": [
+              48.99999999999999,
+              110.00000000000001,
+              365.00000000000006,
+              193.0
+            ]
+          }
+        ]
+      },
+      "preview": "D:\\FireVision\\reports\\ml\\final-verification-20261102\\final-report\\predictions\\PublicDataset00114.jpg"
+    },
+    {
+      "image": "raw/data/val/images/PublicDataset00125.jpg",
+      "sha256": "dd2d58699ca70e36b147ad4376a02d62d84fa92eb8cfb8342f001a012bb40d38",
+      "ground_truth": [
+        {
+          "class_id": 1,
+          "xyxy": [
+            318.0,
+            161.0,
+            334.00000000000006,
+            175.0
+          ]
+        },
+        {
+          "class_id": 0,
+          "xyxy": [
+            105.00000000000001,
+            130.0,
+            313.00000000000006,
+            184.0
+          ]
+        }
+      ],
+      "predictions": [
+        {
+          "class_id": 1,
+          "name": "fire",
+          "confidence": 0.2715790867805481,
+          "xyxy": [
+            319.9178161621094,
+            163.4940948486328,
+            333.23883056640625,
+            172.93409729003906
+          ]
+        }
+      ],
+      "comparison": {
+        "true_positives": [
+          {
+            "class_id": 1,
+            "name": "fire",
+            "confidence": 0.2715790867805481,
+            "xyxy": [
+              319.9178161621094,
+              163.4940948486328,
+              333.23883056640625,
+              172.93409729003906
+            ],
+            "gt_index": 0,
+            "iou": 0.5613857522257584
+          }
+        ],
+        "false_positives": [],
+        "false_negatives": [
+          {
+            "class_id": 0,
+            "xyxy": [
+              105.00000000000001,
+              130.0,
+              313.00000000000006,
+              184.0
+            ]
+          }
+        ]
+      },
+      "preview": "D:\\FireVision\\reports\\ml\\final-verification-20261102\\final-report\\predictions\\PublicDataset00125.jpg"
+    },
+    {
+      "image": "raw/data/val/images/PublicDataset00863.jpg",
+      "sha256": "e4605ad26c51aa30dcaed23963d346df0e7d0615a43c3b8ec357f0e50f9dca22",
+      "ground_truth": [],
+      "predictions": [
+        {
+          "class_id": 0,
+          "name": "smoke",
+          "confidence": 0.2745213210582733,
+          "xyxy": [
+            1.75469970703125,
+            185.18077087402344,
+            359.158935546875,
+            317.945068359375
+          ]
+        }
+      ],
+      "comparison": {
+        "true_positives": [],
+        "false_positives": [
+          {
+            "class_id": 0,
+            "name": "smoke",
+            "confidence": 0.2745213210582733,
+            "xyxy": [
+              1.75469970703125,
+              185.18077087402344,
+              359.158935546875,
+              317.945068359375
+            ],
+            "best_unmatched_same_class_iou": 0
+          }
+        ],
+        "false_negatives": []
+      },
+      "preview": "D:\\FireVision\\reports\\ml\\final-verification-20261102\\final-report\\predictions\\PublicDataset00863.jpg"
+    },
+    {
+      "image": "raw/data/val/images/PublicDataset00871.jpg",
+      "sha256": "8955f373a3f3e642d01f782d6ee6491b4142764b835ada6a0d2cb3577dc8f7f9",
+      "ground_truth": [],
+      "predictions": [],
+      "comparison": {
+        "true_positives": [],
+        "false_positives": [],
+        "false_negatives": []
+      },
+      "preview": "D:\\FireVision\\reports\\ml\\final-verification-20261102\\final-report\\predictions\\PublicDataset00871.jpg"
+    }
+  ],
+  "matching_rule": "Greedy confidence order; same class and IoU >= 0.5; comparisons are examples, not aggregate validation metrics.",
+  "limitation": "Image-derived val montage. Repeated stills are not natural temporal video, independent scenes or event evaluation."
+}

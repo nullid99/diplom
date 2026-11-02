@@ -1,0 +1,5 @@
+﻿{
+    "analysis_allow_gpu":  "process-local true",
+    "api_launcher":  16712,
+    "frontend_launcher":  16744
+}

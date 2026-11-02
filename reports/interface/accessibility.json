@@ -1,0 +1,43 @@
+{
+  "checked_at": "2026-11-02T12:16:56.098Z",
+  "results": [
+    {
+      "route": "/sources",
+      "form_controls_labeled": true
+    },
+    {
+      "route": "/analysis",
+      "form_controls_labeled": true
+    },
+    {
+      "route": "/monitoring",
+      "form_controls_labeled": true
+    },
+    {
+      "route": "/events",
+      "form_controls_labeled": true
+    },
+    {
+      "route": "/experiments",
+      "form_controls_labeled": true
+    },
+    {
+      "route": "/settings",
+      "form_controls_labeled": true
+    }
+  ],
+  "contrast_ratios": {
+    "body": 13.574874472617765,
+    "secondary_on_background": 4.750445044235823,
+    "secondary_on_white": 5.136868540955944,
+    "primary_button": 6.93570896973186,
+    "focus_outline": 3.9227434237687446
+  },
+  "keyboard_focus": {
+    "tag": "INPUT",
+    "outline": "solid",
+    "width": "3px"
+  },
+  "viewport_scale": 1,
+  "external_fonts_used": false
+}

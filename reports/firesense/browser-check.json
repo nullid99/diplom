@@ -1,0 +1,17 @@
+{
+  "result": "passed",
+  "real_yolo": true,
+  "natural_video": true,
+  "demonstration_only": true,
+  "run_id": "5227c628-f49d-41e2-8cf1-ce9e8e2d4224",
+  "event_id": "87d96694-99c9-535e-88d7-25848e3abca1",
+  "playback_before": 2.0208,
+  "playback_after": 2.4835,
+  "clip_playback_before": 1.0215,
+  "clip_playback_after": 1.4347,
+  "run_reload": true,
+  "event_card_frame_and_clip": true,
+  "filter_source": true,
+  "operator_review_unchanged": true,
+  "errors": []
+}

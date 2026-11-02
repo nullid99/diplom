@@ -1,0 +1,121 @@
+{
+  "captured_at": "2026-11-02T11:10:33.737413+00:00",
+  "implemented": true,
+  "full_real_yolo_end_to_end_verified": false,
+  "real_model_registered": false,
+  "real_yolo_cpu_or_gpu_executed": false,
+  "analysis_gpu_compute_executed": false,
+  "test_detector_only_in_tests": true,
+  "migration_revision": "0003_analysis_worker",
+  "production_table_counts": {
+    "video_sources": 0,
+    "model_versions": 0,
+    "analysis_runs": 0,
+    "events": 0
+  },
+  "tests": {
+    "analysis": {
+      "passed": 17,
+      "cases": [
+        "test_empty_models_validation_and_unknown_run",
+        "test_registration_rejects_active_run_before_loading_weights",
+        "test_files_hash_queue_snapshot_and_pending_cancel",
+        "test_claim_single_worker_and_crash_recovery",
+        "test_concurrent_claim_and_queue_capacity",
+        "test_api_detects_abandoned_worker_without_pid_assumption",
+        "test_pipeline_vfr_results_ranges_and_no_dataset_mutation",
+        "test_irregular_timestamps_and_last_frame_duration",
+        "test_yolo_adapter_separate_thresholds_without_loading_ml",
+        "test_worker_failure_cleanup",
+        "test_commit_failure_does_not_publish_results",
+        "test_active_cancel_is_request_until_worker_stops",
+        "test_websocket_snapshot_reconnect_and_origin",
+        "test_websocket_real_worker_progress",
+        "test_actual_process_crash_releases_lease",
+        "test_browser_empty_start_cancel_and_reconnect",
+        "test_browser_results_and_seek"
+      ]
+    },
+    "previous_database_api_passed": 9,
+    "previous_video_passed": 7,
+    "previous_api_browser_smoke_passed": true,
+    "typescript": true,
+    "production_build": true,
+    "pip_check_ml": true,
+    "pip_check_api": true
+  },
+  "live_check": {
+    "checked_at": "2026-11-02T11:02:17.168Z",
+    "api": "http://127.0.0.1:8000",
+    "frontend": "http://127.0.0.1:5173",
+    "models": 0,
+    "runs": 0,
+    "gpu_enabled": false,
+    "queue_limit": 10,
+    "websocket_live": true,
+    "reconnection": true,
+    "start_disabled_without_model": true,
+    "test_routes_absent": true,
+    "page_errors": [],
+    "used_gpu": false,
+    "created_records": false
+  },
+  "ml_environment": {
+    "locked_package_count": 66,
+    "all_versions_match_existing_ml_lock": true,
+    "package_install_or_upgrade_performed": false
+  },
+  "api_environment": {
+    "path": ".venv-api",
+    "packages": {
+      "alembic": "1.20.1",
+      "annotated-doc": "0.0.5",
+      "annotated-types": "0.8.0",
+      "anyio": "4.16.0",
+      "click": "8.5.0",
+      "fastapi": "0.162.0",
+      "h11": "0.16.0",
+      "idna": "3.20",
+      "Mako": "1.4.3",
+      "MarkupSafe": "3.0.4",
+      "opentelemetry-api": "1.45.2",
+      "psycopg": "3.3.6",
+      "psycopg-binary": "3.3.6",
+      "pydantic": "2.14.2",
+      "pydantic_core": "2.50.2",
+      "python-dotenv": "1.2.4",
+      "python-multipart": "0.0.33",
+      "SQLAlchemy": "2.1.6",
+      "starlette": "1.10.0",
+      "typing-inspection": "0.4.4",
+      "typing_extensions": "4.16.0",
+      "tzdata": "2026.6",
+      "uvicorn": "0.54.0",
+      "wsproto": "1.3.2"
+    },
+    "separate_from_training": true
+  },
+  "frontend_dependencies_changed": false,
+  "training": {
+    "last_read_only_status_at": "2026-11-02T11:08:07.881877+00:00",
+    "pid": 9496,
+    "active_epoch": 24,
+    "completed_epochs": 23,
+    "process_lock_held": true,
+    "new_training_or_resume_invoked_this_stage": false,
+    "training_files_data_config_or_ml_dependencies_changed": false
+  },
+  "deferred": [
+    "Final weights validation and registration after training completion",
+    "Real Ultralytics forward and device verification",
+    "Real uploaded video through API/queue/YOLO/results/browser",
+    "Visual review of real smoke/fire successes and errors; actual resource/OOM behavior"
+  ],
+  "known_limits": [
+    "No audio/subtitles in annotated output",
+    "No rotation metadata, changing resolution, attached-picture first stream, shifted video/container start >10ms",
+    "Unknown/nonmonotonic PTS or unknown final frame duration fail explicitly",
+    "8,294,400 input pixels; I/O timeout 60s; queue pending+running limit 10",
+    "No scene independence claim; no event/zone/multiple-source logic"
+  ]
+}

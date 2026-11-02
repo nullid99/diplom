@@ -1,0 +1,77 @@
+{
+  "original_files_sha256_unchanged": 49,
+  "published_archive_md5_match": true,
+  "frozen_manifest_unchanged": true,
+  "completed_runs": 13,
+  "events": 17,
+  "timeline_checks": [
+    {
+      "id": "F01",
+      "frames": 360,
+      "max_pts_error_seconds": 1.7763568394002505e-15
+    },
+    {
+      "id": "F02",
+      "frames": 120,
+      "max_pts_error_seconds": 0.0
+    },
+    {
+      "id": "F03",
+      "frames": 210,
+      "max_pts_error_seconds": 0.0
+    },
+    {
+      "id": "S01",
+      "frames": 288,
+      "max_pts_error_seconds": 0.0
+    },
+    {
+      "id": "S02",
+      "frames": 120,
+      "max_pts_error_seconds": 0.0
+    },
+    {
+      "id": "S03",
+      "frames": 359,
+      "max_pts_error_seconds": 0.0
+    },
+    {
+      "id": "N01",
+      "frames": 85,
+      "max_pts_error_seconds": 1.7763568394002505e-15
+    },
+    {
+      "id": "N02",
+      "frames": 225,
+      "max_pts_error_seconds": 0.0
+    },
+    {
+      "id": "H01",
+      "frames": 120,
+      "max_pts_error_seconds": 0.0
+    },
+    {
+      "id": "H02",
+      "frames": 360,
+      "max_pts_error_seconds": 0.0
+    },
+    {
+      "id": "F02-lowres",
+      "frames": 120,
+      "max_pts_error_seconds": 0.0
+    },
+    {
+      "id": "F02-blur",
+      "frames": 120,
+      "max_pts_error_seconds": 0.0
+    },
+    {
+      "id": "F02-compressed",
+      "frames": 120,
+      "max_pts_error_seconds": 0.0
+    }
+  ],
+  "all_event_files_accessible": true,
+  "same_settings_all_runs": true,
+  "training_started": false
+}

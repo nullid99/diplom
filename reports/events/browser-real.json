@@ -1,0 +1,18 @@
+{
+  "source_id": "6e9b658e-1585-4559-b305-6b906534e47b",
+  "source_name": "Технічний відеоряд val D-Fire — не незалежне відео",
+  "natural_video_test": false,
+  "created_events": false,
+  "created_runs": false,
+  "checks": [
+    "Drawing uses actual image area, not letterboxing",
+    "Pointer move and resize preserve normalized coordinates",
+    "Include/exclude zones saved and restored after reload",
+    "Keyboard coordinate editing and deletion persisted",
+    "Temporal defaults saved and restored after reload",
+    "Working journal uses real empty API, no invented events"
+  ],
+  "errors": [],
+  "result": "passed",
+  "original_configuration_restored": true
+}

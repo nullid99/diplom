@@ -1,0 +1,260 @@
+{
+  "method": "Source frames at 1-second spacing; 64-bit pHash versus cached prepared train/val; aspect ratio tolerance 15%; d<=12 is only a possible scene/image overlap, not proof.",
+  "train_images": 7238,
+  "val_images": 1436,
+  "test_used": false,
+  "results": [
+    {
+      "clip_id": "F01",
+      "source_file": "raw/fire/pos/posVideo4.873.avi",
+      "nearest_candidates": [
+        {
+          "distance": 10,
+          "source_seconds": 12,
+          "trainval_image": "raw/data/train/images/WEB04942.jpg",
+          "split": "train"
+        },
+        {
+          "distance": 12,
+          "source_seconds": 17,
+          "trainval_image": "raw/data/train/images/WEB04985.jpg",
+          "split": "train"
+        },
+        {
+          "distance": 14,
+          "source_seconds": 12,
+          "trainval_image": "raw/data/train/images/WEB04863.jpg",
+          "split": "train"
+        }
+      ],
+      "possible_overlap": true
+    },
+    {
+      "clip_id": "F02",
+      "source_file": "raw/fire/pos/posVideo6.875.avi",
+      "nearest_candidates": [
+        {
+          "distance": 18,
+          "source_seconds": 8,
+          "trainval_image": "raw/data/train/images/WEB04251.jpg",
+          "split": "train"
+        },
+        {
+          "distance": 18,
+          "source_seconds": 9,
+          "trainval_image": "raw/data/train/images/WEB02609.jpg",
+          "split": "train"
+        },
+        {
+          "distance": 18,
+          "source_seconds": 11,
+          "trainval_image": "raw/data/train/images/WEB02891.jpg",
+          "split": "train"
+        }
+      ],
+      "possible_overlap": false
+    },
+    {
+      "clip_id": "F03",
+      "source_file": "raw/fire/pos/posVideo10.869.avi",
+      "nearest_candidates": [
+        {
+          "distance": 16,
+          "source_seconds": 0,
+          "trainval_image": "raw/data/train/images/WEB06135.jpg",
+          "split": "train"
+        },
+        {
+          "distance": 16,
+          "source_seconds": 0,
+          "trainval_image": "raw/data/train/images/WEB06617.jpg",
+          "split": "train"
+        },
+        {
+          "distance": 16,
+          "source_seconds": 0,
+          "trainval_image": "raw/data/train/images/WEB06682.jpg",
+          "split": "train"
+        }
+      ],
+      "possible_overlap": false
+    },
+    {
+      "clip_id": "S01",
+      "source_file": "raw/smoke/pos/testpos01.817.avi",
+      "nearest_candidates": [
+        {
+          "distance": 4,
+          "source_seconds": 3,
+          "trainval_image": "raw/data/train/images/WEB05701.jpg",
+          "split": "train"
+        },
+        {
+          "distance": 10,
+          "source_seconds": 2,
+          "trainval_image": "raw/data/val/images/PublicDataset00006.jpg",
+          "split": "val"
+        },
+        {
+          "distance": 10,
+          "source_seconds": 3,
+          "trainval_image": "raw/data/val/images/WEB05058.jpg",
+          "split": "val"
+        }
+      ],
+      "possible_overlap": true
+    },
+    {
+      "clip_id": "S02",
+      "source_file": "raw/smoke/pos/testpos06.822.avi",
+      "nearest_candidates": [
+        {
+          "distance": 16,
+          "source_seconds": 7,
+          "trainval_image": "raw/data/train/images/WEB07328.jpg",
+          "split": "train"
+        },
+        {
+          "distance": 16,
+          "source_seconds": 9,
+          "trainval_image": "raw/data/train/images/WEB01993.jpg",
+          "split": "train"
+        },
+        {
+          "distance": 16,
+          "source_seconds": 9,
+          "trainval_image": "raw/data/train/images/WEB02923.jpg",
+          "split": "train"
+        }
+      ],
+      "possible_overlap": false
+    },
+    {
+      "clip_id": "S03",
+      "source_file": "raw/smoke/pos/testpos12.828.avi",
+      "nearest_candidates": [
+        {
+          "distance": 12,
+          "source_seconds": 6,
+          "trainval_image": "raw/data/train/images/WEB05016.jpg",
+          "split": "train"
+        },
+        {
+          "distance": 14,
+          "source_seconds": 3,
+          "trainval_image": "raw/data/train/images/WEB01162.jpg",
+          "split": "train"
+        },
+        {
+          "distance": 14,
+          "source_seconds": 5,
+          "trainval_image": "raw/data/train/images/WEB01837.jpg",
+          "split": "train"
+        }
+      ],
+      "possible_overlap": true
+    },
+    {
+      "clip_id": "N01",
+      "source_file": "raw/smoke/neg/testneg03.809.avi",
+      "nearest_candidates": [
+        {
+          "distance": 14,
+          "source_seconds": 11,
+          "trainval_image": "raw/data/val/images/WEB02291.jpg",
+          "split": "val"
+        },
+        {
+          "distance": 16,
+          "source_seconds": 9,
+          "trainval_image": "raw/data/train/images/WEB05075.jpg",
+          "split": "train"
+        },
+        {
+          "distance": 16,
+          "source_seconds": 12,
+          "trainval_image": "raw/data/train/images/WEB04676.jpg",
+          "split": "train"
+        }
+      ],
+      "possible_overlap": false
+    },
+    {
+      "clip_id": "N02",
+      "source_file": "raw/smoke/neg/testneg06.812.avi",
+      "nearest_candidates": [
+        {
+          "distance": 16,
+          "source_seconds": 4,
+          "trainval_image": "raw/data/train/images/WEB02512.jpg",
+          "split": "train"
+        },
+        {
+          "distance": 18,
+          "source_seconds": 1,
+          "trainval_image": "raw/data/train/images/AoF03634.jpg",
+          "split": "train"
+        },
+        {
+          "distance": 18,
+          "source_seconds": 1,
+          "trainval_image": "raw/data/train/images/AoF06109.jpg",
+          "split": "train"
+        }
+      ],
+      "possible_overlap": false
+    },
+    {
+      "clip_id": "H01",
+      "source_file": "raw/fire/neg/negsVideo2.859.avi",
+      "nearest_candidates": [
+        {
+          "distance": 14,
+          "source_seconds": 4,
+          "trainval_image": "raw/data/train/images/WEB04327.jpg",
+          "split": "train"
+        },
+        {
+          "distance": 14,
+          "source_seconds": 10,
+          "trainval_image": "raw/data/train/images/WEB03462.jpg",
+          "split": "train"
+        },
+        {
+          "distance": 14,
+          "source_seconds": 11,
+          "trainval_image": "raw/data/train/images/WEB04638.jpg",
+          "split": "train"
+        }
+      ],
+      "possible_overlap": false
+    },
+    {
+      "clip_id": "H02",
+      "source_file": "raw/fire/neg/negsVideo7.864.avi",
+      "nearest_candidates": [
+        {
+          "distance": 14,
+          "source_seconds": 7,
+          "trainval_image": "raw/data/train/images/WEB02185.jpg",
+          "split": "train"
+        },
+        {
+          "distance": 16,
+          "source_seconds": 2,
+          "trainval_image": "raw/data/val/images/WEB04094.jpg",
+          "split": "val"
+        },
+        {
+          "distance": 16,
+          "source_seconds": 3,
+          "trainval_image": "raw/data/val/images/WEB09095.jpg",
+          "split": "val"
+        }
+      ],
+      "possible_overlap": false
+    }
+  ],
+  "independence_confirmed": false,
+  "limitations": "Sparse frame/hash screening misses crops, edits, different timestamps and related scenes. Pretrained COCO provenance not exhaustively checked. Variants share F02 and are correlated. No independent-test claim."
+}

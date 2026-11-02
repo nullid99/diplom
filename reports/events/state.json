@@ -1,0 +1,38 @@
+{
+  "checked_at": "2026-11-02T18:59:05.285986+00:00",
+  "migration": "0004_zones_events",
+  "counts": {
+    "video_sources": 1,
+    "model_versions": 1,
+    "analysis_runs": 1,
+    "events": 0,
+    "app_settings": 1
+  },
+  "registered_model_id": "8c37f231-7e6e-4db4-8405-0e4f731c4b87",
+  "weights_sha256": "d0fb93c60b88dcf27eb3933a66e49d88f475aafd8c13faf11971e3b590b0e4d7",
+  "weights_copy_and_original_match": true,
+  "previous_run_id": "b4cf3470-3216-42b3-8aff-216e7f8765e0",
+  "previous_snapshot_unchanged": true,
+  "previous_video_and_jsonl_unchanged": true,
+  "defaults": {
+    "analysis_fps": 2.0,
+    "temporal": {
+      "window_seconds": 3.0,
+      "min_hits": 3,
+      "min_span_seconds": 1.0,
+      "absence_seconds": 2.0,
+      "match_iou": 0.1,
+      "center_distance": 0.12,
+      "clip_before_seconds": 2.0,
+      "clip_after_seconds": 3.0
+    }
+  },
+  "zones": {
+    "zones": [],
+    "width": 640,
+    "height": 480
+  },
+  "real_natural_video_validation": false,
+  "training_started": false,
+  "gpu_used": false
+}

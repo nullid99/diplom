@@ -1,0 +1,12 @@
+{
+  "result": "passed",
+  "isolated": true,
+  "real_yolo": false,
+  "fixture_detector": true,
+  "review_reload": true,
+  "filters": true,
+  "evidence_files": true,
+  "escape": true,
+  "mobile_no_overflow": true,
+  "errors": []
+}

@@ -1,0 +1,6 @@
+{
+  "id": "8c37f231-7e6e-4db4-8405-0e4f731c4b87",
+  "previous_name": "TMP",
+  "name": "YOLO11n baseline 50 epochs (val, development)",
+  "reason": "PowerShell dynamic-scope name collision; wrapper fixed; existing verified model renamed without duplicate registration."
+}

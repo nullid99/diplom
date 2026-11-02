@@ -1,0 +1,16 @@
+{
+  "checked_at": "2026-11-02T11:02:17.168Z",
+  "api": "http://127.0.0.1:8000",
+  "frontend": "http://127.0.0.1:5173",
+  "models": 0,
+  "runs": 0,
+  "gpu_enabled": false,
+  "queue_limit": 10,
+  "websocket_live": true,
+  "reconnection": true,
+  "start_disabled_without_model": true,
+  "test_routes_absent": true,
+  "page_errors": [],
+  "used_gpu": false,
+  "created_records": false
+}

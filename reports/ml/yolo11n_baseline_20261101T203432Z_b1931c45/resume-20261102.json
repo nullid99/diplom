@@ -1,0 +1,226 @@
+{
+  "observed_at": "2026-11-02T09:44:56.087101+00:00",
+  "status": "resumed_and_running",
+  "run_dir": "D:\\FireVision\\runs\\full\\yolo11n_baseline_20261101T203432Z_b1931c45",
+  "state_snapshot": {
+    "id": "yolo11n_baseline_20261101T203432Z_b1931c45",
+    "status": "running",
+    "pid": 9496,
+    "started_at": "2026-11-02T09:41:57.551112+00:00",
+    "completed_epochs": 3,
+    "batch": 4,
+    "device": "cuda:0",
+    "losses_finite": true,
+    "resume_checkpoint": "D:\\FireVision\\runs\\full\\yolo11n_baseline_20261101T203432Z_b1931c45\\resume-history\\before_20261102T094214Z_89207a\\selected-resume.pt",
+    "gpu_name": "NVIDIA GeForce RTX 2060",
+    "input_verification": {
+      "verified_at": "2026-11-02T09:42:13.833276+00:00",
+      "images": 8674,
+      "image_and_label_sha256_match": true,
+      "main_manifests_unchanged": true
+    },
+    "actual_train_images": 7238,
+    "actual_val_images": 1436,
+    "actual_batch": 4,
+    "updated_at": "2026-11-02T09:44:53.097127+00:00",
+    "peak_allocated_bytes": 711669248,
+    "peak_reserved_bytes": 1216348160,
+    "free_vram_bytes": 4602200064,
+    "total_vram_bytes": 6442123264,
+    "wall_seconds": 1395.9031531999967,
+    "active_device": "cuda:0",
+    "active_epoch": 4,
+    "batch_in_epoch": 928,
+    "latest_loss": 16.223817825317383
+  },
+  "interruption": {
+    "cause": "Windows shutdown initiated through Explorer; System event 1074, then 6006. No Python/CUDA exception in training stderr.",
+    "shutdown_initiated_utc": "2026-11-01T20:54:58.095Z",
+    "event_log_stopped_utc": "2026-11-01T20:55:11.113Z",
+    "next_boot_utc": "2026-11-02T09:03:02.500Z",
+    "interrupted_epoch": 4,
+    "last_logged_batch": 1669,
+    "batches_per_epoch": 1810,
+    "completed_epochs": 3
+  },
+  "resume_selection": {
+    "selected_at": "2026-11-02T09:41:54.620775+00:00",
+    "checkpoint": {
+      "file": "D:\\FireVision\\runs\\full\\yolo11n_baseline_20261101T203432Z_b1931c45\\training\\weights\\last.pt",
+      "sha256": "b0e3889f4868227e9f287603f92cd0c901fb8f19e80398e85a76fd898a5e4a54",
+      "bytes": 26570979,
+      "epoch_zero_based": 2,
+      "completed_epochs": 3,
+      "resumable": true,
+      "optimizer_present": true,
+      "scaler_present": true,
+      "ema_updates": 1030,
+      "train_epochs": 50,
+      "data": "D:\\FireVision\\runs\\full\\yolo11n_baseline_20261101T203432Z_b1931c45\\input\\data.yaml",
+      "names": {
+        "0": "smoke",
+        "1": "fire"
+      },
+      "fitness": 0.22024,
+      "best_fitness": 0.22024
+    },
+    "rejected": []
+  },
+  "resume_plan": {
+    "checkpoint": {
+      "file": "D:\\FireVision\\runs\\full\\yolo11n_baseline_20261101T203432Z_b1931c45\\training\\weights\\last.pt",
+      "sha256": "b0e3889f4868227e9f287603f92cd0c901fb8f19e80398e85a76fd898a5e4a54",
+      "bytes": 26570979,
+      "epoch_zero_based": 2,
+      "completed_epochs": 3,
+      "resumable": true,
+      "optimizer_present": true,
+      "scaler_present": true,
+      "ema_updates": 1030,
+      "train_epochs": 50,
+      "data": "D:\\FireVision\\runs\\full\\yolo11n_baseline_20261101T203432Z_b1931c45\\input\\data.yaml",
+      "names": {
+        "0": "smoke",
+        "1": "fire"
+      },
+      "fitness": 0.22024,
+      "best_fitness": 0.22024
+    },
+    "history_rows": 3,
+    "best_from": "D:\\FireVision\\runs\\full\\yolo11n_baseline_20261101T203432Z_b1931c45\\training\\weights\\best.pt",
+    "archive": "D:\\FireVision\\runs\\full\\yolo11n_baseline_20261101T203432Z_b1931c45\\resume-history\\before_20261102T094214Z_89207a",
+    "restore_optimizer_scaler_ema_stopper": true
+  },
+  "configuration_unchanged_from_startup": true,
+  "checked_hyperparameters": {
+    "epochs": 50,
+    "patience": 10,
+    "imgsz": 640,
+    "batch": 4,
+    "workers": 0,
+    "amp": true,
+    "cache": false,
+    "optimizer": "AdamW",
+    "lr0": 0.001,
+    "seed": 42,
+    "save": true,
+    "save_period": 1,
+    "lrf": 0.01,
+    "cos_lr": false,
+    "warmup_epochs": 3.0,
+    "hsv_h": 0.015,
+    "hsv_s": 0.7,
+    "hsv_v": 0.4,
+    "degrees": 0.0,
+    "translate": 0.1,
+    "scale": 0.5,
+    "shear": 0.0,
+    "perspective": 0.0,
+    "flipud": 0.0,
+    "fliplr": 0.5,
+    "mosaic": 1.0,
+    "close_mosaic": 10,
+    "mixup": 0.0,
+    "cutmix": 0.0,
+    "copy_paste": 0.0,
+    "nbs": 64,
+    "deterministic": true
+  },
+  "optimizer_runtime": {
+    "class": "AdamW",
+    "parameter_groups": [
+      {
+        "lr": 0.0009602231307550644,
+        "betas": [
+          0.937,
+          0.999
+        ],
+        "weight_decay": 0.0005,
+        "param_group": "weight",
+        "eps": 1e-08,
+        "amsgrad": false,
+        "maximize": false,
+        "foreach": null,
+        "capturable": false,
+        "differentiable": false,
+        "fused": true,
+        "decoupled_weight_decay": true,
+        "initial_lr": 0.001
+      },
+      {
+        "lr": 0.0009602231307550644,
+        "betas": [
+          0.937,
+          0.999
+        ],
+        "weight_decay": 0.0,
+        "param_group": "bn",
+        "eps": 1e-08,
+        "amsgrad": false,
+        "maximize": false,
+        "foreach": null,
+        "capturable": false,
+        "differentiable": false,
+        "fused": true,
+        "decoupled_weight_decay": true,
+        "initial_lr": 0.001
+      },
+      {
+        "lr": 0.0009786393370165708,
+        "betas": [
+          0.937,
+          0.999
+        ],
+        "weight_decay": 0.0,
+        "param_group": "bias",
+        "eps": 1e-08,
+        "amsgrad": false,
+        "maximize": false,
+        "foreach": null,
+        "capturable": false,
+        "differentiable": false,
+        "fused": true,
+        "decoupled_weight_decay": true,
+        "initial_lr": 0.001
+      }
+    ],
+    "scheduler_class": "LambdaLR"
+  },
+  "input_verification": {
+    "verified_at": "2026-11-02T09:42:13.833276+00:00",
+    "images": 8674,
+    "image_and_label_sha256_match": true,
+    "main_manifests_unchanged": true
+  },
+  "last_completed_val_csv": {
+    "epoch": "3",
+    "time": "1000.1",
+    "train/box_loss": "1.72194",
+    "train/cls_loss": "1.99512",
+    "train/dfl_loss": "1.64413",
+    "metrics/precision(B)": "0.46478",
+    "metrics/recall(B)": "0.49383",
+    "metrics/mAP50(B)": "0.46391",
+    "metrics/mAP50-95(B)": "0.22024",
+    "val/box_loss": "1.63877",
+    "val/cls_loss": "2.42545",
+    "val/dfl_loss": "1.60512",
+    "lr/pg0": "0.000960223",
+    "lr/pg1": "0.000960223",
+    "lr/pg2": "0.000978639"
+  },
+  "csv_rows": 3,
+  "gpu_snapshot": "NVIDIA GeForce RTX 2060, 1395 MiB, 6144 MiB, 33 %",
+  "eta_to_50_seconds_ignoring_early_stopping": 15678.335294000039,
+  "eta_based_on_previous_full_epochs_seconds": [
+    383.91271699999925,
+    312.5694810999994,
+    304.2626079000038
+  ],
+  "test_used": false,
+  "final_report_generated": false,
+  "new_training_run_started": false,
+  "resume_command": ".\\scripts\\train-full.ps1 -Action Resume -RunDir D:\\FireVision\\runs\\full\\yolo11n_baseline_20261101T203432Z_b1931c45",
+  "log": "D:\\FireVision\\runs\\full\\yolo11n_baseline_20261101T203432Z_b1931c45\\console-20261102-114155-1427.log",
+  "stderr": "D:\\FireVision\\runs\\full\\yolo11n_baseline_20261101T203432Z_b1931c45\\stderr-20261102-114155-1427.log"
+}

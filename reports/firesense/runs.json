@@ -1,0 +1,2594 @@
+{
+  "started_at": "2026-11-02T20:01:01.263351+00:00",
+  "configuration": {
+    "smoke_threshold": 0.25,
+    "fire_threshold": 0.25,
+    "imgsz": 640,
+    "analysis_fps": 2,
+    "device": "cuda:0",
+    "temporal": {
+      "window_seconds": 3,
+      "min_hits": 3,
+      "min_span_seconds": 1,
+      "absence_seconds": 2,
+      "match_iou": 0.1,
+      "center_distance": 0.12,
+      "clip_before_seconds": 2,
+      "clip_after_seconds": 3
+    }
+  },
+  "model_id": "8c37f231-7e6e-4db4-8405-0e4f731c4b87",
+  "manifest_sha256": "5cea724058102fbb0b46d5b5dafbf22afafa36ad91c5963321bb1103c35a5465",
+  "runs": [
+    {
+      "clip_id": "F01",
+      "source_id": "85ec652f-a11f-4097-8457-6f811579b078",
+      "run_id": "5227c628-f49d-41e2-8cf1-ce9e8e2d4224",
+      "created": {
+        "id": "5227c628-f49d-41e2-8cf1-ce9e8e2d4224",
+        "video_source_id": "85ec652f-a11f-4097-8457-6f811579b078",
+        "model_version_id": "8c37f231-7e6e-4db4-8405-0e4f731c4b87",
+        "video_source_name": "FIRESENSE demo F01 — reference",
+        "model_version_name": "YOLO11n baseline 50 epochs (val, development)",
+        "mode": "full",
+        "status": "pending",
+        "settings_snapshot": {
+          "smoke_threshold": 0.25,
+          "fire_threshold": 0.25,
+          "imgsz": 640,
+          "analysis_fps": 2.0,
+          "device": "cuda:0",
+          "temporal": {
+            "window_seconds": 3.0,
+            "min_hits": 3,
+            "min_span_seconds": 1.0,
+            "absence_seconds": 2.0,
+            "match_iou": 0.1,
+            "center_distance": 0.12,
+            "clip_before_seconds": 2.0,
+            "clip_after_seconds": 3.0
+          },
+          "zones": [],
+          "schema_version": 2,
+          "model_sha256": "d0fb93c60b88dcf27eb3933a66e49d88f475aafd8c13faf11971e3b590b0e4d7",
+          "source_sha256": "2cfb2c7dcdb420858c541a6a8a2f90f8e044840edc7604a0ff11f8e69d1d7d7c",
+          "class_mapping": {
+            "0": "smoke",
+            "1": "fire"
+          }
+        },
+        "progress": 0.0,
+        "error_message": null,
+        "cancel_requested_at": null,
+        "created_at": "2026-11-02T22:01:02.348395+02:00",
+        "started_at": null,
+        "finished_at": null,
+        "heartbeat_at": null,
+        "summary_metrics": null,
+        "result_paths": null
+      },
+      "progress": [
+        {
+          "at": "2026-11-02T20:01:02.403196+00:00",
+          "status": "pending",
+          "progress": 0.0,
+          "summary": null
+        },
+        {
+          "at": "2026-11-02T20:01:04.946468+00:00",
+          "status": "running",
+          "progress": 0.0,
+          "summary": {
+            "stage": "checking"
+          }
+        },
+        {
+          "at": "2026-11-02T20:01:27.290385+00:00",
+          "status": "running",
+          "progress": 0.00278,
+          "summary": {
+            "stage": "processing",
+            "frames_read": 1,
+            "total_frames": 360,
+            "frames_analyzed": 1
+          }
+        },
+        {
+          "at": "2026-11-02T20:01:28.303486+00:00",
+          "status": "running",
+          "progress": 0.25278,
+          "summary": {
+            "stage": "processing",
+            "frames_read": 91,
+            "total_frames": 360,
+            "frames_analyzed": 7
+          }
+        },
+        {
+          "at": "2026-11-02T20:01:28.808775+00:00",
+          "status": "running",
+          "progress": 0.99,
+          "summary": {
+            "stage": "verifying",
+            "frames_read": 360,
+            "total_frames": 360,
+            "frames_analyzed": 24
+          }
+        },
+        {
+          "at": "2026-11-02T20:01:29.822181+00:00",
+          "status": "completed",
+          "progress": 1.0,
+          "summary": {
+            "stage": "completed",
+            "device": "cuda:0",
+            "frames_read": 360,
+            "output_audio": false,
+            "wall_seconds": 24.032000000000153,
+            "frames_analyzed": 24,
+            "confirmed_events": 1,
+            "detections_by_class": {
+              "fire": 24,
+              "smoke": 0
+            },
+            "video_duration_seconds": 12.012,
+            "source_first_pts_seconds": 0.012,
+            "timestamp_precision_seconds": 1e-06,
+            "all_original_frames_retained": true
+          }
+        }
+      ],
+      "worker_launcher_pid": 7840,
+      "result": {
+        "id": "5227c628-f49d-41e2-8cf1-ce9e8e2d4224",
+        "video_source_id": "85ec652f-a11f-4097-8457-6f811579b078",
+        "model_version_id": "8c37f231-7e6e-4db4-8405-0e4f731c4b87",
+        "video_source_name": "FIRESENSE demo F01 — reference",
+        "model_version_name": "YOLO11n baseline 50 epochs (val, development)",
+        "mode": "full",
+        "status": "completed",
+        "settings_snapshot": {
+          "imgsz": 640,
+          "zones": [],
+          "device": "cuda:0",
+          "temporal": {
+            "min_hits": 3,
+            "match_iou": 0.1,
+            "window_seconds": 3.0,
+            "absence_seconds": 2.0,
+            "center_distance": 0.12,
+            "min_span_seconds": 1.0,
+            "clip_after_seconds": 3.0,
+            "clip_before_seconds": 2.0
+          },
+          "analysis_fps": 2.0,
+          "model_sha256": "d0fb93c60b88dcf27eb3933a66e49d88f475aafd8c13faf11971e3b590b0e4d7",
+          "class_mapping": {
+            "0": "smoke",
+            "1": "fire"
+          },
+          "source_sha256": "2cfb2c7dcdb420858c541a6a8a2f90f8e044840edc7604a0ff11f8e69d1d7d7c",
+          "fire_threshold": 0.25,
+          "schema_version": 2,
+          "smoke_threshold": 0.25
+        },
+        "progress": 1.0,
+        "error_message": null,
+        "cancel_requested_at": null,
+        "created_at": "2026-11-02T22:01:02.348395+02:00",
+        "started_at": "2026-11-02T22:01:04.679076+02:00",
+        "finished_at": "2026-11-02T22:01:29.370347+02:00",
+        "heartbeat_at": "2026-11-02T22:01:29.084103+02:00",
+        "summary_metrics": {
+          "stage": "completed",
+          "device": "cuda:0",
+          "frames_read": 360,
+          "output_audio": false,
+          "wall_seconds": 24.032000000000153,
+          "frames_analyzed": 24,
+          "confirmed_events": 1,
+          "detections_by_class": {
+            "fire": 24,
+            "smoke": 0
+          },
+          "video_duration_seconds": 12.012,
+          "source_first_pts_seconds": 0.012,
+          "timestamp_precision_seconds": 1e-06,
+          "all_original_frames_retained": true
+        },
+        "result_paths": {
+          "video": "results/analysis/5227c628-f49d-41e2-8cf1-ce9e8e2d4224/2b29f0e1-4125-478d-bb39-70612d2b5370/annotated.mp4",
+          "summary": "results/analysis/5227c628-f49d-41e2-8cf1-ce9e8e2d4224/2b29f0e1-4125-478d-bb39-70612d2b5370/summary.json",
+          "detections": "results/analysis/5227c628-f49d-41e2-8cf1-ce9e8e2d4224/2b29f0e1-4125-478d-bb39-70612d2b5370/detections.jsonl"
+        }
+      },
+      "worker_exit_code": 0,
+      "files": {
+        "video": {
+          "bytes": 2882799,
+          "sha256": "8a1a79f4cce2a480dd19053f7c64b2257b8521ca496222a39ddc7053fc0ddde8",
+          "relative_path": "results/analysis/5227c628-f49d-41e2-8cf1-ce9e8e2d4224/2b29f0e1-4125-478d-bb39-70612d2b5370/annotated.mp4"
+        },
+        "detections": {
+          "bytes": 46215,
+          "sha256": "9bf16ef2f71b4f194b4d7de1be7d51af95a8ff887938e015cebb00d0981172fe",
+          "relative_path": "results/analysis/5227c628-f49d-41e2-8cf1-ce9e8e2d4224/2b29f0e1-4125-478d-bb39-70612d2b5370/detections.jsonl"
+        },
+        "summary": {
+          "bytes": 339,
+          "sha256": "73b461ce48dfaa265a18892da47596476bf9e74605da7e103cfb6fb1393064f0",
+          "relative_path": "results/analysis/5227c628-f49d-41e2-8cf1-ce9e8e2d4224/2b29f0e1-4125-478d-bb39-70612d2b5370/summary.json"
+        }
+      }
+    },
+    {
+      "clip_id": "F02",
+      "source_id": "1649ead0-cd54-485a-b0e2-844d514175df",
+      "run_id": "6f7795a1-0c1d-4ddc-a311-fa0e7713a846",
+      "created": {
+        "id": "6f7795a1-0c1d-4ddc-a311-fa0e7713a846",
+        "video_source_id": "1649ead0-cd54-485a-b0e2-844d514175df",
+        "model_version_id": "8c37f231-7e6e-4db4-8405-0e4f731c4b87",
+        "video_source_name": "FIRESENSE demo F02 — reference",
+        "model_version_name": "YOLO11n baseline 50 epochs (val, development)",
+        "mode": "full",
+        "status": "pending",
+        "settings_snapshot": {
+          "smoke_threshold": 0.25,
+          "fire_threshold": 0.25,
+          "imgsz": 640,
+          "analysis_fps": 2.0,
+          "device": "cuda:0",
+          "temporal": {
+            "window_seconds": 3.0,
+            "min_hits": 3,
+            "min_span_seconds": 1.0,
+            "absence_seconds": 2.0,
+            "match_iou": 0.1,
+            "center_distance": 0.12,
+            "clip_before_seconds": 2.0,
+            "clip_after_seconds": 3.0
+          },
+          "zones": [],
+          "schema_version": 2,
+          "model_sha256": "d0fb93c60b88dcf27eb3933a66e49d88f475aafd8c13faf11971e3b590b0e4d7",
+          "source_sha256": "5bcc142de1a22e05305503b88c63b38913a72006390130c6e5a86c1b45be6455",
+          "class_mapping": {
+            "0": "smoke",
+            "1": "fire"
+          }
+        },
+        "progress": 0.0,
+        "error_message": null,
+        "cancel_requested_at": null,
+        "created_at": "2026-11-02T22:01:32.279960+02:00",
+        "started_at": null,
+        "finished_at": null,
+        "heartbeat_at": null,
+        "summary_metrics": null,
+        "result_paths": null
+      },
+      "progress": [
+        {
+          "at": "2026-11-02T20:01:32.320023+00:00",
+          "status": "pending",
+          "progress": 0.0,
+          "summary": null
+        },
+        {
+          "at": "2026-11-02T20:01:33.333553+00:00",
+          "status": "running",
+          "progress": 0.0,
+          "summary": {
+            "stage": "checking"
+          }
+        },
+        {
+          "at": "2026-11-02T20:01:38.394458+00:00",
+          "status": "running",
+          "progress": 0.00833,
+          "summary": {
+            "stage": "processing",
+            "frames_read": 1,
+            "total_frames": 120,
+            "frames_analyzed": 1
+          }
+        },
+        {
+          "at": "2026-11-02T20:01:39.410309+00:00",
+          "status": "running",
+          "progress": 0.175,
+          "summary": {
+            "stage": "processing",
+            "frames_read": 21,
+            "total_frames": 120,
+            "frames_analyzed": 5
+          }
+        },
+        {
+          "at": "2026-11-02T20:01:40.422526+00:00",
+          "status": "running",
+          "progress": 0.99,
+          "summary": {
+            "stage": "verifying",
+            "frames_read": 120,
+            "total_frames": 120,
+            "frames_analyzed": 24
+          }
+        },
+        {
+          "at": "2026-11-02T20:01:40.930845+00:00",
+          "status": "completed",
+          "progress": 1.0,
+          "summary": {
+            "stage": "completed",
+            "device": "cuda:0",
+            "frames_read": 120,
+            "output_audio": false,
+            "wall_seconds": 7.328000000000429,
+            "frames_analyzed": 24,
+            "confirmed_events": 2,
+            "detections_by_class": {
+              "fire": 25,
+              "smoke": 7
+            },
+            "video_duration_seconds": 12.0,
+            "source_first_pts_seconds": 0.0,
+            "timestamp_precision_seconds": 1e-06,
+            "all_original_frames_retained": true
+          }
+        }
+      ],
+      "worker_launcher_pid": 6668,
+      "result": {
+        "id": "6f7795a1-0c1d-4ddc-a311-fa0e7713a846",
+        "video_source_id": "1649ead0-cd54-485a-b0e2-844d514175df",
+        "model_version_id": "8c37f231-7e6e-4db4-8405-0e4f731c4b87",
+        "video_source_name": "FIRESENSE demo F02 — reference",
+        "model_version_name": "YOLO11n baseline 50 epochs (val, development)",
+        "mode": "full",
+        "status": "completed",
+        "settings_snapshot": {
+          "imgsz": 640,
+          "zones": [],
+          "device": "cuda:0",
+          "temporal": {
+            "min_hits": 3,
+            "match_iou": 0.1,
+            "window_seconds": 3.0,
+            "absence_seconds": 2.0,
+            "center_distance": 0.12,
+            "min_span_seconds": 1.0,
+            "clip_after_seconds": 3.0,
+            "clip_before_seconds": 2.0
+          },
+          "analysis_fps": 2.0,
+          "model_sha256": "d0fb93c60b88dcf27eb3933a66e49d88f475aafd8c13faf11971e3b590b0e4d7",
+          "class_mapping": {
+            "0": "smoke",
+            "1": "fire"
+          },
+          "source_sha256": "5bcc142de1a22e05305503b88c63b38913a72006390130c6e5a86c1b45be6455",
+          "fire_threshold": 0.25,
+          "schema_version": 2,
+          "smoke_threshold": 0.25
+        },
+        "progress": 1.0,
+        "error_message": null,
+        "cancel_requested_at": null,
+        "created_at": "2026-11-02T22:01:32.279960+02:00",
+        "started_at": "2026-11-02T22:01:33.054672+02:00",
+        "finished_at": "2026-11-02T22:01:40.611672+02:00",
+        "heartbeat_at": "2026-11-02T22:01:40.131729+02:00",
+        "summary_metrics": {
+          "stage": "completed",
+          "device": "cuda:0",
+          "frames_read": 120,
+          "output_audio": false,
+          "wall_seconds": 7.328000000000429,
+          "frames_analyzed": 24,
+          "confirmed_events": 2,
+          "detections_by_class": {
+            "fire": 25,
+            "smoke": 7
+          },
+          "video_duration_seconds": 12.0,
+          "source_first_pts_seconds": 0.0,
+          "timestamp_precision_seconds": 1e-06,
+          "all_original_frames_retained": true
+        },
+        "result_paths": {
+          "video": "results/analysis/6f7795a1-0c1d-4ddc-a311-fa0e7713a846/d97d8ae9-f1bd-4b0b-9751-61c58971a30a/annotated.mp4",
+          "summary": "results/analysis/6f7795a1-0c1d-4ddc-a311-fa0e7713a846/d97d8ae9-f1bd-4b0b-9751-61c58971a30a/summary.json",
+          "detections": "results/analysis/6f7795a1-0c1d-4ddc-a311-fa0e7713a846/d97d8ae9-f1bd-4b0b-9751-61c58971a30a/detections.jsonl"
+        }
+      },
+      "worker_exit_code": 0,
+      "files": {
+        "video": {
+          "bytes": 1065137,
+          "sha256": "df77adcbd76d994966941c2567c92d608c298068efdc151bd8d3b78fd2436530",
+          "relative_path": "results/analysis/6f7795a1-0c1d-4ddc-a311-fa0e7713a846/d97d8ae9-f1bd-4b0b-9751-61c58971a30a/annotated.mp4"
+        },
+        "detections": {
+          "bytes": 17813,
+          "sha256": "02ca14027e5db5a927fb8540734ad38ad3b78683627b9a714ba73a994d8b5ce8",
+          "relative_path": "results/analysis/6f7795a1-0c1d-4ddc-a311-fa0e7713a846/d97d8ae9-f1bd-4b0b-9751-61c58971a30a/detections.jsonl"
+        },
+        "summary": {
+          "bytes": 334,
+          "sha256": "eded4f623ac9026bba6bde53f1f10e4188065a9db3536e8f920ef258d1cf260a",
+          "relative_path": "results/analysis/6f7795a1-0c1d-4ddc-a311-fa0e7713a846/d97d8ae9-f1bd-4b0b-9751-61c58971a30a/summary.json"
+        }
+      }
+    },
+    {
+      "clip_id": "F03",
+      "source_id": "98291e3e-35b5-4e18-aa90-66569717cbe7",
+      "run_id": "22bedde8-1fdc-41ca-803a-6743bc573637",
+      "created": {
+        "id": "22bedde8-1fdc-41ca-803a-6743bc573637",
+        "video_source_id": "98291e3e-35b5-4e18-aa90-66569717cbe7",
+        "model_version_id": "8c37f231-7e6e-4db4-8405-0e4f731c4b87",
+        "video_source_name": "FIRESENSE demo F03 — reference",
+        "model_version_name": "YOLO11n baseline 50 epochs (val, development)",
+        "mode": "full",
+        "status": "pending",
+        "settings_snapshot": {
+          "smoke_threshold": 0.25,
+          "fire_threshold": 0.25,
+          "imgsz": 640,
+          "analysis_fps": 2.0,
+          "device": "cuda:0",
+          "temporal": {
+            "window_seconds": 3.0,
+            "min_hits": 3,
+            "min_span_seconds": 1.0,
+            "absence_seconds": 2.0,
+            "match_iou": 0.1,
+            "center_distance": 0.12,
+            "clip_before_seconds": 2.0,
+            "clip_after_seconds": 3.0
+          },
+          "zones": [],
+          "schema_version": 2,
+          "model_sha256": "d0fb93c60b88dcf27eb3933a66e49d88f475aafd8c13faf11971e3b590b0e4d7",
+          "source_sha256": "5046db873bd427a2aa98f8bf6587dba871b3010d532ad2620bf2659eab1741be",
+          "class_mapping": {
+            "0": "smoke",
+            "1": "fire"
+          }
+        },
+        "progress": 0.0,
+        "error_message": null,
+        "cancel_requested_at": null,
+        "created_at": "2026-11-02T22:01:41.778799+02:00",
+        "started_at": null,
+        "finished_at": null,
+        "heartbeat_at": null,
+        "summary_metrics": null,
+        "result_paths": null
+      },
+      "progress": [
+        {
+          "at": "2026-11-02T20:01:41.823848+00:00",
+          "status": "pending",
+          "progress": 0.0,
+          "summary": null
+        },
+        {
+          "at": "2026-11-02T20:01:42.836661+00:00",
+          "status": "running",
+          "progress": 0.0,
+          "summary": {
+            "stage": "checking"
+          }
+        },
+        {
+          "at": "2026-11-02T20:01:47.893979+00:00",
+          "status": "running",
+          "progress": 0.00476,
+          "summary": {
+            "stage": "processing",
+            "frames_read": 1,
+            "total_frames": 210,
+            "frames_analyzed": 1
+          }
+        },
+        {
+          "at": "2026-11-02T20:01:48.911297+00:00",
+          "status": "running",
+          "progress": 0.14762,
+          "summary": {
+            "stage": "processing",
+            "frames_read": 31,
+            "total_frames": 210,
+            "frames_analyzed": 3
+          }
+        },
+        {
+          "at": "2026-11-02T20:01:50.427168+00:00",
+          "status": "running",
+          "progress": 0.21905,
+          "summary": {
+            "stage": "processing",
+            "frames_read": 46,
+            "total_frames": 210,
+            "frames_analyzed": 4
+          }
+        },
+        {
+          "at": "2026-11-02T20:01:51.440105+00:00",
+          "status": "running",
+          "progress": 0.90476,
+          "summary": {
+            "stage": "processing",
+            "frames_read": 190,
+            "total_frames": 210,
+            "frames_analyzed": 13
+          }
+        },
+        {
+          "at": "2026-11-02T20:01:52.451190+00:00",
+          "status": "running",
+          "progress": 0.99,
+          "summary": {
+            "stage": "verifying",
+            "frames_read": 210,
+            "total_frames": 210,
+            "frames_analyzed": 14
+          }
+        },
+        {
+          "at": "2026-11-02T20:01:52.958650+00:00",
+          "status": "completed",
+          "progress": 1.0,
+          "summary": {
+            "stage": "completed",
+            "device": "cuda:0",
+            "frames_read": 210,
+            "output_audio": false,
+            "wall_seconds": 9.686999999999898,
+            "frames_analyzed": 14,
+            "confirmed_events": 6,
+            "detections_by_class": {
+              "fire": 40,
+              "smoke": 14
+            },
+            "video_duration_seconds": 7.007007,
+            "source_first_pts_seconds": 0.0,
+            "timestamp_precision_seconds": 1e-06,
+            "all_original_frames_retained": true
+          }
+        }
+      ],
+      "worker_launcher_pid": 368,
+      "result": {
+        "id": "22bedde8-1fdc-41ca-803a-6743bc573637",
+        "video_source_id": "98291e3e-35b5-4e18-aa90-66569717cbe7",
+        "model_version_id": "8c37f231-7e6e-4db4-8405-0e4f731c4b87",
+        "video_source_name": "FIRESENSE demo F03 — reference",
+        "model_version_name": "YOLO11n baseline 50 epochs (val, development)",
+        "mode": "full",
+        "status": "completed",
+        "settings_snapshot": {
+          "imgsz": 640,
+          "zones": [],
+          "device": "cuda:0",
+          "temporal": {
+            "min_hits": 3,
+            "match_iou": 0.1,
+            "window_seconds": 3.0,
+            "absence_seconds": 2.0,
+            "center_distance": 0.12,
+            "min_span_seconds": 1.0,
+            "clip_after_seconds": 3.0,
+            "clip_before_seconds": 2.0
+          },
+          "analysis_fps": 2.0,
+          "model_sha256": "d0fb93c60b88dcf27eb3933a66e49d88f475aafd8c13faf11971e3b590b0e4d7",
+          "class_mapping": {
+            "0": "smoke",
+            "1": "fire"
+          },
+          "source_sha256": "5046db873bd427a2aa98f8bf6587dba871b3010d532ad2620bf2659eab1741be",
+          "fire_threshold": 0.25,
+          "schema_version": 2,
+          "smoke_threshold": 0.25
+        },
+        "progress": 1.0,
+        "error_message": null,
+        "cancel_requested_at": null,
+        "created_at": "2026-11-02T22:01:41.778799+02:00",
+        "started_at": "2026-11-02T22:01:42.590526+02:00",
+        "finished_at": "2026-11-02T22:01:52.571567+02:00",
+        "heartbeat_at": "2026-11-02T22:01:51.718541+02:00",
+        "summary_metrics": {
+          "stage": "completed",
+          "device": "cuda:0",
+          "frames_read": 210,
+          "output_audio": false,
+          "wall_seconds": 9.686999999999898,
+          "frames_analyzed": 14,
+          "confirmed_events": 6,
+          "detections_by_class": {
+            "fire": 40,
+            "smoke": 14
+          },
+          "video_duration_seconds": 7.007007,
+          "source_first_pts_seconds": 0.0,
+          "timestamp_precision_seconds": 1e-06,
+          "all_original_frames_retained": true
+        },
+        "result_paths": {
+          "video": "results/analysis/22bedde8-1fdc-41ca-803a-6743bc573637/6ae638f4-6448-4080-8b34-6ead3123ee1b/annotated.mp4",
+          "summary": "results/analysis/22bedde8-1fdc-41ca-803a-6743bc573637/6ae638f4-6448-4080-8b34-6ead3123ee1b/summary.json",
+          "detections": "results/analysis/22bedde8-1fdc-41ca-803a-6743bc573637/6ae638f4-6448-4080-8b34-6ead3123ee1b/detections.jsonl"
+        }
+      },
+      "worker_exit_code": 0,
+      "files": {
+        "video": {
+          "bytes": 811513,
+          "sha256": "c54c0e68295a19fd0034ede9a084228bad8451c2697efe5265d0a676dd3a40c7",
+          "relative_path": "results/analysis/22bedde8-1fdc-41ca-803a-6743bc573637/6ae638f4-6448-4080-8b34-6ead3123ee1b/annotated.mp4"
+        },
+        "detections": {
+          "bytes": 32847,
+          "sha256": "6a790b3b88010b946f8157b3df43057b9942910363ea293cc8f14dd4e4b3a6ae",
+          "relative_path": "results/analysis/22bedde8-1fdc-41ca-803a-6743bc573637/6ae638f4-6448-4080-8b34-6ead3123ee1b/detections.jsonl"
+        },
+        "summary": {
+          "bytes": 339,
+          "sha256": "8fbae1ce4f411d2d3b328579874d3d579e72a48c338a38f80550a570783835ac",
+          "relative_path": "results/analysis/22bedde8-1fdc-41ca-803a-6743bc573637/6ae638f4-6448-4080-8b34-6ead3123ee1b/summary.json"
+        }
+      }
+    },
+    {
+      "clip_id": "S01",
+      "source_id": "d8d7b668-ee96-46b1-bb62-2dfb786b2185",
+      "run_id": "2c1c98d0-eedc-4b4d-b61d-0a2d4af99765",
+      "created": {
+        "id": "2c1c98d0-eedc-4b4d-b61d-0a2d4af99765",
+        "video_source_id": "d8d7b668-ee96-46b1-bb62-2dfb786b2185",
+        "model_version_id": "8c37f231-7e6e-4db4-8405-0e4f731c4b87",
+        "video_source_name": "FIRESENSE demo S01 — reference",
+        "model_version_name": "YOLO11n baseline 50 epochs (val, development)",
+        "mode": "full",
+        "status": "pending",
+        "settings_snapshot": {
+          "smoke_threshold": 0.25,
+          "fire_threshold": 0.25,
+          "imgsz": 640,
+          "analysis_fps": 2.0,
+          "device": "cuda:0",
+          "temporal": {
+            "window_seconds": 3.0,
+            "min_hits": 3,
+            "min_span_seconds": 1.0,
+            "absence_seconds": 2.0,
+            "match_iou": 0.1,
+            "center_distance": 0.12,
+            "clip_before_seconds": 2.0,
+            "clip_after_seconds": 3.0
+          },
+          "zones": [],
+          "schema_version": 2,
+          "model_sha256": "d0fb93c60b88dcf27eb3933a66e49d88f475aafd8c13faf11971e3b590b0e4d7",
+          "source_sha256": "b476df35f04aec0b57dde8e7086ebf3b50a6830a38f94fab235d2e9a34729464",
+          "class_mapping": {
+            "0": "smoke",
+            "1": "fire"
+          }
+        },
+        "progress": 0.0,
+        "error_message": null,
+        "cancel_requested_at": null,
+        "created_at": "2026-11-02T22:01:53.742724+02:00",
+        "started_at": null,
+        "finished_at": null,
+        "heartbeat_at": null,
+        "summary_metrics": null,
+        "result_paths": null
+      },
+      "progress": [
+        {
+          "at": "2026-11-02T20:01:53.778160+00:00",
+          "status": "pending",
+          "progress": 0.0,
+          "summary": null
+        },
+        {
+          "at": "2026-11-02T20:01:54.795053+00:00",
+          "status": "running",
+          "progress": 0.0,
+          "summary": {
+            "stage": "checking"
+          }
+        },
+        {
+          "at": "2026-11-02T20:01:59.851740+00:00",
+          "status": "running",
+          "progress": 0.00347,
+          "summary": {
+            "stage": "processing",
+            "frames_read": 1,
+            "total_frames": 288,
+            "frames_analyzed": 1
+          }
+        },
+        {
+          "at": "2026-11-02T20:02:01.370303+00:00",
+          "status": "running",
+          "progress": 0.08681,
+          "summary": {
+            "stage": "processing",
+            "frames_read": 25,
+            "total_frames": 288,
+            "frames_analyzed": 3
+          }
+        },
+        {
+          "at": "2026-11-02T20:02:01.877303+00:00",
+          "status": "running",
+          "progress": 0.99,
+          "summary": {
+            "stage": "verifying",
+            "frames_read": 288,
+            "total_frames": 288,
+            "frames_analyzed": 24
+          }
+        },
+        {
+          "at": "2026-11-02T20:02:02.889833+00:00",
+          "status": "completed",
+          "progress": 1.0,
+          "summary": {
+            "stage": "completed",
+            "device": "cuda:0",
+            "frames_read": 288,
+            "output_audio": false,
+            "wall_seconds": 7.42200000000048,
+            "frames_analyzed": 24,
+            "confirmed_events": 1,
+            "detections_by_class": {
+              "fire": 0,
+              "smoke": 26
+            },
+            "video_duration_seconds": 12.0,
+            "source_first_pts_seconds": 0.0,
+            "timestamp_precision_seconds": 1e-06,
+            "all_original_frames_retained": true
+          }
+        }
+      ],
+      "worker_launcher_pid": 8928,
+      "result": {
+        "id": "2c1c98d0-eedc-4b4d-b61d-0a2d4af99765",
+        "video_source_id": "d8d7b668-ee96-46b1-bb62-2dfb786b2185",
+        "model_version_id": "8c37f231-7e6e-4db4-8405-0e4f731c4b87",
+        "video_source_name": "FIRESENSE demo S01 — reference",
+        "model_version_name": "YOLO11n baseline 50 epochs (val, development)",
+        "mode": "full",
+        "status": "completed",
+        "settings_snapshot": {
+          "imgsz": 640,
+          "zones": [],
+          "device": "cuda:0",
+          "temporal": {
+            "min_hits": 3,
+            "match_iou": 0.1,
+            "window_seconds": 3.0,
+            "absence_seconds": 2.0,
+            "center_distance": 0.12,
+            "min_span_seconds": 1.0,
+            "clip_after_seconds": 3.0,
+            "clip_before_seconds": 2.0
+          },
+          "analysis_fps": 2.0,
+          "model_sha256": "d0fb93c60b88dcf27eb3933a66e49d88f475aafd8c13faf11971e3b590b0e4d7",
+          "class_mapping": {
+            "0": "smoke",
+            "1": "fire"
+          },
+          "source_sha256": "b476df35f04aec0b57dde8e7086ebf3b50a6830a38f94fab235d2e9a34729464",
+          "fire_threshold": 0.25,
+          "schema_version": 2,
+          "smoke_threshold": 0.25
+        },
+        "progress": 1.0,
+        "error_message": null,
+        "cancel_requested_at": null,
+        "created_at": "2026-11-02T22:01:53.742724+02:00",
+        "started_at": "2026-11-02T22:01:54.600252+02:00",
+        "finished_at": "2026-11-02T22:02:02.393409+02:00",
+        "heartbeat_at": "2026-11-02T22:02:01.695833+02:00",
+        "summary_metrics": {
+          "stage": "completed",
+          "device": "cuda:0",
+          "frames_read": 288,
+          "output_audio": false,
+          "wall_seconds": 7.42200000000048,
+          "frames_analyzed": 24,
+          "confirmed_events": 1,
+          "detections_by_class": {
+            "fire": 0,
+            "smoke": 26
+          },
+          "video_duration_seconds": 12.0,
+          "source_first_pts_seconds": 0.0,
+          "timestamp_precision_seconds": 1e-06,
+          "all_original_frames_retained": true
+        },
+        "result_paths": {
+          "video": "results/analysis/2c1c98d0-eedc-4b4d-b61d-0a2d4af99765/e209f325-ac08-4669-82b0-071c30d216a7/annotated.mp4",
+          "summary": "results/analysis/2c1c98d0-eedc-4b4d-b61d-0a2d4af99765/e209f325-ac08-4669-82b0-071c30d216a7/summary.json",
+          "detections": "results/analysis/2c1c98d0-eedc-4b4d-b61d-0a2d4af99765/e209f325-ac08-4669-82b0-071c30d216a7/detections.jsonl"
+        }
+      },
+      "worker_exit_code": 0,
+      "files": {
+        "video": {
+          "bytes": 4524440,
+          "sha256": "383d9c50bfb962878a7b804cd53b8e7d7a268ad5c6732c17f5a47995e8626af7",
+          "relative_path": "results/analysis/2c1c98d0-eedc-4b4d-b61d-0a2d4af99765/e209f325-ac08-4669-82b0-071c30d216a7/annotated.mp4"
+        },
+        "detections": {
+          "bytes": 37084,
+          "sha256": "7af8bc08b9c5c8c29d9415db241a1a8c9ce89bc59045770f594a456e80f44ec9",
+          "relative_path": "results/analysis/2c1c98d0-eedc-4b4d-b61d-0a2d4af99765/e209f325-ac08-4669-82b0-071c30d216a7/detections.jsonl"
+        },
+        "summary": {
+          "bytes": 333,
+          "sha256": "f27484a1c765d188a96840af30acdd6642cea2c0dcc812f88651f4a912850572",
+          "relative_path": "results/analysis/2c1c98d0-eedc-4b4d-b61d-0a2d4af99765/e209f325-ac08-4669-82b0-071c30d216a7/summary.json"
+        }
+      }
+    },
+    {
+      "clip_id": "S02",
+      "source_id": "5f217757-4d66-4f12-95f1-613632830e34",
+      "run_id": "d467831f-bb4b-474e-a62c-b72785c24e7f",
+      "created": {
+        "id": "d467831f-bb4b-474e-a62c-b72785c24e7f",
+        "video_source_id": "5f217757-4d66-4f12-95f1-613632830e34",
+        "model_version_id": "8c37f231-7e6e-4db4-8405-0e4f731c4b87",
+        "video_source_name": "FIRESENSE demo S02 — reference",
+        "model_version_name": "YOLO11n baseline 50 epochs (val, development)",
+        "mode": "full",
+        "status": "pending",
+        "settings_snapshot": {
+          "smoke_threshold": 0.25,
+          "fire_threshold": 0.25,
+          "imgsz": 640,
+          "analysis_fps": 2.0,
+          "device": "cuda:0",
+          "temporal": {
+            "window_seconds": 3.0,
+            "min_hits": 3,
+            "min_span_seconds": 1.0,
+            "absence_seconds": 2.0,
+            "match_iou": 0.1,
+            "center_distance": 0.12,
+            "clip_before_seconds": 2.0,
+            "clip_after_seconds": 3.0
+          },
+          "zones": [],
+          "schema_version": 2,
+          "model_sha256": "d0fb93c60b88dcf27eb3933a66e49d88f475aafd8c13faf11971e3b590b0e4d7",
+          "source_sha256": "74734cfc51a9199ddaa63ecaa8283561b6d32166c5cd38902d32e86f928f0b49",
+          "class_mapping": {
+            "0": "smoke",
+            "1": "fire"
+          }
+        },
+        "progress": 0.0,
+        "error_message": null,
+        "cancel_requested_at": null,
+        "created_at": "2026-11-02T22:02:03.546414+02:00",
+        "started_at": null,
+        "finished_at": null,
+        "heartbeat_at": null,
+        "summary_metrics": null,
+        "result_paths": null
+      },
+      "progress": [
+        {
+          "at": "2026-11-02T20:02:03.567917+00:00",
+          "status": "pending",
+          "progress": 0.0,
+          "summary": null
+        },
+        {
+          "at": "2026-11-02T20:02:04.581050+00:00",
+          "status": "running",
+          "progress": 0.0,
+          "summary": {
+            "stage": "checking"
+          }
+        },
+        {
+          "at": "2026-11-02T20:02:09.131669+00:00",
+          "status": "running",
+          "progress": 0.00833,
+          "summary": {
+            "stage": "processing",
+            "frames_read": 1,
+            "total_frames": 120,
+            "frames_analyzed": 1
+          }
+        },
+        {
+          "at": "2026-11-02T20:02:09.638500+00:00",
+          "status": "running",
+          "progress": 0.99,
+          "summary": {
+            "stage": "verifying",
+            "frames_read": 120,
+            "total_frames": 120,
+            "frames_analyzed": 24
+          }
+        },
+        {
+          "at": "2026-11-02T20:02:10.146247+00:00",
+          "status": "completed",
+          "progress": 1.0,
+          "summary": {
+            "stage": "completed",
+            "device": "cuda:0",
+            "frames_read": 120,
+            "output_audio": false,
+            "wall_seconds": 5.467999999999847,
+            "frames_analyzed": 24,
+            "confirmed_events": 0,
+            "detections_by_class": {
+              "fire": 0,
+              "smoke": 0
+            },
+            "video_duration_seconds": 12.0,
+            "source_first_pts_seconds": 0.0,
+            "timestamp_precision_seconds": 1e-06,
+            "all_original_frames_retained": true
+          }
+        }
+      ],
+      "worker_launcher_pid": 6912,
+      "result": {
+        "id": "d467831f-bb4b-474e-a62c-b72785c24e7f",
+        "video_source_id": "5f217757-4d66-4f12-95f1-613632830e34",
+        "model_version_id": "8c37f231-7e6e-4db4-8405-0e4f731c4b87",
+        "video_source_name": "FIRESENSE demo S02 — reference",
+        "model_version_name": "YOLO11n baseline 50 epochs (val, development)",
+        "mode": "full",
+        "status": "completed",
+        "settings_snapshot": {
+          "imgsz": 640,
+          "zones": [],
+          "device": "cuda:0",
+          "temporal": {
+            "min_hits": 3,
+            "match_iou": 0.1,
+            "window_seconds": 3.0,
+            "absence_seconds": 2.0,
+            "center_distance": 0.12,
+            "min_span_seconds": 1.0,
+            "clip_after_seconds": 3.0,
+            "clip_before_seconds": 2.0
+          },
+          "analysis_fps": 2.0,
+          "model_sha256": "d0fb93c60b88dcf27eb3933a66e49d88f475aafd8c13faf11971e3b590b0e4d7",
+          "class_mapping": {
+            "0": "smoke",
+            "1": "fire"
+          },
+          "source_sha256": "74734cfc51a9199ddaa63ecaa8283561b6d32166c5cd38902d32e86f928f0b49",
+          "fire_threshold": 0.25,
+          "schema_version": 2,
+          "smoke_threshold": 0.25
+        },
+        "progress": 1.0,
+        "error_message": null,
+        "cancel_requested_at": null,
+        "created_at": "2026-11-02T22:02:03.546414+02:00",
+        "started_at": "2026-11-02T22:02:04.255835+02:00",
+        "finished_at": "2026-11-02T22:02:09.902781+02:00",
+        "heartbeat_at": "2026-11-02T22:02:09.322443+02:00",
+        "summary_metrics": {
+          "stage": "completed",
+          "device": "cuda:0",
+          "frames_read": 120,
+          "output_audio": false,
+          "wall_seconds": 5.467999999999847,
+          "frames_analyzed": 24,
+          "confirmed_events": 0,
+          "detections_by_class": {
+            "fire": 0,
+            "smoke": 0
+          },
+          "video_duration_seconds": 12.0,
+          "source_first_pts_seconds": 0.0,
+          "timestamp_precision_seconds": 1e-06,
+          "all_original_frames_retained": true
+        },
+        "result_paths": {
+          "video": "results/analysis/d467831f-bb4b-474e-a62c-b72785c24e7f/9b9b3664-4d04-419f-a5f2-9d3a4b87bb3c/annotated.mp4",
+          "summary": "results/analysis/d467831f-bb4b-474e-a62c-b72785c24e7f/9b9b3664-4d04-419f-a5f2-9d3a4b87bb3c/summary.json",
+          "detections": "results/analysis/d467831f-bb4b-474e-a62c-b72785c24e7f/9b9b3664-4d04-419f-a5f2-9d3a4b87bb3c/detections.jsonl"
+        }
+      },
+      "worker_exit_code": 0,
+      "files": {
+        "video": {
+          "bytes": 741630,
+          "sha256": "d2131db3a4db3491603a57b5e046afc5b7fa15790ada4a684b6f7bf18829f6ab",
+          "relative_path": "results/analysis/d467831f-bb4b-474e-a62c-b72785c24e7f/9b9b3664-4d04-419f-a5f2-9d3a4b87bb3c/annotated.mp4"
+        },
+        "detections": {
+          "bytes": 12746,
+          "sha256": "3aef7f0c89c58f7ab704aacbfa28eb0003569456d77c95ebf55f6ee075f7444b",
+          "relative_path": "results/analysis/d467831f-bb4b-474e-a62c-b72785c24e7f/9b9b3664-4d04-419f-a5f2-9d3a4b87bb3c/detections.jsonl"
+        },
+        "summary": {
+          "bytes": 333,
+          "sha256": "ce6fbec2ecad555b371942e541057084bf19b26c55e19172264cdfb82198e56d",
+          "relative_path": "results/analysis/d467831f-bb4b-474e-a62c-b72785c24e7f/9b9b3664-4d04-419f-a5f2-9d3a4b87bb3c/summary.json"
+        }
+      }
+    },
+    {
+      "clip_id": "S03",
+      "source_id": "52386f20-d4ef-43d2-b559-7c57b0666dd1",
+      "run_id": "9fe156c8-7968-4a4a-a837-22394c3d1735",
+      "created": {
+        "id": "9fe156c8-7968-4a4a-a837-22394c3d1735",
+        "video_source_id": "52386f20-d4ef-43d2-b559-7c57b0666dd1",
+        "model_version_id": "8c37f231-7e6e-4db4-8405-0e4f731c4b87",
+        "video_source_name": "FIRESENSE demo S03 — reference",
+        "model_version_name": "YOLO11n baseline 50 epochs (val, development)",
+        "mode": "full",
+        "status": "pending",
+        "settings_snapshot": {
+          "smoke_threshold": 0.25,
+          "fire_threshold": 0.25,
+          "imgsz": 640,
+          "analysis_fps": 2.0,
+          "device": "cuda:0",
+          "temporal": {
+            "window_seconds": 3.0,
+            "min_hits": 3,
+            "min_span_seconds": 1.0,
+            "absence_seconds": 2.0,
+            "match_iou": 0.1,
+            "center_distance": 0.12,
+            "clip_before_seconds": 2.0,
+            "clip_after_seconds": 3.0
+          },
+          "zones": [],
+          "schema_version": 2,
+          "model_sha256": "d0fb93c60b88dcf27eb3933a66e49d88f475aafd8c13faf11971e3b590b0e4d7",
+          "source_sha256": "7eb044b3d81b38ae50b9d3b86d990c631c8a28197cd0c9b2b4a5f3f2e9752a7c",
+          "class_mapping": {
+            "0": "smoke",
+            "1": "fire"
+          }
+        },
+        "progress": 0.0,
+        "error_message": null,
+        "cancel_requested_at": null,
+        "created_at": "2026-11-02T22:02:11.100958+02:00",
+        "started_at": null,
+        "finished_at": null,
+        "heartbeat_at": null,
+        "summary_metrics": null,
+        "result_paths": null
+      },
+      "progress": [
+        {
+          "at": "2026-11-02T20:02:11.142822+00:00",
+          "status": "pending",
+          "progress": 0.0,
+          "summary": null
+        },
+        {
+          "at": "2026-11-02T20:02:12.155146+00:00",
+          "status": "running",
+          "progress": 0.0,
+          "summary": {
+            "stage": "checking"
+          }
+        },
+        {
+          "at": "2026-11-02T20:02:17.225008+00:00",
+          "status": "running",
+          "progress": 0.00279,
+          "summary": {
+            "stage": "processing",
+            "frames_read": 1,
+            "total_frames": 359,
+            "frames_analyzed": 1
+          }
+        },
+        {
+          "at": "2026-11-02T20:02:18.238391+00:00",
+          "status": "running",
+          "progress": 0.12813,
+          "summary": {
+            "stage": "processing",
+            "frames_read": 46,
+            "total_frames": 359,
+            "frames_analyzed": 4
+          }
+        },
+        {
+          "at": "2026-11-02T20:02:18.745898+00:00",
+          "status": "running",
+          "progress": 0.99,
+          "summary": {
+            "stage": "verifying",
+            "frames_read": 359,
+            "total_frames": 359,
+            "frames_analyzed": 24
+          }
+        },
+        {
+          "at": "2026-11-02T20:02:19.815444+00:00",
+          "status": "completed",
+          "progress": 1.0,
+          "summary": {
+            "stage": "completed",
+            "device": "cuda:0",
+            "frames_read": 359,
+            "output_audio": false,
+            "wall_seconds": 7.155999999999949,
+            "frames_analyzed": 24,
+            "confirmed_events": 1,
+            "detections_by_class": {
+              "fire": 1,
+              "smoke": 23
+            },
+            "video_duration_seconds": 11.990648,
+            "source_first_pts_seconds": 0.0,
+            "timestamp_precision_seconds": 1e-06,
+            "all_original_frames_retained": true
+          }
+        }
+      ],
+      "worker_launcher_pid": 1848,
+      "result": {
+        "id": "9fe156c8-7968-4a4a-a837-22394c3d1735",
+        "video_source_id": "52386f20-d4ef-43d2-b559-7c57b0666dd1",
+        "model_version_id": "8c37f231-7e6e-4db4-8405-0e4f731c4b87",
+        "video_source_name": "FIRESENSE demo S03 — reference",
+        "model_version_name": "YOLO11n baseline 50 epochs (val, development)",
+        "mode": "full",
+        "status": "completed",
+        "settings_snapshot": {
+          "imgsz": 640,
+          "zones": [],
+          "device": "cuda:0",
+          "temporal": {
+            "min_hits": 3,
+            "match_iou": 0.1,
+            "window_seconds": 3.0,
+            "absence_seconds": 2.0,
+            "center_distance": 0.12,
+            "min_span_seconds": 1.0,
+            "clip_after_seconds": 3.0,
+            "clip_before_seconds": 2.0
+          },
+          "analysis_fps": 2.0,
+          "model_sha256": "d0fb93c60b88dcf27eb3933a66e49d88f475aafd8c13faf11971e3b590b0e4d7",
+          "class_mapping": {
+            "0": "smoke",
+            "1": "fire"
+          },
+          "source_sha256": "7eb044b3d81b38ae50b9d3b86d990c631c8a28197cd0c9b2b4a5f3f2e9752a7c",
+          "fire_threshold": 0.25,
+          "schema_version": 2,
+          "smoke_threshold": 0.25
+        },
+        "progress": 1.0,
+        "error_message": null,
+        "cancel_requested_at": null,
+        "created_at": "2026-11-02T22:02:11.100958+02:00",
+        "started_at": "2026-11-02T22:02:11.924033+02:00",
+        "finished_at": "2026-11-02T22:02:19.364412+02:00",
+        "heartbeat_at": "2026-11-02T22:02:19.021278+02:00",
+        "summary_metrics": {
+          "stage": "completed",
+          "device": "cuda:0",
+          "frames_read": 359,
+          "output_audio": false,
+          "wall_seconds": 7.155999999999949,
+          "frames_analyzed": 24,
+          "confirmed_events": 1,
+          "detections_by_class": {
+            "fire": 1,
+            "smoke": 23
+          },
+          "video_duration_seconds": 11.990648,
+          "source_first_pts_seconds": 0.0,
+          "timestamp_precision_seconds": 1e-06,
+          "all_original_frames_retained": true
+        },
+        "result_paths": {
+          "video": "results/analysis/9fe156c8-7968-4a4a-a837-22394c3d1735/847cf34b-24a0-4f14-8f17-bee0d21088f9/annotated.mp4",
+          "summary": "results/analysis/9fe156c8-7968-4a4a-a837-22394c3d1735/847cf34b-24a0-4f14-8f17-bee0d21088f9/summary.json",
+          "detections": "results/analysis/9fe156c8-7968-4a4a-a837-22394c3d1735/847cf34b-24a0-4f14-8f17-bee0d21088f9/detections.jsonl"
+        }
+      },
+      "worker_exit_code": 0,
+      "files": {
+        "video": {
+          "bytes": 3551464,
+          "sha256": "d633fd9fe45bc9f6f4952d9d2b8bf83ed88daa2a32fbb5c240868a3c043ac387",
+          "relative_path": "results/analysis/9fe156c8-7968-4a4a-a837-22394c3d1735/847cf34b-24a0-4f14-8f17-bee0d21088f9/annotated.mp4"
+        },
+        "detections": {
+          "bytes": 45705,
+          "sha256": "6ac7cd0ab7b5653c7b45f063cc77c671b965b601821a5496c75c113a4aea637d",
+          "relative_path": "results/analysis/9fe156c8-7968-4a4a-a837-22394c3d1735/847cf34b-24a0-4f14-8f17-bee0d21088f9/detections.jsonl"
+        },
+        "summary": {
+          "bytes": 339,
+          "sha256": "efc3a5438f8c55e14cc9974adf5dd5fd34564efba7ce5af408da5b2ee68cecea",
+          "relative_path": "results/analysis/9fe156c8-7968-4a4a-a837-22394c3d1735/847cf34b-24a0-4f14-8f17-bee0d21088f9/summary.json"
+        }
+      }
+    },
+    {
+      "clip_id": "N01",
+      "source_id": "46714d49-3566-4acb-92dd-35c83c72a171",
+      "run_id": "4686fda3-9511-4653-99ba-673efe0fd6a4",
+      "created": {
+        "id": "4686fda3-9511-4653-99ba-673efe0fd6a4",
+        "video_source_id": "46714d49-3566-4acb-92dd-35c83c72a171",
+        "model_version_id": "8c37f231-7e6e-4db4-8405-0e4f731c4b87",
+        "video_source_name": "FIRESENSE demo N01 — reference",
+        "model_version_name": "YOLO11n baseline 50 epochs (val, development)",
+        "mode": "full",
+        "status": "pending",
+        "settings_snapshot": {
+          "smoke_threshold": 0.25,
+          "fire_threshold": 0.25,
+          "imgsz": 640,
+          "analysis_fps": 2.0,
+          "device": "cuda:0",
+          "temporal": {
+            "window_seconds": 3.0,
+            "min_hits": 3,
+            "min_span_seconds": 1.0,
+            "absence_seconds": 2.0,
+            "match_iou": 0.1,
+            "center_distance": 0.12,
+            "clip_before_seconds": 2.0,
+            "clip_after_seconds": 3.0
+          },
+          "zones": [],
+          "schema_version": 2,
+          "model_sha256": "d0fb93c60b88dcf27eb3933a66e49d88f475aafd8c13faf11971e3b590b0e4d7",
+          "source_sha256": "870df0d15fbd35098aa047ef295ac836e88aa4ca7fb8a29a57eda2c0a731a8ad",
+          "class_mapping": {
+            "0": "smoke",
+            "1": "fire"
+          }
+        },
+        "progress": 0.0,
+        "error_message": null,
+        "cancel_requested_at": null,
+        "created_at": "2026-11-02T22:02:20.787184+02:00",
+        "started_at": null,
+        "finished_at": null,
+        "heartbeat_at": null,
+        "summary_metrics": null,
+        "result_paths": null
+      },
+      "progress": [
+        {
+          "at": "2026-11-02T20:02:20.812667+00:00",
+          "status": "pending",
+          "progress": 0.0,
+          "summary": null
+        },
+        {
+          "at": "2026-11-02T20:02:21.826308+00:00",
+          "status": "running",
+          "progress": 0.0,
+          "summary": {
+            "stage": "checking"
+          }
+        },
+        {
+          "at": "2026-11-02T20:02:26.885328+00:00",
+          "status": "running",
+          "progress": 0.01176,
+          "summary": {
+            "stage": "processing",
+            "frames_read": 1,
+            "total_frames": 85,
+            "frames_analyzed": 1
+          }
+        },
+        {
+          "at": "2026-11-02T20:02:27.393918+00:00",
+          "status": "running",
+          "progress": 0.99,
+          "summary": {
+            "stage": "verifying",
+            "frames_read": 85,
+            "total_frames": 85,
+            "frames_analyzed": 24
+          }
+        },
+        {
+          "at": "2026-11-02T20:02:27.904169+00:00",
+          "status": "completed",
+          "progress": 1.0,
+          "summary": {
+            "stage": "completed",
+            "device": "cuda:0",
+            "frames_read": 85,
+            "output_audio": false,
+            "wall_seconds": 5.984000000000378,
+            "frames_analyzed": 24,
+            "confirmed_events": 0,
+            "detections_by_class": {
+              "fire": 0,
+              "smoke": 0
+            },
+            "video_duration_seconds": 11.933321000000001,
+            "source_first_pts_seconds": 0.033329,
+            "timestamp_precision_seconds": 1e-06,
+            "all_original_frames_retained": true
+          }
+        }
+      ],
+      "worker_launcher_pid": 2960,
+      "result": {
+        "id": "4686fda3-9511-4653-99ba-673efe0fd6a4",
+        "video_source_id": "46714d49-3566-4acb-92dd-35c83c72a171",
+        "model_version_id": "8c37f231-7e6e-4db4-8405-0e4f731c4b87",
+        "video_source_name": "FIRESENSE demo N01 — reference",
+        "model_version_name": "YOLO11n baseline 50 epochs (val, development)",
+        "mode": "full",
+        "status": "completed",
+        "settings_snapshot": {
+          "imgsz": 640,
+          "zones": [],
+          "device": "cuda:0",
+          "temporal": {
+            "min_hits": 3,
+            "match_iou": 0.1,
+            "window_seconds": 3.0,
+            "absence_seconds": 2.0,
+            "center_distance": 0.12,
+            "min_span_seconds": 1.0,
+            "clip_after_seconds": 3.0,
+            "clip_before_seconds": 2.0
+          },
+          "analysis_fps": 2.0,
+          "model_sha256": "d0fb93c60b88dcf27eb3933a66e49d88f475aafd8c13faf11971e3b590b0e4d7",
+          "class_mapping": {
+            "0": "smoke",
+            "1": "fire"
+          },
+          "source_sha256": "870df0d15fbd35098aa047ef295ac836e88aa4ca7fb8a29a57eda2c0a731a8ad",
+          "fire_threshold": 0.25,
+          "schema_version": 2,
+          "smoke_threshold": 0.25
+        },
+        "progress": 1.0,
+        "error_message": null,
+        "cancel_requested_at": null,
+        "created_at": "2026-11-02T22:02:20.787184+02:00",
+        "started_at": "2026-11-02T22:02:21.624433+02:00",
+        "finished_at": "2026-11-02T22:02:27.821732+02:00",
+        "heartbeat_at": "2026-11-02T22:02:27.781474+02:00",
+        "summary_metrics": {
+          "stage": "completed",
+          "device": "cuda:0",
+          "frames_read": 85,
+          "output_audio": false,
+          "wall_seconds": 5.984000000000378,
+          "frames_analyzed": 24,
+          "confirmed_events": 0,
+          "detections_by_class": {
+            "fire": 0,
+            "smoke": 0
+          },
+          "video_duration_seconds": 11.933321000000001,
+          "source_first_pts_seconds": 0.033329,
+          "timestamp_precision_seconds": 1e-06,
+          "all_original_frames_retained": true
+        },
+        "result_paths": {
+          "video": "results/analysis/4686fda3-9511-4653-99ba-673efe0fd6a4/394e9953-dfff-4439-bb34-400e79d430e9/annotated.mp4",
+          "summary": "results/analysis/4686fda3-9511-4653-99ba-673efe0fd6a4/394e9953-dfff-4439-bb34-400e79d430e9/summary.json",
+          "detections": "results/analysis/4686fda3-9511-4653-99ba-673efe0fd6a4/394e9953-dfff-4439-bb34-400e79d430e9/detections.jsonl"
+        }
+      },
+      "worker_exit_code": 0,
+      "files": {
+        "video": {
+          "bytes": 2153246,
+          "sha256": "b8b67513ab95f37a33131cc648a023f743a2b8af81e928df0e21190263b57739",
+          "relative_path": "results/analysis/4686fda3-9511-4653-99ba-673efe0fd6a4/394e9953-dfff-4439-bb34-400e79d430e9/annotated.mp4"
+        },
+        "detections": {
+          "bytes": 9997,
+          "sha256": "e2e6c911f926401b3a1fe8d1a76da65b71aeea1c19d794a219628292ccbbfa3a",
+          "relative_path": "results/analysis/4686fda3-9511-4653-99ba-673efe0fd6a4/394e9953-dfff-4439-bb34-400e79d430e9/detections.jsonl"
+        },
+        "summary": {
+          "bytes": 351,
+          "sha256": "6920ab70361cb2fc5422ce27fc76fcbb51582310034c4fdf11d6c4239c58a81f",
+          "relative_path": "results/analysis/4686fda3-9511-4653-99ba-673efe0fd6a4/394e9953-dfff-4439-bb34-400e79d430e9/summary.json"
+        }
+      }
+    },
+    {
+      "clip_id": "N02",
+      "source_id": "41fc56b8-6cd8-4fbb-98cf-7c43298ce8b6",
+      "run_id": "d1133157-b219-4e35-87b7-488369ac3ab2",
+      "created": {
+        "id": "d1133157-b219-4e35-87b7-488369ac3ab2",
+        "video_source_id": "41fc56b8-6cd8-4fbb-98cf-7c43298ce8b6",
+        "model_version_id": "8c37f231-7e6e-4db4-8405-0e4f731c4b87",
+        "video_source_name": "FIRESENSE demo N02 — reference",
+        "model_version_name": "YOLO11n baseline 50 epochs (val, development)",
+        "mode": "full",
+        "status": "pending",
+        "settings_snapshot": {
+          "smoke_threshold": 0.25,
+          "fire_threshold": 0.25,
+          "imgsz": 640,
+          "analysis_fps": 2.0,
+          "device": "cuda:0",
+          "temporal": {
+            "window_seconds": 3.0,
+            "min_hits": 3,
+            "min_span_seconds": 1.0,
+            "absence_seconds": 2.0,
+            "match_iou": 0.1,
+            "center_distance": 0.12,
+            "clip_before_seconds": 2.0,
+            "clip_after_seconds": 3.0
+          },
+          "zones": [],
+          "schema_version": 2,
+          "model_sha256": "d0fb93c60b88dcf27eb3933a66e49d88f475aafd8c13faf11971e3b590b0e4d7",
+          "source_sha256": "8cfaa05d9344fe4c7ab7277181e3f827306a3b6f870fa183bd86088153e1577f",
+          "class_mapping": {
+            "0": "smoke",
+            "1": "fire"
+          }
+        },
+        "progress": 0.0,
+        "error_message": null,
+        "cancel_requested_at": null,
+        "created_at": "2026-11-02T22:02:29.023677+02:00",
+        "started_at": null,
+        "finished_at": null,
+        "heartbeat_at": null,
+        "summary_metrics": null,
+        "result_paths": null
+      },
+      "progress": [
+        {
+          "at": "2026-11-02T20:02:29.060234+00:00",
+          "status": "pending",
+          "progress": 0.0,
+          "summary": null
+        },
+        {
+          "at": "2026-11-02T20:02:30.075499+00:00",
+          "status": "running",
+          "progress": 0.0,
+          "summary": {
+            "stage": "checking"
+          }
+        },
+        {
+          "at": "2026-11-02T20:02:35.134050+00:00",
+          "status": "running",
+          "progress": 0.00444,
+          "summary": {
+            "stage": "processing",
+            "frames_read": 1,
+            "total_frames": 225,
+            "frames_analyzed": 1
+          }
+        },
+        {
+          "at": "2026-11-02T20:02:35.640117+00:00",
+          "status": "running",
+          "progress": 0.99,
+          "summary": {
+            "stage": "verifying",
+            "frames_read": 225,
+            "total_frames": 225,
+            "frames_analyzed": 18
+          }
+        },
+        {
+          "at": "2026-11-02T20:02:36.148938+00:00",
+          "status": "completed",
+          "progress": 1.0,
+          "summary": {
+            "stage": "completed",
+            "device": "cuda:0",
+            "frames_read": 225,
+            "output_audio": false,
+            "wall_seconds": 5.811999999999898,
+            "frames_analyzed": 18,
+            "confirmed_events": 0,
+            "detections_by_class": {
+              "fire": 1,
+              "smoke": 0
+            },
+            "video_duration_seconds": 9.0,
+            "source_first_pts_seconds": 0.0,
+            "timestamp_precision_seconds": 1e-06,
+            "all_original_frames_retained": true
+          }
+        }
+      ],
+      "worker_launcher_pid": 8600,
+      "result": {
+        "id": "d1133157-b219-4e35-87b7-488369ac3ab2",
+        "video_source_id": "41fc56b8-6cd8-4fbb-98cf-7c43298ce8b6",
+        "model_version_id": "8c37f231-7e6e-4db4-8405-0e4f731c4b87",
+        "video_source_name": "FIRESENSE demo N02 — reference",
+        "model_version_name": "YOLO11n baseline 50 epochs (val, development)",
+        "mode": "full",
+        "status": "completed",
+        "settings_snapshot": {
+          "imgsz": 640,
+          "zones": [],
+          "device": "cuda:0",
+          "temporal": {
+            "min_hits": 3,
+            "match_iou": 0.1,
+            "window_seconds": 3.0,
+            "absence_seconds": 2.0,
+            "center_distance": 0.12,
+            "min_span_seconds": 1.0,
+            "clip_after_seconds": 3.0,
+            "clip_before_seconds": 2.0
+          },
+          "analysis_fps": 2.0,
+          "model_sha256": "d0fb93c60b88dcf27eb3933a66e49d88f475aafd8c13faf11971e3b590b0e4d7",
+          "class_mapping": {
+            "0": "smoke",
+            "1": "fire"
+          },
+          "source_sha256": "8cfaa05d9344fe4c7ab7277181e3f827306a3b6f870fa183bd86088153e1577f",
+          "fire_threshold": 0.25,
+          "schema_version": 2,
+          "smoke_threshold": 0.25
+        },
+        "progress": 1.0,
+        "error_message": null,
+        "cancel_requested_at": null,
+        "created_at": "2026-11-02T22:02:29.023677+02:00",
+        "started_at": "2026-11-02T22:02:29.825491+02:00",
+        "finished_at": "2026-11-02T22:02:35.786512+02:00",
+        "heartbeat_at": "2026-11-02T22:02:35.041124+02:00",
+        "summary_metrics": {
+          "stage": "completed",
+          "device": "cuda:0",
+          "frames_read": 225,
+          "output_audio": false,
+          "wall_seconds": 5.811999999999898,
+          "frames_analyzed": 18,
+          "confirmed_events": 0,
+          "detections_by_class": {
+            "fire": 1,
+            "smoke": 0
+          },
+          "video_duration_seconds": 9.0,
+          "source_first_pts_seconds": 0.0,
+          "timestamp_precision_seconds": 1e-06,
+          "all_original_frames_retained": true
+        },
+        "result_paths": {
+          "video": "results/analysis/d1133157-b219-4e35-87b7-488369ac3ab2/ce78cd66-d014-4fcf-91da-bc4f7ea60ac4/annotated.mp4",
+          "summary": "results/analysis/d1133157-b219-4e35-87b7-488369ac3ab2/ce78cd66-d014-4fcf-91da-bc4f7ea60ac4/summary.json",
+          "detections": "results/analysis/d1133157-b219-4e35-87b7-488369ac3ab2/ce78cd66-d014-4fcf-91da-bc4f7ea60ac4/detections.jsonl"
+        }
+      },
+      "worker_exit_code": 0,
+      "files": {
+        "video": {
+          "bytes": 1838706,
+          "sha256": "0cfffdddf683ab8ca8e968e069155b870ceb837dcffacc65081d7f2205541394",
+          "relative_path": "results/analysis/d1133157-b219-4e35-87b7-488369ac3ab2/ce78cd66-d014-4fcf-91da-bc4f7ea60ac4/annotated.mp4"
+        },
+        "detections": {
+          "bytes": 24468,
+          "sha256": "b7c57c88c12cca8abd6907c9e43dabbd8bba6579ad96047dc16bf0a3fbbcc99d",
+          "relative_path": "results/analysis/d1133157-b219-4e35-87b7-488369ac3ab2/ce78cd66-d014-4fcf-91da-bc4f7ea60ac4/detections.jsonl"
+        },
+        "summary": {
+          "bytes": 332,
+          "sha256": "7232c900503e510ef3b90ab55e8b57e141c95e82132ebbc2f09c861e9674f08b",
+          "relative_path": "results/analysis/d1133157-b219-4e35-87b7-488369ac3ab2/ce78cd66-d014-4fcf-91da-bc4f7ea60ac4/summary.json"
+        }
+      }
+    },
+    {
+      "clip_id": "H01",
+      "source_id": "2f62c7eb-3e61-4223-9d25-7cbcce9b58ba",
+      "run_id": "5c5f858b-4d4f-488a-bf98-13fe01c08d6f",
+      "created": {
+        "id": "5c5f858b-4d4f-488a-bf98-13fe01c08d6f",
+        "video_source_id": "2f62c7eb-3e61-4223-9d25-7cbcce9b58ba",
+        "model_version_id": "8c37f231-7e6e-4db4-8405-0e4f731c4b87",
+        "video_source_name": "FIRESENSE demo H01 — reference",
+        "model_version_name": "YOLO11n baseline 50 epochs (val, development)",
+        "mode": "full",
+        "status": "pending",
+        "settings_snapshot": {
+          "smoke_threshold": 0.25,
+          "fire_threshold": 0.25,
+          "imgsz": 640,
+          "analysis_fps": 2.0,
+          "device": "cuda:0",
+          "temporal": {
+            "window_seconds": 3.0,
+            "min_hits": 3,
+            "min_span_seconds": 1.0,
+            "absence_seconds": 2.0,
+            "match_iou": 0.1,
+            "center_distance": 0.12,
+            "clip_before_seconds": 2.0,
+            "clip_after_seconds": 3.0
+          },
+          "zones": [],
+          "schema_version": 2,
+          "model_sha256": "d0fb93c60b88dcf27eb3933a66e49d88f475aafd8c13faf11971e3b590b0e4d7",
+          "source_sha256": "2e0243c6e60e3a242901b3b01ee8d87a96bb8d69ca8b6a0c467b831754ef9ead",
+          "class_mapping": {
+            "0": "smoke",
+            "1": "fire"
+          }
+        },
+        "progress": 0.0,
+        "error_message": null,
+        "cancel_requested_at": null,
+        "created_at": "2026-11-02T22:02:36.922099+02:00",
+        "started_at": null,
+        "finished_at": null,
+        "heartbeat_at": null,
+        "summary_metrics": null,
+        "result_paths": null
+      },
+      "progress": [
+        {
+          "at": "2026-11-02T20:02:36.966090+00:00",
+          "status": "pending",
+          "progress": 0.0,
+          "summary": null
+        },
+        {
+          "at": "2026-11-02T20:02:37.978243+00:00",
+          "status": "running",
+          "progress": 0.0,
+          "summary": {
+            "stage": "checking"
+          }
+        },
+        {
+          "at": "2026-11-02T20:02:42.527998+00:00",
+          "status": "running",
+          "progress": 0.00833,
+          "summary": {
+            "stage": "processing",
+            "frames_read": 1,
+            "total_frames": 120,
+            "frames_analyzed": 1
+          }
+        },
+        {
+          "at": "2026-11-02T20:02:43.035438+00:00",
+          "status": "running",
+          "progress": 0.99,
+          "summary": {
+            "stage": "verifying",
+            "frames_read": 120,
+            "total_frames": 120,
+            "frames_analyzed": 24
+          }
+        },
+        {
+          "at": "2026-11-02T20:02:43.545502+00:00",
+          "status": "completed",
+          "progress": 1.0,
+          "summary": {
+            "stage": "completed",
+            "device": "cuda:0",
+            "frames_read": 120,
+            "output_audio": false,
+            "wall_seconds": 5.484999999999673,
+            "frames_analyzed": 24,
+            "confirmed_events": 0,
+            "detections_by_class": {
+              "fire": 1,
+              "smoke": 0
+            },
+            "video_duration_seconds": 12.0,
+            "source_first_pts_seconds": 0.0,
+            "timestamp_precision_seconds": 1e-06,
+            "all_original_frames_retained": true
+          }
+        }
+      ],
+      "worker_launcher_pid": 13764,
+      "result": {
+        "id": "5c5f858b-4d4f-488a-bf98-13fe01c08d6f",
+        "video_source_id": "2f62c7eb-3e61-4223-9d25-7cbcce9b58ba",
+        "model_version_id": "8c37f231-7e6e-4db4-8405-0e4f731c4b87",
+        "video_source_name": "FIRESENSE demo H01 — reference",
+        "model_version_name": "YOLO11n baseline 50 epochs (val, development)",
+        "mode": "full",
+        "status": "completed",
+        "settings_snapshot": {
+          "imgsz": 640,
+          "zones": [],
+          "device": "cuda:0",
+          "temporal": {
+            "min_hits": 3,
+            "match_iou": 0.1,
+            "window_seconds": 3.0,
+            "absence_seconds": 2.0,
+            "center_distance": 0.12,
+            "min_span_seconds": 1.0,
+            "clip_after_seconds": 3.0,
+            "clip_before_seconds": 2.0
+          },
+          "analysis_fps": 2.0,
+          "model_sha256": "d0fb93c60b88dcf27eb3933a66e49d88f475aafd8c13faf11971e3b590b0e4d7",
+          "class_mapping": {
+            "0": "smoke",
+            "1": "fire"
+          },
+          "source_sha256": "2e0243c6e60e3a242901b3b01ee8d87a96bb8d69ca8b6a0c467b831754ef9ead",
+          "fire_threshold": 0.25,
+          "schema_version": 2,
+          "smoke_threshold": 0.25
+        },
+        "progress": 1.0,
+        "error_message": null,
+        "cancel_requested_at": null,
+        "created_at": "2026-11-02T22:02:36.922099+02:00",
+        "started_at": "2026-11-02T22:02:37.731483+02:00",
+        "finished_at": "2026-11-02T22:02:43.524483+02:00",
+        "heartbeat_at": "2026-11-02T22:02:42.857503+02:00",
+        "summary_metrics": {
+          "stage": "completed",
+          "device": "cuda:0",
+          "frames_read": 120,
+          "output_audio": false,
+          "wall_seconds": 5.484999999999673,
+          "frames_analyzed": 24,
+          "confirmed_events": 0,
+          "detections_by_class": {
+            "fire": 1,
+            "smoke": 0
+          },
+          "video_duration_seconds": 12.0,
+          "source_first_pts_seconds": 0.0,
+          "timestamp_precision_seconds": 1e-06,
+          "all_original_frames_retained": true
+        },
+        "result_paths": {
+          "video": "results/analysis/5c5f858b-4d4f-488a-bf98-13fe01c08d6f/2c8606db-eb11-46b1-9f5a-28a302a39a50/annotated.mp4",
+          "summary": "results/analysis/5c5f858b-4d4f-488a-bf98-13fe01c08d6f/2c8606db-eb11-46b1-9f5a-28a302a39a50/summary.json",
+          "detections": "results/analysis/5c5f858b-4d4f-488a-bf98-13fe01c08d6f/2c8606db-eb11-46b1-9f5a-28a302a39a50/detections.jsonl"
+        }
+      },
+      "worker_exit_code": 0,
+      "files": {
+        "video": {
+          "bytes": 735207,
+          "sha256": "61292a32ce01b057dc5db6848acea838fa6a9bbf18e32bf149f18532f19cc0f0",
+          "relative_path": "results/analysis/5c5f858b-4d4f-488a-bf98-13fe01c08d6f/2c8606db-eb11-46b1-9f5a-28a302a39a50/annotated.mp4"
+        },
+        "detections": {
+          "bytes": 12904,
+          "sha256": "cf6555d9ec436dc23b0630a91e4dd52b497dfb201c8589d4f017ff62f9d73a4f",
+          "relative_path": "results/analysis/5c5f858b-4d4f-488a-bf98-13fe01c08d6f/2c8606db-eb11-46b1-9f5a-28a302a39a50/detections.jsonl"
+        },
+        "summary": {
+          "bytes": 333,
+          "sha256": "a1147709ce8e7aabababbf0a820d8cb4da3a4717280b4078db4d6113ad7203cb",
+          "relative_path": "results/analysis/5c5f858b-4d4f-488a-bf98-13fe01c08d6f/2c8606db-eb11-46b1-9f5a-28a302a39a50/summary.json"
+        }
+      }
+    },
+    {
+      "clip_id": "H02",
+      "source_id": "d0fa401e-72a0-4621-8c63-0866c369dc73",
+      "run_id": "80d951ef-726d-403a-8a62-54a7d8f835f3",
+      "created": {
+        "id": "80d951ef-726d-403a-8a62-54a7d8f835f3",
+        "video_source_id": "d0fa401e-72a0-4621-8c63-0866c369dc73",
+        "model_version_id": "8c37f231-7e6e-4db4-8405-0e4f731c4b87",
+        "video_source_name": "FIRESENSE demo H02 — reference",
+        "model_version_name": "YOLO11n baseline 50 epochs (val, development)",
+        "mode": "full",
+        "status": "pending",
+        "settings_snapshot": {
+          "smoke_threshold": 0.25,
+          "fire_threshold": 0.25,
+          "imgsz": 640,
+          "analysis_fps": 2.0,
+          "device": "cuda:0",
+          "temporal": {
+            "window_seconds": 3.0,
+            "min_hits": 3,
+            "min_span_seconds": 1.0,
+            "absence_seconds": 2.0,
+            "match_iou": 0.1,
+            "center_distance": 0.12,
+            "clip_before_seconds": 2.0,
+            "clip_after_seconds": 3.0
+          },
+          "zones": [],
+          "schema_version": 2,
+          "model_sha256": "d0fb93c60b88dcf27eb3933a66e49d88f475aafd8c13faf11971e3b590b0e4d7",
+          "source_sha256": "d08b8fd1fc6311fecabcdb9314f83cbf900913113484e30675d727259a57b4fa",
+          "class_mapping": {
+            "0": "smoke",
+            "1": "fire"
+          }
+        },
+        "progress": 0.0,
+        "error_message": null,
+        "cancel_requested_at": null,
+        "created_at": "2026-11-02T22:02:44.788778+02:00",
+        "started_at": null,
+        "finished_at": null,
+        "heartbeat_at": null,
+        "summary_metrics": null,
+        "result_paths": null
+      },
+      "progress": [
+        {
+          "at": "2026-11-02T20:02:44.827063+00:00",
+          "status": "pending",
+          "progress": 0.0,
+          "summary": null
+        },
+        {
+          "at": "2026-11-02T20:02:45.844360+00:00",
+          "status": "running",
+          "progress": 0.0,
+          "summary": {
+            "stage": "checking"
+          }
+        },
+        {
+          "at": "2026-11-02T20:02:50.923406+00:00",
+          "status": "running",
+          "progress": 0.00278,
+          "summary": {
+            "stage": "processing",
+            "frames_read": 1,
+            "total_frames": 360,
+            "frames_analyzed": 1
+          }
+        },
+        {
+          "at": "2026-11-02T20:02:51.936437+00:00",
+          "status": "running",
+          "progress": 0.99,
+          "summary": {
+            "stage": "verifying",
+            "frames_read": 360,
+            "total_frames": 360,
+            "frames_analyzed": 24
+          }
+        },
+        {
+          "at": "2026-11-02T20:02:52.445896+00:00",
+          "status": "completed",
+          "progress": 1.0,
+          "summary": {
+            "stage": "completed",
+            "device": "cuda:0",
+            "frames_read": 360,
+            "output_audio": false,
+            "wall_seconds": 6.405999999999949,
+            "frames_analyzed": 24,
+            "confirmed_events": 0,
+            "detections_by_class": {
+              "fire": 2,
+              "smoke": 0
+            },
+            "video_duration_seconds": 12.0,
+            "source_first_pts_seconds": 0.0,
+            "timestamp_precision_seconds": 1e-06,
+            "all_original_frames_retained": true
+          }
+        }
+      ],
+      "worker_launcher_pid": 10384,
+      "result": {
+        "id": "80d951ef-726d-403a-8a62-54a7d8f835f3",
+        "video_source_id": "d0fa401e-72a0-4621-8c63-0866c369dc73",
+        "model_version_id": "8c37f231-7e6e-4db4-8405-0e4f731c4b87",
+        "video_source_name": "FIRESENSE demo H02 — reference",
+        "model_version_name": "YOLO11n baseline 50 epochs (val, development)",
+        "mode": "full",
+        "status": "completed",
+        "settings_snapshot": {
+          "imgsz": 640,
+          "zones": [],
+          "device": "cuda:0",
+          "temporal": {
+            "min_hits": 3,
+            "match_iou": 0.1,
+            "window_seconds": 3.0,
+            "absence_seconds": 2.0,
+            "center_distance": 0.12,
+            "min_span_seconds": 1.0,
+            "clip_after_seconds": 3.0,
+            "clip_before_seconds": 2.0
+          },
+          "analysis_fps": 2.0,
+          "model_sha256": "d0fb93c60b88dcf27eb3933a66e49d88f475aafd8c13faf11971e3b590b0e4d7",
+          "class_mapping": {
+            "0": "smoke",
+            "1": "fire"
+          },
+          "source_sha256": "d08b8fd1fc6311fecabcdb9314f83cbf900913113484e30675d727259a57b4fa",
+          "fire_threshold": 0.25,
+          "schema_version": 2,
+          "smoke_threshold": 0.25
+        },
+        "progress": 1.0,
+        "error_message": null,
+        "cancel_requested_at": null,
+        "created_at": "2026-11-02T22:02:44.788778+02:00",
+        "started_at": "2026-11-02T22:02:45.559826+02:00",
+        "finished_at": "2026-11-02T22:02:52.175208+02:00",
+        "heartbeat_at": "2026-11-02T22:02:51.673259+02:00",
+        "summary_metrics": {
+          "stage": "completed",
+          "device": "cuda:0",
+          "frames_read": 360,
+          "output_audio": false,
+          "wall_seconds": 6.405999999999949,
+          "frames_analyzed": 24,
+          "confirmed_events": 0,
+          "detections_by_class": {
+            "fire": 2,
+            "smoke": 0
+          },
+          "video_duration_seconds": 12.0,
+          "source_first_pts_seconds": 0.0,
+          "timestamp_precision_seconds": 1e-06,
+          "all_original_frames_retained": true
+        },
+        "result_paths": {
+          "video": "results/analysis/80d951ef-726d-403a-8a62-54a7d8f835f3/0327ee1d-58c1-4d2e-9a23-b068c330a717/annotated.mp4",
+          "summary": "results/analysis/80d951ef-726d-403a-8a62-54a7d8f835f3/0327ee1d-58c1-4d2e-9a23-b068c330a717/summary.json",
+          "detections": "results/analysis/80d951ef-726d-403a-8a62-54a7d8f835f3/0327ee1d-58c1-4d2e-9a23-b068c330a717/detections.jsonl"
+        }
+      },
+      "worker_exit_code": 0,
+      "files": {
+        "video": {
+          "bytes": 4097911,
+          "sha256": "3f261533222cdffa833a77cc36387576ab9124ada467a46b1d3f391228f5057d",
+          "relative_path": "results/analysis/80d951ef-726d-403a-8a62-54a7d8f835f3/0327ee1d-58c1-4d2e-9a23-b068c330a717/annotated.mp4"
+        },
+        "detections": {
+          "bytes": 41226,
+          "sha256": "18401845bc43cd551f36ba8feeb1de3607a95a6896402b3b9019bafbc8dd89cf",
+          "relative_path": "results/analysis/80d951ef-726d-403a-8a62-54a7d8f835f3/0327ee1d-58c1-4d2e-9a23-b068c330a717/detections.jsonl"
+        },
+        "summary": {
+          "bytes": 333,
+          "sha256": "3699b9ef315bcea70c3d109048eef5f329de59f6ce82bdbf2ab2bcda0474fbd3",
+          "relative_path": "results/analysis/80d951ef-726d-403a-8a62-54a7d8f835f3/0327ee1d-58c1-4d2e-9a23-b068c330a717/summary.json"
+        }
+      }
+    },
+    {
+      "clip_id": "F02-lowres",
+      "source_id": "137cae44-74b4-4a3e-a87c-26f575098279",
+      "run_id": "10c95613-70a7-4749-bb34-b981b4bb1262",
+      "created": {
+        "id": "10c95613-70a7-4749-bb34-b981b4bb1262",
+        "video_source_id": "137cae44-74b4-4a3e-a87c-26f575098279",
+        "model_version_id": "8c37f231-7e6e-4db4-8405-0e4f731c4b87",
+        "video_source_name": "FIRESENSE demo F02-lowres — low_resolution",
+        "model_version_name": "YOLO11n baseline 50 epochs (val, development)",
+        "mode": "full",
+        "status": "pending",
+        "settings_snapshot": {
+          "smoke_threshold": 0.25,
+          "fire_threshold": 0.25,
+          "imgsz": 640,
+          "analysis_fps": 2.0,
+          "device": "cuda:0",
+          "temporal": {
+            "window_seconds": 3.0,
+            "min_hits": 3,
+            "min_span_seconds": 1.0,
+            "absence_seconds": 2.0,
+            "match_iou": 0.1,
+            "center_distance": 0.12,
+            "clip_before_seconds": 2.0,
+            "clip_after_seconds": 3.0
+          },
+          "zones": [],
+          "schema_version": 2,
+          "model_sha256": "d0fb93c60b88dcf27eb3933a66e49d88f475aafd8c13faf11971e3b590b0e4d7",
+          "source_sha256": "28b73459f06a8e122065d0950cc72f98d830711c8947e0c570f70dd9a9612873",
+          "class_mapping": {
+            "0": "smoke",
+            "1": "fire"
+          }
+        },
+        "progress": 0.0,
+        "error_message": null,
+        "cancel_requested_at": null,
+        "created_at": "2026-11-02T22:02:53.340166+02:00",
+        "started_at": null,
+        "finished_at": null,
+        "heartbeat_at": null,
+        "summary_metrics": null,
+        "result_paths": null
+      },
+      "progress": [
+        {
+          "at": "2026-11-02T20:02:53.363475+00:00",
+          "status": "pending",
+          "progress": 0.0,
+          "summary": null
+        },
+        {
+          "at": "2026-11-02T20:02:54.378039+00:00",
+          "status": "running",
+          "progress": 0.0,
+          "summary": {
+            "stage": "checking"
+          }
+        },
+        {
+          "at": "2026-11-02T20:02:58.927378+00:00",
+          "status": "running",
+          "progress": 0.00833,
+          "summary": {
+            "stage": "processing",
+            "frames_read": 1,
+            "total_frames": 120,
+            "frames_analyzed": 1
+          }
+        },
+        {
+          "at": "2026-11-02T20:02:59.950113+00:00",
+          "status": "running",
+          "progress": 0.175,
+          "summary": {
+            "stage": "processing",
+            "frames_read": 21,
+            "total_frames": 120,
+            "frames_analyzed": 5
+          }
+        },
+        {
+          "at": "2026-11-02T20:03:00.458066+00:00",
+          "status": "running",
+          "progress": 0.99,
+          "summary": {
+            "stage": "verifying",
+            "frames_read": 120,
+            "total_frames": 120,
+            "frames_analyzed": 24
+          }
+        },
+        {
+          "at": "2026-11-02T20:03:00.969076+00:00",
+          "status": "completed",
+          "progress": 1.0,
+          "summary": {
+            "stage": "completed",
+            "device": "cuda:0",
+            "frames_read": 120,
+            "output_audio": false,
+            "wall_seconds": 6.469000000000051,
+            "frames_analyzed": 24,
+            "confirmed_events": 2,
+            "detections_by_class": {
+              "fire": 24,
+              "smoke": 6
+            },
+            "video_duration_seconds": 12.0,
+            "source_first_pts_seconds": 0.0,
+            "timestamp_precision_seconds": 1e-06,
+            "all_original_frames_retained": true
+          }
+        }
+      ],
+      "worker_launcher_pid": 14904,
+      "result": {
+        "id": "10c95613-70a7-4749-bb34-b981b4bb1262",
+        "video_source_id": "137cae44-74b4-4a3e-a87c-26f575098279",
+        "model_version_id": "8c37f231-7e6e-4db4-8405-0e4f731c4b87",
+        "video_source_name": "FIRESENSE demo F02-lowres — low_resolution",
+        "model_version_name": "YOLO11n baseline 50 epochs (val, development)",
+        "mode": "full",
+        "status": "completed",
+        "settings_snapshot": {
+          "imgsz": 640,
+          "zones": [],
+          "device": "cuda:0",
+          "temporal": {
+            "min_hits": 3,
+            "match_iou": 0.1,
+            "window_seconds": 3.0,
+            "absence_seconds": 2.0,
+            "center_distance": 0.12,
+            "min_span_seconds": 1.0,
+            "clip_after_seconds": 3.0,
+            "clip_before_seconds": 2.0
+          },
+          "analysis_fps": 2.0,
+          "model_sha256": "d0fb93c60b88dcf27eb3933a66e49d88f475aafd8c13faf11971e3b590b0e4d7",
+          "class_mapping": {
+            "0": "smoke",
+            "1": "fire"
+          },
+          "source_sha256": "28b73459f06a8e122065d0950cc72f98d830711c8947e0c570f70dd9a9612873",
+          "fire_threshold": 0.25,
+          "schema_version": 2,
+          "smoke_threshold": 0.25
+        },
+        "progress": 1.0,
+        "error_message": null,
+        "cancel_requested_at": null,
+        "created_at": "2026-11-02T22:02:53.340166+02:00",
+        "started_at": "2026-11-02T22:02:54.043441+02:00",
+        "finished_at": "2026-11-02T22:03:00.812821+02:00",
+        "heartbeat_at": "2026-11-02T22:03:00.121475+02:00",
+        "summary_metrics": {
+          "stage": "completed",
+          "device": "cuda:0",
+          "frames_read": 120,
+          "output_audio": false,
+          "wall_seconds": 6.469000000000051,
+          "frames_analyzed": 24,
+          "confirmed_events": 2,
+          "detections_by_class": {
+            "fire": 24,
+            "smoke": 6
+          },
+          "video_duration_seconds": 12.0,
+          "source_first_pts_seconds": 0.0,
+          "timestamp_precision_seconds": 1e-06,
+          "all_original_frames_retained": true
+        },
+        "result_paths": {
+          "video": "results/analysis/10c95613-70a7-4749-bb34-b981b4bb1262/079e3f0b-7ece-4b08-9277-680e8b19a4f6/annotated.mp4",
+          "summary": "results/analysis/10c95613-70a7-4749-bb34-b981b4bb1262/079e3f0b-7ece-4b08-9277-680e8b19a4f6/summary.json",
+          "detections": "results/analysis/10c95613-70a7-4749-bb34-b981b4bb1262/079e3f0b-7ece-4b08-9277-680e8b19a4f6/detections.jsonl"
+        }
+      },
+      "worker_exit_code": 0,
+      "files": {
+        "video": {
+          "bytes": 255155,
+          "sha256": "f357b7a06a4b23eb8c6c266a10ef0bd5c0463f4c41df39b19dfea24250743f56",
+          "relative_path": "results/analysis/10c95613-70a7-4749-bb34-b981b4bb1262/079e3f0b-7ece-4b08-9277-680e8b19a4f6/annotated.mp4"
+        },
+        "detections": {
+          "bytes": 17431,
+          "sha256": "d96a19414e261818ac77b76452cf9e6ef54795bba45b995aed501189fe13d531",
+          "relative_path": "results/analysis/10c95613-70a7-4749-bb34-b981b4bb1262/079e3f0b-7ece-4b08-9277-680e8b19a4f6/detections.jsonl"
+        },
+        "summary": {
+          "bytes": 334,
+          "sha256": "640879382e217b7ce01ddff9cb5ea279561166ccc3e9b949695b608af1c7609c",
+          "relative_path": "results/analysis/10c95613-70a7-4749-bb34-b981b4bb1262/079e3f0b-7ece-4b08-9277-680e8b19a4f6/summary.json"
+        }
+      }
+    },
+    {
+      "clip_id": "F02-blur",
+      "source_id": "861fe929-031a-4ace-839c-c3028b853e85",
+      "run_id": "d3863743-5961-4084-9f83-5b4538317106",
+      "created": {
+        "id": "d3863743-5961-4084-9f83-5b4538317106",
+        "video_source_id": "861fe929-031a-4ace-839c-c3028b853e85",
+        "model_version_id": "8c37f231-7e6e-4db4-8405-0e4f731c4b87",
+        "video_source_name": "FIRESENSE demo F02-blur — blur",
+        "model_version_name": "YOLO11n baseline 50 epochs (val, development)",
+        "mode": "full",
+        "status": "pending",
+        "settings_snapshot": {
+          "smoke_threshold": 0.25,
+          "fire_threshold": 0.25,
+          "imgsz": 640,
+          "analysis_fps": 2.0,
+          "device": "cuda:0",
+          "temporal": {
+            "window_seconds": 3.0,
+            "min_hits": 3,
+            "min_span_seconds": 1.0,
+            "absence_seconds": 2.0,
+            "match_iou": 0.1,
+            "center_distance": 0.12,
+            "clip_before_seconds": 2.0,
+            "clip_after_seconds": 3.0
+          },
+          "zones": [],
+          "schema_version": 2,
+          "model_sha256": "d0fb93c60b88dcf27eb3933a66e49d88f475aafd8c13faf11971e3b590b0e4d7",
+          "source_sha256": "7b5b95c75e12ec463154d03d6a33ffb94951436ee439cf8952360ff5a254bc0c",
+          "class_mapping": {
+            "0": "smoke",
+            "1": "fire"
+          }
+        },
+        "progress": 0.0,
+        "error_message": null,
+        "cancel_requested_at": null,
+        "created_at": "2026-11-02T22:03:02.083317+02:00",
+        "started_at": null,
+        "finished_at": null,
+        "heartbeat_at": null,
+        "summary_metrics": null,
+        "result_paths": null
+      },
+      "progress": [
+        {
+          "at": "2026-11-02T20:03:02.110733+00:00",
+          "status": "pending",
+          "progress": 0.0,
+          "summary": null
+        },
+        {
+          "at": "2026-11-02T20:03:03.125249+00:00",
+          "status": "running",
+          "progress": 0.0,
+          "summary": {
+            "stage": "checking"
+          }
+        },
+        {
+          "at": "2026-11-02T20:03:07.674699+00:00",
+          "status": "running",
+          "progress": 0.00833,
+          "summary": {
+            "stage": "processing",
+            "frames_read": 1,
+            "total_frames": 120,
+            "frames_analyzed": 1
+          }
+        },
+        {
+          "at": "2026-11-02T20:03:09.195025+00:00",
+          "status": "running",
+          "progress": 0.99,
+          "summary": {
+            "stage": "verifying",
+            "frames_read": 120,
+            "total_frames": 120,
+            "frames_analyzed": 24
+          }
+        },
+        {
+          "at": "2026-11-02T20:03:09.706688+00:00",
+          "status": "completed",
+          "progress": 1.0,
+          "summary": {
+            "stage": "completed",
+            "device": "cuda:0",
+            "frames_read": 120,
+            "output_audio": false,
+            "wall_seconds": 6.546999999999571,
+            "frames_analyzed": 24,
+            "confirmed_events": 2,
+            "detections_by_class": {
+              "fire": 1,
+              "smoke": 9
+            },
+            "video_duration_seconds": 12.0,
+            "source_first_pts_seconds": 0.0,
+            "timestamp_precision_seconds": 1e-06,
+            "all_original_frames_retained": true
+          }
+        }
+      ],
+      "worker_launcher_pid": 16884,
+      "result": {
+        "id": "d3863743-5961-4084-9f83-5b4538317106",
+        "video_source_id": "861fe929-031a-4ace-839c-c3028b853e85",
+        "model_version_id": "8c37f231-7e6e-4db4-8405-0e4f731c4b87",
+        "video_source_name": "FIRESENSE demo F02-blur — blur",
+        "model_version_name": "YOLO11n baseline 50 epochs (val, development)",
+        "mode": "full",
+        "status": "completed",
+        "settings_snapshot": {
+          "imgsz": 640,
+          "zones": [],
+          "device": "cuda:0",
+          "temporal": {
+            "min_hits": 3,
+            "match_iou": 0.1,
+            "window_seconds": 3.0,
+            "absence_seconds": 2.0,
+            "center_distance": 0.12,
+            "min_span_seconds": 1.0,
+            "clip_after_seconds": 3.0,
+            "clip_before_seconds": 2.0
+          },
+          "analysis_fps": 2.0,
+          "model_sha256": "d0fb93c60b88dcf27eb3933a66e49d88f475aafd8c13faf11971e3b590b0e4d7",
+          "class_mapping": {
+            "0": "smoke",
+            "1": "fire"
+          },
+          "source_sha256": "7b5b95c75e12ec463154d03d6a33ffb94951436ee439cf8952360ff5a254bc0c",
+          "fire_threshold": 0.25,
+          "schema_version": 2,
+          "smoke_threshold": 0.25
+        },
+        "progress": 1.0,
+        "error_message": null,
+        "cancel_requested_at": null,
+        "created_at": "2026-11-02T22:03:02.083317+02:00",
+        "started_at": "2026-11-02T22:03:02.902266+02:00",
+        "finished_at": "2026-11-02T22:03:09.647716+02:00",
+        "heartbeat_at": "2026-11-02T22:03:09.041160+02:00",
+        "summary_metrics": {
+          "stage": "completed",
+          "device": "cuda:0",
+          "frames_read": 120,
+          "output_audio": false,
+          "wall_seconds": 6.546999999999571,
+          "frames_analyzed": 24,
+          "confirmed_events": 2,
+          "detections_by_class": {
+            "fire": 1,
+            "smoke": 9
+          },
+          "video_duration_seconds": 12.0,
+          "source_first_pts_seconds": 0.0,
+          "timestamp_precision_seconds": 1e-06,
+          "all_original_frames_retained": true
+        },
+        "result_paths": {
+          "video": "results/analysis/d3863743-5961-4084-9f83-5b4538317106/e05915cc-5d89-488d-b8da-c80cc30d6be2/annotated.mp4",
+          "summary": "results/analysis/d3863743-5961-4084-9f83-5b4538317106/e05915cc-5d89-488d-b8da-c80cc30d6be2/summary.json",
+          "detections": "results/analysis/d3863743-5961-4084-9f83-5b4538317106/e05915cc-5d89-488d-b8da-c80cc30d6be2/detections.jsonl"
+        }
+      },
+      "worker_exit_code": 0,
+      "files": {
+        "video": {
+          "bytes": 294719,
+          "sha256": "cc2b315167171d276651f5a9677eeca59c4523397f04770d746de8a2ccd8a1a1",
+          "relative_path": "results/analysis/d3863743-5961-4084-9f83-5b4538317106/e05915cc-5d89-488d-b8da-c80cc30d6be2/annotated.mp4"
+        },
+        "detections": {
+          "bytes": 14129,
+          "sha256": "2d1dbdad98fdddcdf8976b545158345a6370042a61ee2988eea5713b63c36f0c",
+          "relative_path": "results/analysis/d3863743-5961-4084-9f83-5b4538317106/e05915cc-5d89-488d-b8da-c80cc30d6be2/detections.jsonl"
+        },
+        "summary": {
+          "bytes": 333,
+          "sha256": "2e5ae6a66f71389674a5d0432196114714e71db6d1e763530f6900e38fd95970",
+          "relative_path": "results/analysis/d3863743-5961-4084-9f83-5b4538317106/e05915cc-5d89-488d-b8da-c80cc30d6be2/summary.json"
+        }
+      }
+    },
+    {
+      "clip_id": "F02-compressed",
+      "source_id": "8435e197-44ab-4644-af64-836f7cbb6830",
+      "run_id": "50c610f0-80a4-4b22-bad1-b7448d0399e3",
+      "created": {
+        "id": "50c610f0-80a4-4b22-bad1-b7448d0399e3",
+        "video_source_id": "8435e197-44ab-4644-af64-836f7cbb6830",
+        "model_version_id": "8c37f231-7e6e-4db4-8405-0e4f731c4b87",
+        "video_source_name": "FIRESENSE demo F02-compressed — strong_compression",
+        "model_version_name": "YOLO11n baseline 50 epochs (val, development)",
+        "mode": "full",
+        "status": "pending",
+        "settings_snapshot": {
+          "smoke_threshold": 0.25,
+          "fire_threshold": 0.25,
+          "imgsz": 640,
+          "analysis_fps": 2.0,
+          "device": "cuda:0",
+          "temporal": {
+            "window_seconds": 3.0,
+            "min_hits": 3,
+            "min_span_seconds": 1.0,
+            "absence_seconds": 2.0,
+            "match_iou": 0.1,
+            "center_distance": 0.12,
+            "clip_before_seconds": 2.0,
+            "clip_after_seconds": 3.0
+          },
+          "zones": [],
+          "schema_version": 2,
+          "model_sha256": "d0fb93c60b88dcf27eb3933a66e49d88f475aafd8c13faf11971e3b590b0e4d7",
+          "source_sha256": "4534b4d09ab0faa01ee612d58abe1eb7d1e94420654883a3146922233f7686b4",
+          "class_mapping": {
+            "0": "smoke",
+            "1": "fire"
+          }
+        },
+        "progress": 0.0,
+        "error_message": null,
+        "cancel_requested_at": null,
+        "created_at": "2026-11-02T22:03:10.851253+02:00",
+        "started_at": null,
+        "finished_at": null,
+        "heartbeat_at": null,
+        "summary_metrics": null,
+        "result_paths": null
+      },
+      "progress": [
+        {
+          "at": "2026-11-02T20:03:10.895732+00:00",
+          "status": "pending",
+          "progress": 0.0,
+          "summary": null
+        },
+        {
+          "at": "2026-11-02T20:03:11.912394+00:00",
+          "status": "running",
+          "progress": 0.0,
+          "summary": {
+            "stage": "checking"
+          }
+        },
+        {
+          "at": "2026-11-02T20:03:16.976148+00:00",
+          "status": "running",
+          "progress": 0.00833,
+          "summary": {
+            "stage": "processing",
+            "frames_read": 1,
+            "total_frames": 120,
+            "frames_analyzed": 1
+          }
+        },
+        {
+          "at": "2026-11-02T20:03:17.990079+00:00",
+          "status": "running",
+          "progress": 0.55,
+          "summary": {
+            "stage": "processing",
+            "frames_read": 66,
+            "total_frames": 120,
+            "frames_analyzed": 14
+          }
+        },
+        {
+          "at": "2026-11-02T20:03:18.497700+00:00",
+          "status": "running",
+          "progress": 0.99,
+          "summary": {
+            "stage": "verifying",
+            "frames_read": 120,
+            "total_frames": 120,
+            "frames_analyzed": 24
+          }
+        },
+        {
+          "at": "2026-11-02T20:03:19.007999+00:00",
+          "status": "completed",
+          "progress": 1.0,
+          "summary": {
+            "stage": "completed",
+            "device": "cuda:0",
+            "frames_read": 120,
+            "output_audio": false,
+            "wall_seconds": 6.734000000000378,
+            "frames_analyzed": 24,
+            "confirmed_events": 2,
+            "detections_by_class": {
+              "fire": 27,
+              "smoke": 1
+            },
+            "video_duration_seconds": 12.0,
+            "source_first_pts_seconds": 0.0,
+            "timestamp_precision_seconds": 1e-06,
+            "all_original_frames_retained": true
+          }
+        }
+      ],
+      "worker_launcher_pid": 18676,
+      "result": {
+        "id": "50c610f0-80a4-4b22-bad1-b7448d0399e3",
+        "video_source_id": "8435e197-44ab-4644-af64-836f7cbb6830",
+        "model_version_id": "8c37f231-7e6e-4db4-8405-0e4f731c4b87",
+        "video_source_name": "FIRESENSE demo F02-compressed — strong_compression",
+        "model_version_name": "YOLO11n baseline 50 epochs (val, development)",
+        "mode": "full",
+        "status": "completed",
+        "settings_snapshot": {
+          "imgsz": 640,
+          "zones": [],
+          "device": "cuda:0",
+          "temporal": {
+            "min_hits": 3,
+            "match_iou": 0.1,
+            "window_seconds": 3.0,
+            "absence_seconds": 2.0,
+            "center_distance": 0.12,
+            "min_span_seconds": 1.0,
+            "clip_after_seconds": 3.0,
+            "clip_before_seconds": 2.0
+          },
+          "analysis_fps": 2.0,
+          "model_sha256": "d0fb93c60b88dcf27eb3933a66e49d88f475aafd8c13faf11971e3b590b0e4d7",
+          "class_mapping": {
+            "0": "smoke",
+            "1": "fire"
+          },
+          "source_sha256": "4534b4d09ab0faa01ee612d58abe1eb7d1e94420654883a3146922233f7686b4",
+          "fire_threshold": 0.25,
+          "schema_version": 2,
+          "smoke_threshold": 0.25
+        },
+        "progress": 1.0,
+        "error_message": null,
+        "cancel_requested_at": null,
+        "created_at": "2026-11-02T22:03:10.851253+02:00",
+        "started_at": "2026-11-02T22:03:11.772349+02:00",
+        "finished_at": "2026-11-02T22:03:18.717908+02:00",
+        "heartbeat_at": "2026-11-02T22:03:17.858825+02:00",
+        "summary_metrics": {
+          "stage": "completed",
+          "device": "cuda:0",
+          "frames_read": 120,
+          "output_audio": false,
+          "wall_seconds": 6.734000000000378,
+          "frames_analyzed": 24,
+          "confirmed_events": 2,
+          "detections_by_class": {
+            "fire": 27,
+            "smoke": 1
+          },
+          "video_duration_seconds": 12.0,
+          "source_first_pts_seconds": 0.0,
+          "timestamp_precision_seconds": 1e-06,
+          "all_original_frames_retained": true
+        },
+        "result_paths": {
+          "video": "results/analysis/50c610f0-80a4-4b22-bad1-b7448d0399e3/808a11ee-649f-4e43-b4cc-8c04624ea85f/annotated.mp4",
+          "summary": "results/analysis/50c610f0-80a4-4b22-bad1-b7448d0399e3/808a11ee-649f-4e43-b4cc-8c04624ea85f/summary.json",
+          "detections": "results/analysis/50c610f0-80a4-4b22-bad1-b7448d0399e3/808a11ee-649f-4e43-b4cc-8c04624ea85f/detections.jsonl"
+        }
+      },
+      "worker_exit_code": 0,
+      "files": {
+        "video": {
+          "bytes": 236834,
+          "sha256": "165fee92048699af994666bbdc5cc0e1d3393cb7c7ebab623a63c7eacbb987da",
+          "relative_path": "results/analysis/50c610f0-80a4-4b22-bad1-b7448d0399e3/808a11ee-649f-4e43-b4cc-8c04624ea85f/annotated.mp4"
+        },
+        "detections": {
+          "bytes": 17193,
+          "sha256": "05ab84f1655747ace01c503373fa139bc0eaf1a39644f85126dc6fc20df08246",
+          "relative_path": "results/analysis/50c610f0-80a4-4b22-bad1-b7448d0399e3/808a11ee-649f-4e43-b4cc-8c04624ea85f/detections.jsonl"
+        },
+        "summary": {
+          "bytes": 334,
+          "sha256": "db49cf1e217f18179a4cb03c82874f0ad31c766f288b52538339b0d22ab3658e",
+          "relative_path": "results/analysis/50c610f0-80a4-4b22-bad1-b7448d0399e3/808a11ee-649f-4e43-b4cc-8c04624ea85f/summary.json"
+        }
+      }
+    }
+  ],
+  "finished_at": "2026-11-02T20:03:19.348279+00:00"
+}

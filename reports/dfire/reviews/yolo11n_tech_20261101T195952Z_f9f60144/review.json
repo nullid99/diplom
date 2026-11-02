@@ -1,0 +1,198 @@
+{
+  "id": "yolo11n_tech_20261101T195952Z_f9f60144",
+  "total": 21527,
+  "kept": 10669,
+  "excluded_union": 10858,
+  "unique_per_reason": {
+    "aof_source_family_reserved_for_train": 2848,
+    "cross_split_duplicate_candidate_component": 10464,
+    "invalid_or_unknown_annotation": 340
+  },
+  "inclusive_pair_intersections": {
+    "aof_source_family_reserved_for_train & cross_split_duplicate_candidate_component": 2701,
+    "aof_source_family_reserved_for_train & invalid_or_unknown_annotation": 23,
+    "cross_split_duplicate_candidate_component & invalid_or_unknown_annotation": 92
+  },
+  "inclusive_triple_intersection": 22,
+  "disjoint_reason_signatures": {
+    "invalid_or_unknown_annotation": 247,
+    "cross_split_duplicate_candidate_component & invalid_or_unknown_annotation": 70,
+    "aof_source_family_reserved_for_train & cross_split_duplicate_candidate_component & invalid_or_unknown_annotation": 22,
+    "aof_source_family_reserved_for_train & invalid_or_unknown_annotation": 1,
+    "cross_split_duplicate_candidate_component": 7693,
+    "aof_source_family_reserved_for_train & cross_split_duplicate_candidate_component": 2679,
+    "aof_source_family_reserved_for_train": 146
+  },
+  "prepared_counts": {
+    "train": {
+      "images": 7238,
+      "objects": {
+        "fire": 7079,
+        "smoke": 4874
+      },
+      "annotated_objects_including_invalid_geometry": {
+        "fire": 7079,
+        "smoke": 4874
+      },
+      "images_with_class": {
+        "fire": 2589,
+        "smoke": 4226
+      },
+      "verified_backgrounds": 2626,
+      "annotated_images_with_class": {
+        "fire": 2589,
+        "smoke": 4226
+      },
+      "annotated_image_categories": {
+        "background": 2626,
+        "fire": 386,
+        "smoke": 2023,
+        "fire+smoke": 2203
+      }
+    },
+    "val": {
+      "images": 1436,
+      "objects": {
+        "fire": 1455,
+        "smoke": 1025
+      },
+      "annotated_objects_including_invalid_geometry": {
+        "fire": 1455,
+        "smoke": 1025
+      },
+      "images_with_class": {
+        "fire": 550,
+        "smoke": 891
+      },
+      "verified_backgrounds": 460,
+      "annotated_images_with_class": {
+        "fire": 550,
+        "smoke": 891
+      },
+      "annotated_image_categories": {
+        "fire": 85,
+        "fire+smoke": 465,
+        "smoke": 426,
+        "background": 460
+      }
+    },
+    "test": {
+      "images": 1995,
+      "objects": {
+        "fire": 1984,
+        "smoke": 1325
+      },
+      "annotated_objects_including_invalid_geometry": {
+        "fire": 1984,
+        "smoke": 1325
+      },
+      "images_with_class": {
+        "fire": 708,
+        "smoke": 1179
+      },
+      "verified_backgrounds": 727,
+      "annotated_images_with_class": {
+        "fire": 708,
+        "smoke": 1179
+      },
+      "annotated_image_categories": {
+        "fire": 89,
+        "fire+smoke": 619,
+        "smoke": 560,
+        "background": 727
+      }
+    }
+  },
+  "exact_duplicate_groups": 0,
+  "main_manifest_sha256": {
+    "data.yaml": "8e860b560658e0f17b85b938cd2d8efc524504b49b1efc91fba0d5ef475c303f",
+    "excluded.jsonl": "bba8b38f0a3fb3bd37fed7d0dc7a01f251c2bcb7dc0fcd2d833b95e14ccfe163",
+    "test.jsonl": "ff8573ed5015bc5777a104917eff8c98a4652b7ae72d73e87ba8320aa322c491",
+    "test.txt": "cf607bb1ae2d31721fea61c2d71d6010904529cae568145adaa09072c5b69bf3",
+    "train.jsonl": "bcd01f7f65b4106e63a5cdbf813a8290048e942c8e68dcb163343ce417c0eab4",
+    "train.txt": "2e406d5950d98ac3d10a8c59df753d1e3aedd854908aaaf74b0ad770376da988",
+    "val.jsonl": "f1599d0f75a46fecfebe6815f9aa6b9291c085f4309b5bda275eafdebf86d884",
+    "val.txt": "bea2675c19b60d83e0a176c81cdc4be1d8c58e98bf9a6e92e50809018890bd0e"
+  },
+  "main_manifests_changed": false,
+  "groups_total": 576,
+  "visual_groups": [
+    {
+      "size": 1386,
+      "group_id": "phash-component-018881",
+      "selected_indices": [
+        4,
+        1337,
+        7988,
+        14124,
+        14342,
+        15848,
+        7985
+      ],
+      "image": "group-01.jpg"
+    },
+    {
+      "size": 1231,
+      "group_id": "phash-component-021029",
+      "selected_indices": [
+        3,
+        2503,
+        12534,
+        14172,
+        14788,
+        15308,
+        11734
+      ],
+      "image": "group-02.jpg"
+    },
+    {
+      "size": 806,
+      "group_id": "phash-component-019690",
+      "selected_indices": [
+        67,
+        3222,
+        7984,
+        14140,
+        14820,
+        15274
+      ],
+      "image": "group-03.jpg"
+    },
+    {
+      "size": 8,
+      "group_id": "phash-component-018219",
+      "selected_indices": [
+        3296,
+        3298,
+        3300,
+        14841
+      ],
+      "image": "group-04.jpg"
+    },
+    {
+      "size": 8,
+      "group_id": "phash-component-014937",
+      "selected_indices": [
+        3690,
+        3709,
+        3733,
+        14935,
+        14937
+      ],
+      "image": "group-05.jpg"
+    },
+    {
+      "size": 8,
+      "group_id": "phash-component-019199",
+      "selected_indices": [
+        5899,
+        5910,
+        6485,
+        15398,
+        5909
+      ],
+      "image": "group-06.jpg"
+    }
+  ],
+  "technical_subset": "datasets\\dfire\\technical\\yolo11n_tech_20261101T195952Z_f9f60144"
+}

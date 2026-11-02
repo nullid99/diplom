@@ -1,0 +1,29 @@
+{
+  "started_at": "2026-11-02T18:08:06.714Z",
+  "mocked": false,
+  "test_used": false,
+  "device": "cuda:0",
+  "material_limitation": "Image-derived val montage. Repeated stills are not natural temporal video, independent scenes or event evaluation.",
+  "ws_snapshots": [],
+  "page_errors": [],
+  "console_errors": [],
+  "uploaded_via_ui": true,
+  "source": {
+    "id": "6e9b658e-1585-4559-b305-6b906534e47b",
+    "name": "Технічний відеоряд val D-Fire — не незалежне відео",
+    "original_filename": "val-derived-technical-NOT-independent-video.mp4",
+    "file_size_bytes": 553628,
+    "sha256": "9782e2d4daeebc06ce3494b651e4819ea5f84df3bc015e409358f878fe115c3c",
+    "duration_seconds": "16.000000",
+    "width": 640,
+    "height": 480,
+    "fps": "4",
+    "container_format": "mov,mp4,m4a,3gp,3g2,mj2",
+    "video_codec": "h264",
+    "avg_frame_rate": "4/1",
+    "r_frame_rate": "4/1",
+    "created_at": "2026-11-02T20:08:10.023478+02:00"
+  },
+  "result": "failed",
+  "failure": "locator.selectOption: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByLabel('Пристрій', { exact: true })\u001b[22m\n\n    at D:\\FireVision\\scripts\\final-model-browser.mjs:57:50"
+}

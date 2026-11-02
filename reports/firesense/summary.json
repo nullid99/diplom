@@ -1,0 +1,50 @@
+{
+  "checked_at": "2026-11-02T20:12:05.703357+00:00",
+  "archive_bytes": 820266691,
+  "raw_bytes": 1226775080,
+  "clip_bytes": 23275067,
+  "base_clips": 10,
+  "degraded_variants": 3,
+  "analysis_wall_seconds": 104.53000000000065,
+  "run_loop_elapsed_seconds": 138.084928,
+  "total_frames": 2607,
+  "analyzed_frames": 296,
+  "events_by_class": {
+    "fire": 10,
+    "smoke": 7
+  },
+  "model_sha256": "d0fb93c60b88dcf27eb3933a66e49d88f475aafd8c13faf11971e3b590b0e4d7",
+  "registered_and_original_weights_unchanged": true,
+  "prior_video_and_jsonl_unchanged": true,
+  "uploaded_source_hashes_equal_manifest": true,
+  "prepared_clip_hashes_unchanged": true,
+  "working_counts": {
+    "sources": 14,
+    "models": 1,
+    "runs": 14,
+    "events": 17
+  },
+  "natural_video_demonstration_completed": true,
+  "independence_proven": false,
+  "f02_at_six_seconds": {
+    "frame_index": 60,
+    "time_seconds": 6.0,
+    "source_pts_seconds": 6.0,
+    "analyzed": true,
+    "detections": [
+      {
+        "class_id": 1,
+        "class_name": "fire",
+        "confidence": 0.7043214440345764,
+        "xyxy": [
+          212.84600830078125,
+          181.05148315429688,
+          262.4527587890625,
+          222.00985717773438
+        ]
+      }
+    ]
+  },
+  "settings_changed_per_clip": false,
+  "new_training_started": false
+}

@@ -1,0 +1,1178 @@
+[
+  {
+    "path": "raw/fire/neg/negsVideo1.858.avi",
+    "sha256": "54594879622ecf02e3137ea536baf1e4dcf0965a5ad695a59ece75c02717b266",
+    "bytes": 121503204,
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mjpeg",
+          "width": 640,
+          "height": 480,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "start_time": "0.000000"
+        }
+      ],
+      "format": {
+        "start_time": "0.000000",
+        "duration": "189.596735"
+      }
+    },
+    "preview_seconds": 94.7983675
+  },
+  {
+    "path": "raw/fire/neg/negsVideo10.1072.avi",
+    "sha256": "1c3481d319f2266903c83f560d69db8ea328141b24904483a8ef2c0231eea5a6",
+    "bytes": 78426924,
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "rawvideo",
+          "width": 360,
+          "height": 288,
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1",
+          "start_time": "0.000000"
+        }
+      ],
+      "format": {
+        "start_time": "0.000000",
+        "duration": "9.840000"
+      }
+    },
+    "preview_seconds": 4.92
+  },
+  {
+    "path": "raw/fire/neg/negsVideo11.1073.avi",
+    "sha256": "1fe5f45e9a05e6f6c01a2b7944ed29a58816a28974e9ec3f4502c186ad5e586d",
+    "bytes": 41951436,
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "rawvideo",
+          "width": 320,
+          "height": 240,
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1",
+          "start_time": "0.000000"
+        }
+      ],
+      "format": {
+        "start_time": "0.000000",
+        "duration": "7.200000"
+      }
+    },
+    "preview_seconds": 3.6
+  },
+  {
+    "path": "raw/fire/neg/negsVideo12.1074.avi",
+    "sha256": "a28dd64fb322f22cd31f6c352dc4cfac56b55c402b14907873ba4c22446c6286",
+    "bytes": 43874304,
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mjpeg",
+          "width": 1600,
+          "height": 1200,
+          "r_frame_rate": "2500/127",
+          "avg_frame_rate": "2500/127",
+          "start_time": "0.000000"
+        }
+      ],
+      "format": {
+        "start_time": "0.000000",
+        "duration": "26.111200"
+      }
+    },
+    "preview_seconds": 13.0556
+  },
+  {
+    "path": "raw/fire/neg/negsVideo13.1075.avi",
+    "sha256": "1e7c166636c409b93a5a37c6d35d06bff5056529c42ac064a735f8bb15306cd5",
+    "bytes": 82618950,
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "rawvideo",
+          "width": 352,
+          "height": 288,
+          "r_frame_rate": "48923/2000",
+          "avg_frame_rate": "48923/2000",
+          "start_time": "0.000000"
+        }
+      ],
+      "format": {
+        "start_time": "0.000000",
+        "duration": "11.078634"
+      }
+    },
+    "preview_seconds": 5.539317
+  },
+  {
+    "path": "raw/fire/neg/negsVideo14.1076.avi",
+    "sha256": "5993add02f457c96d30336e1f2e03fcc0c2a0dc187f9162dfb21fa543645e674",
+    "bytes": 13727848,
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "rawvideo",
+          "width": 352,
+          "height": 288,
+          "r_frame_rate": "240553/10000",
+          "avg_frame_rate": "240553/10000",
+          "start_time": "0.000000"
+        }
+      ],
+      "format": {
+        "start_time": "0.000000",
+        "duration": "1.870690"
+      }
+    },
+    "preview_seconds": 0.935345
+  },
+  {
+    "path": "raw/fire/neg/negsVideo15.1078.avi",
+    "sha256": "1f19c8a13837b983170c093cb16695369cafaef0e88872d6492e5a7b0384b4d4",
+    "bytes": 334089604,
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "rawvideo",
+          "width": 1600,
+          "height": 1200,
+          "r_frame_rate": "2500/127",
+          "avg_frame_rate": "2500/127",
+          "start_time": "0.000000"
+        }
+      ],
+      "format": {
+        "start_time": "0.000000",
+        "duration": "2.946400"
+      }
+    },
+    "preview_seconds": 1.4732
+  },
+  {
+    "path": "raw/fire/neg/negsVideo16.1077.avi",
+    "sha256": "70ff9977d8fb961dc053009d5f8b3f16c5818245916a129300e81b573be2570b",
+    "bytes": 23667448,
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mjpeg",
+          "width": 1600,
+          "height": 1200,
+          "r_frame_rate": "100000/5403",
+          "avg_frame_rate": "100000/5403",
+          "start_time": "0.000000"
+        }
+      ],
+      "format": {
+        "start_time": "0.000000",
+        "duration": "10.589880"
+      }
+    },
+    "preview_seconds": 5.29494
+  },
+  {
+    "path": "raw/fire/neg/negsVideo2.859.avi",
+    "sha256": "4ba3a1bdfb199ad18191d3c306bb476b593fa07c1bdb34b6028c9008c8b2d5df",
+    "bytes": 2418108,
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mjpeg",
+          "width": 320,
+          "height": 240,
+          "r_frame_rate": "10/1",
+          "avg_frame_rate": "10/1",
+          "start_time": "0.000000"
+        }
+      ],
+      "format": {
+        "start_time": "0.000000",
+        "duration": "15.500000"
+      }
+    },
+    "preview_seconds": 7.75
+  },
+  {
+    "path": "raw/fire/neg/negsVideo3.860.avi",
+    "sha256": "b550d0a45a5b7b014efb1000eb21a0f674fd9676ddf0c93d5834d7de93a5dd3f",
+    "bytes": 2750202,
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mjpeg",
+          "width": 320,
+          "height": 240,
+          "r_frame_rate": "10/1",
+          "avg_frame_rate": "10/1",
+          "start_time": "0.000000"
+        }
+      ],
+      "format": {
+        "start_time": "0.000000",
+        "duration": "16.000000"
+      }
+    },
+    "preview_seconds": 8.0
+  },
+  {
+    "path": "raw/fire/neg/negsVideo4.861.avi",
+    "sha256": "69eb56d0d4ac912626780c1405850380770443aee51d49a244ad11f5ee651286",
+    "bytes": 41530238,
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mjpeg",
+          "width": 640,
+          "height": 368,
+          "r_frame_rate": "30/1",
+          "avg_frame_rate": "30/1",
+          "start_time": "0.000000"
+        }
+      ],
+      "format": {
+        "start_time": "0.000000",
+        "duration": "64.705306"
+      }
+    },
+    "preview_seconds": 32.352653
+  },
+  {
+    "path": "raw/fire/neg/negsVideo5.862.avi",
+    "sha256": "cd8af7c201c76c2181d13202f3321ff002e5105829808cfcfcda5f7864ed8300",
+    "bytes": 9440230,
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mjpeg",
+          "width": 480,
+          "height": 368,
+          "r_frame_rate": "30/1",
+          "avg_frame_rate": "30/1",
+          "start_time": "0.000000"
+        }
+      ],
+      "format": {
+        "start_time": "0.000000",
+        "duration": "14.968163"
+      }
+    },
+    "preview_seconds": 7.4840815
+  },
+  {
+    "path": "raw/fire/neg/negsVideo6.863.avi",
+    "sha256": "ba0bbf7935bd7cd95e28496cb01bd92a5cc153eeaad44687f2d31d22bad5606c",
+    "bytes": 29264618,
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mjpeg",
+          "width": 640,
+          "height": 480,
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1",
+          "start_time": "0.000000"
+        }
+      ],
+      "format": {
+        "start_time": "0.000000",
+        "duration": "45.680000"
+      }
+    },
+    "preview_seconds": 22.84
+  },
+  {
+    "path": "raw/fire/neg/negsVideo7.864.avi",
+    "sha256": "10993dadf9a1161405df742a0ef573e0671baaf4561ad444ad04015d4bfaef89",
+    "bytes": 11392390,
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mjpeg",
+          "width": 640,
+          "height": 368,
+          "r_frame_rate": "30/1",
+          "avg_frame_rate": "30/1",
+          "start_time": "0.000000"
+        }
+      ],
+      "format": {
+        "start_time": "0.000000",
+        "duration": "18.033333"
+      }
+    },
+    "preview_seconds": 9.0166665
+  },
+  {
+    "path": "raw/fire/neg/negsVideo8.865.avi",
+    "sha256": "53af634ba50d6a27c2e2970ba28f79d5a5fde786f6f25e7025571bed8ed36bd4",
+    "bytes": 80688520,
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mjpeg",
+          "width": 640,
+          "height": 352,
+          "r_frame_rate": "30000/1001",
+          "avg_frame_rate": "30000/1001",
+          "start_time": "0.000000"
+        }
+      ],
+      "format": {
+        "start_time": "0.000000",
+        "duration": "125.936327"
+      }
+    },
+    "preview_seconds": 62.9681635
+  },
+  {
+    "path": "raw/fire/neg/negsVideo9.866.avi",
+    "sha256": "f73e17309b27d2252b87cf9134a1fc75f8bad4fa99db5a149839c355e599b21f",
+    "bytes": 16087732,
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mjpeg",
+          "width": 640,
+          "height": 480,
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1",
+          "start_time": "0.000000"
+        }
+      ],
+      "format": {
+        "start_time": "0.000000",
+        "duration": "26.305306"
+      }
+    },
+    "preview_seconds": 13.152653
+  },
+  {
+    "path": "raw/fire/pos/posVideo1.868.avi",
+    "sha256": "e82b782e63e7e8ac7223ba134f184b58007a694d11434a55e45a3992dece67d8",
+    "bytes": 3003620,
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mpeg4",
+          "width": 352,
+          "height": 288,
+          "r_frame_rate": "10/1",
+          "avg_frame_rate": "10/1",
+          "start_time": "0.000000"
+        }
+      ],
+      "format": {
+        "start_time": "0.000000",
+        "duration": "29.300000"
+      }
+    },
+    "preview_seconds": 14.65
+  },
+  {
+    "path": "raw/fire/pos/posVideo10.869.avi",
+    "sha256": "fc1b33b3fc231c52c36eaabde63fb7f33632715fd9cbd5a52f170cc8a60f7554",
+    "bytes": 761570,
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mpeg4",
+          "width": 400,
+          "height": 256,
+          "r_frame_rate": "30000/1001",
+          "avg_frame_rate": "2997/100",
+          "start_time": "0.000000"
+        }
+      ],
+      "format": {
+        "start_time": "0.000000",
+        "duration": "7.841175"
+      }
+    },
+    "preview_seconds": 3.9205875
+  },
+  {
+    "path": "raw/fire/pos/posVideo11.870.avi",
+    "sha256": "37a3c9ff44fd568a3e517a866e0f2f187fbda7c9932b55d09b463be638ead42e",
+    "bytes": 660282,
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mpeg4",
+          "width": 400,
+          "height": 256,
+          "r_frame_rate": "15/1",
+          "avg_frame_rate": "15/1",
+          "start_time": "0.000000"
+        }
+      ],
+      "format": {
+        "start_time": "0.000000",
+        "duration": "11.866667"
+      }
+    },
+    "preview_seconds": 5.9333335
+  },
+  {
+    "path": "raw/fire/pos/posVideo2.871.avi",
+    "sha256": "051a9f952301795d164e6100034649c5626bf5929946da4e02097b68befd2f34",
+    "bytes": 2144924,
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mpeg4",
+          "width": 480,
+          "height": 272,
+          "r_frame_rate": "30000/1001",
+          "avg_frame_rate": "30000/1001",
+          "start_time": "0.000000"
+        }
+      ],
+      "format": {
+        "start_time": "0.000000",
+        "duration": "17.017000"
+      }
+    },
+    "preview_seconds": 8.5085
+  },
+  {
+    "path": "raw/fire/pos/posVideo3.872.avi",
+    "sha256": "0b0371fb637bee82384024b4ebdf716a1faaeb088ce6496ec5c35244e8c48936",
+    "bytes": 1634956,
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mpeg4",
+          "width": 480,
+          "height": 272,
+          "r_frame_rate": "30000/1001",
+          "avg_frame_rate": "30000/1001",
+          "start_time": "0.000000"
+        }
+      ],
+      "format": {
+        "start_time": "0.000000",
+        "duration": "12.712700"
+      }
+    },
+    "preview_seconds": 6.35635
+  },
+  {
+    "path": "raw/fire/pos/posVideo4.873.avi",
+    "sha256": "db50879d39b4a43739aae45a4311ea3cd2ac37cc64140c1cd2ee51eb01f5740e",
+    "bytes": 6393934,
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mpeg4",
+          "width": 480,
+          "height": 272,
+          "r_frame_rate": "30000/1001",
+          "avg_frame_rate": "30000/1001",
+          "start_time": "0.000000"
+        }
+      ],
+      "format": {
+        "start_time": "0.000000",
+        "duration": "55.221833"
+      }
+    },
+    "preview_seconds": 27.6109165
+  },
+  {
+    "path": "raw/fire/pos/posVideo5.874.avi",
+    "sha256": "dd0461b4fc585efa27c7dd632b642a93cfbddced1acb25a6c3462618aa188454",
+    "bytes": 9240580,
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mpeg4",
+          "width": 480,
+          "height": 272,
+          "r_frame_rate": "30000/1001",
+          "avg_frame_rate": "30000/1001",
+          "start_time": "0.000000"
+        }
+      ],
+      "format": {
+        "start_time": "0.000000",
+        "duration": "80.280200"
+      }
+    },
+    "preview_seconds": 40.1401
+  },
+  {
+    "path": "raw/fire/pos/posVideo6.875.avi",
+    "sha256": "94bd37ea4a952fab0d76028c199607d0f42c2b58df312ab53bea5954599e7912",
+    "bytes": 2616020,
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mpeg4",
+          "width": 352,
+          "height": 288,
+          "r_frame_rate": "10/1",
+          "avg_frame_rate": "10/1",
+          "start_time": "0.000000"
+        }
+      ],
+      "format": {
+        "start_time": "0.000000",
+        "duration": "25.800000"
+      }
+    },
+    "preview_seconds": 12.9
+  },
+  {
+    "path": "raw/fire/pos/posVideo7.876.avi",
+    "sha256": "6e84a2a5890e94de8a7d003a196ba361d43db6c880c01f5f1d02196afdb9f50e",
+    "bytes": 6133760,
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mpeg4",
+          "width": 320,
+          "height": 240,
+          "r_frame_rate": "10/1",
+          "avg_frame_rate": "10/1",
+          "start_time": "0.000000"
+        }
+      ],
+      "format": {
+        "start_time": "0.000000",
+        "duration": "54.700000"
+      }
+    },
+    "preview_seconds": 27.35
+  },
+  {
+    "path": "raw/fire/pos/posVideo8.877.avi",
+    "sha256": "fad90831ab1b64b3483f47d84f15244093b418e0e1a6596e5ffbfbe234814487",
+    "bytes": 10811130,
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mjpeg",
+          "width": 480,
+          "height": 272,
+          "r_frame_rate": "30000/1001",
+          "avg_frame_rate": "30000/1001",
+          "start_time": "0.000000"
+        }
+      ],
+      "format": {
+        "start_time": "0.000000",
+        "duration": "17.117100"
+      }
+    },
+    "preview_seconds": 8.55855
+  },
+  {
+    "path": "raw/fire/pos/posVideo9.878.avi",
+    "sha256": "33ceace1b78e32b4cbd3fdaebb255ffc5409d3715ff7a91750f2d57af258c2b9",
+    "bytes": 13820952,
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mjpeg",
+          "width": 480,
+          "height": 272,
+          "r_frame_rate": "30000/1001",
+          "avg_frame_rate": "30000/1001",
+          "start_time": "0.000000"
+        }
+      ],
+      "format": {
+        "start_time": "0.000000",
+        "duration": "22.122100"
+      }
+    },
+    "preview_seconds": 11.06105
+  },
+  {
+    "path": "raw/smoke/neg/testneg01.807.avi",
+    "sha256": "9878ad2640b06e1472b015762bd52eb224936c85d7488ea9b62ed5b0590aa45c",
+    "bytes": 1964874,
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mpeg4",
+          "width": 352,
+          "height": 288,
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1",
+          "start_time": "0.000000"
+        }
+      ],
+      "format": {
+        "start_time": "0.000000",
+        "duration": "10.040000"
+      }
+    },
+    "preview_seconds": 5.02
+  },
+  {
+    "path": "raw/smoke/neg/testneg02.808.avi",
+    "sha256": "d53ae16d7fd74471946a6b1a05045cbd548321aeec7abab07d20aaf7fd25c380",
+    "bytes": 3721216,
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mpeg4",
+          "width": 320,
+          "height": 240,
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1",
+          "start_time": "0.000000"
+        }
+      ],
+      "format": {
+        "start_time": "0.000000",
+        "duration": "45.120000"
+      }
+    },
+    "preview_seconds": 22.56
+  },
+  {
+    "path": "raw/smoke/neg/testneg03.809.avi",
+    "sha256": "f4d3437f13c6e55d332d0d97a09e856528c9f38f85239ca8a484a110996e5791",
+    "bytes": 18626768,
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "indeo5",
+          "width": 640,
+          "height": 480,
+          "r_frame_rate": "10000000/333333",
+          "avg_frame_rate": "10000000/333333",
+          "start_time": "0.000000"
+        }
+      ],
+      "format": {
+        "start_time": "0.000000",
+        "duration": "24.933308"
+      }
+    },
+    "preview_seconds": 12.466654
+  },
+  {
+    "path": "raw/smoke/neg/testneg04.810.avi",
+    "sha256": "68260909bd93d1bfe07accf6ef4e90dcad4fd17e96531b956d10ff8df38311cf",
+    "bytes": 17379642,
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "msmpeg4v2",
+          "width": 704,
+          "height": 576,
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1",
+          "start_time": "0.000000"
+        }
+      ],
+      "format": {
+        "start_time": "0.000000",
+        "duration": "113.600000"
+      }
+    },
+    "preview_seconds": 56.8
+  },
+  {
+    "path": "raw/smoke/neg/testneg05.811.avi",
+    "sha256": "82049d89259dfe734493ccade8873f1692aaf68d8fdf91e7f70d438ea4781078",
+    "bytes": 2424460,
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mpeg4",
+          "width": 352,
+          "height": 288,
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1",
+          "start_time": "0.000000"
+        }
+      ],
+      "format": {
+        "start_time": "0.000000",
+        "duration": "10.040000"
+      }
+    },
+    "preview_seconds": 5.02
+  },
+  {
+    "path": "raw/smoke/neg/testneg06.812.avi",
+    "sha256": "8b9af41bc27c9e04da225d3997629aff29301ce84858876d76d297b24ef08f74",
+    "bytes": 2308066,
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mpeg4",
+          "width": 352,
+          "height": 288,
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1",
+          "start_time": "0.000000"
+        }
+      ],
+      "format": {
+        "start_time": "0.000000",
+        "duration": "10.040000"
+      }
+    },
+    "preview_seconds": 5.02
+  },
+  {
+    "path": "raw/smoke/neg/testneg07.813.avi",
+    "sha256": "d7aa5ebac09c8dbf85db5e71db3c987c96d1bcf75038ac4567473997618d1acb",
+    "bytes": 7125058,
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mpeg4",
+          "width": 352,
+          "height": 288,
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1",
+          "start_time": "0.000000"
+        }
+      ],
+      "format": {
+        "start_time": "0.000000",
+        "duration": "31.040000"
+      }
+    },
+    "preview_seconds": 15.52
+  },
+  {
+    "path": "raw/smoke/neg/testneg08.814.avi",
+    "sha256": "5ca5139095f8b0d5ba474a446afa1c717a6b3862379612ff90e9c897cbbff8d4",
+    "bytes": 6756794,
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mpeg4",
+          "width": 352,
+          "height": 288,
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1",
+          "start_time": "0.000000"
+        }
+      ],
+      "format": {
+        "start_time": "0.000000",
+        "duration": "30.040000"
+      }
+    },
+    "preview_seconds": 15.02
+  },
+  {
+    "path": "raw/smoke/neg/testneg09.815.avi",
+    "sha256": "82ca550003c2fc6d23096c0beb49a514e5313a96364173873fc0216793ad3433",
+    "bytes": 6566414,
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mpeg4",
+          "width": 352,
+          "height": 288,
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1",
+          "start_time": "0.000000"
+        }
+      ],
+      "format": {
+        "start_time": "0.000000",
+        "duration": "28.920000"
+      }
+    },
+    "preview_seconds": 14.46
+  },
+  {
+    "path": "raw/smoke/pos/testpos01.817.avi",
+    "sha256": "fd1284d69c02da5a84fe3c537479882158ef5f83d743c51b325d41e6ceb3a8f3",
+    "bytes": 5079994,
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mjpeg",
+          "width": 640,
+          "height": 360,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "start_time": "0.000000"
+        }
+      ],
+      "format": {
+        "start_time": "0.000000",
+        "duration": "16.958333"
+      }
+    },
+    "preview_seconds": 8.4791665
+  },
+  {
+    "path": "raw/smoke/pos/testpos02.818.avi",
+    "sha256": "f09934deee5aafc7e460d3b74313c2f8a172b1c9c8278515ab92aa6b042b0dc1",
+    "bytes": 11025982,
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "msmpeg4v2",
+          "width": 640,
+          "height": 424,
+          "r_frame_rate": "30000/1001",
+          "avg_frame_rate": "30000/1001",
+          "start_time": "0.000000"
+        }
+      ],
+      "format": {
+        "start_time": "0.000000",
+        "duration": "57.657600"
+      }
+    },
+    "preview_seconds": 28.8288
+  },
+  {
+    "path": "raw/smoke/pos/testpos03.819.avi",
+    "sha256": "d4029b8506bcd19a7eb3ea73d10527906440b96970a66086364bbddd008b072c",
+    "bytes": 74205184,
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "rawvideo",
+          "width": 320,
+          "height": 240,
+          "r_frame_rate": "1000000/66667",
+          "avg_frame_rate": "1000000/66667",
+          "start_time": "0.000000"
+        }
+      ],
+      "format": {
+        "start_time": "0.000000",
+        "duration": "21.466774"
+      }
+    },
+    "preview_seconds": 10.733387
+  },
+  {
+    "path": "raw/smoke/pos/testpos04.820.avi",
+    "sha256": "934d92ace78daf33bbf29abf385ed7f96cc8ba3469e53df9199829a4dfc445ec",
+    "bytes": 25206992,
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mjpeg",
+          "width": 640,
+          "height": 360,
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1",
+          "start_time": "0.000000"
+        }
+      ],
+      "format": {
+        "start_time": "0.000000",
+        "duration": "78.915918"
+      }
+    },
+    "preview_seconds": 39.457959
+  },
+  {
+    "path": "raw/smoke/pos/testpos05.821.avi",
+    "sha256": "20772697742c2e07960283051853ab8f503d931dc6ce27a92ff66423108bdee0",
+    "bytes": 4151296,
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mpeg4",
+          "width": 320,
+          "height": 240,
+          "r_frame_rate": "9381/2000",
+          "avg_frame_rate": "9381/2000",
+          "start_time": "0.000000"
+        }
+      ],
+      "format": {
+        "start_time": "0.000000",
+        "duration": "109.583200"
+      }
+    },
+    "preview_seconds": 54.7916
+  },
+  {
+    "path": "raw/smoke/pos/testpos06.822.avi",
+    "sha256": "fb28263a6215465aaa617ddc52e4f08d498f37dcbc7a80687282f0722fa4975b",
+    "bytes": 1420202,
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mjpeg",
+          "width": 320,
+          "height": 240,
+          "r_frame_rate": "10/1",
+          "avg_frame_rate": "10/1",
+          "start_time": "0.000000"
+        }
+      ],
+      "format": {
+        "start_time": "0.000000",
+        "duration": "20.100000"
+      }
+    },
+    "preview_seconds": 10.05
+  },
+  {
+    "path": "raw/smoke/pos/testpos07.823.avi",
+    "sha256": "f6d26e5c3a9552819590ece4e9acd1c7d160e6ab66ec3985d8999390b7d41c4f",
+    "bytes": 4612564,
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mjpeg",
+          "width": 320,
+          "height": 240,
+          "r_frame_rate": "10/1",
+          "avg_frame_rate": "10/1",
+          "start_time": "0.000000"
+        }
+      ],
+      "format": {
+        "start_time": "0.000000",
+        "duration": "70.100000"
+      }
+    },
+    "preview_seconds": 35.05
+  },
+  {
+    "path": "raw/smoke/pos/testpos08.824.avi",
+    "sha256": "32f6a9450e81f106f24b2b9c7feb7a5f50fae6a42b9871282c883b2205e057f2",
+    "bytes": 2139458,
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mjpeg",
+          "width": 320,
+          "height": 240,
+          "r_frame_rate": "15/1",
+          "avg_frame_rate": "15/1",
+          "start_time": "0.000000"
+        }
+      ],
+      "format": {
+        "start_time": "0.000000",
+        "duration": "24.555102"
+      }
+    },
+    "preview_seconds": 12.277551
+  },
+  {
+    "path": "raw/smoke/pos/testpos09.825.avi",
+    "sha256": "d9e5e86632f6e79cb7d6092631de69e488c09e9c9dc243bae9bb168b7677f269",
+    "bytes": 8662620,
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mjpeg",
+          "width": 640,
+          "height": 360,
+          "r_frame_rate": "30/1",
+          "avg_frame_rate": "30/1",
+          "start_time": "0.000000"
+        }
+      ],
+      "format": {
+        "start_time": "0.000000",
+        "duration": "27.611429"
+      }
+    },
+    "preview_seconds": 13.8057145
+  },
+  {
+    "path": "raw/smoke/pos/testpos10.826.avi",
+    "sha256": "5698701d4900e39c279becc2cd8e9b0f085e19dff34885d59a930052464af3bc",
+    "bytes": 15633040,
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mjpeg",
+          "width": 480,
+          "height": 360,
+          "r_frame_rate": "2997/100",
+          "avg_frame_rate": "2997/100",
+          "start_time": "0.000000"
+        }
+      ],
+      "format": {
+        "start_time": "0.000000",
+        "duration": "49.475918"
+      }
+    },
+    "preview_seconds": 24.737959
+  },
+  {
+    "path": "raw/smoke/pos/testpos11.827.avi",
+    "sha256": "8066d6a50023145093251486b8f6f8e55b5cf6f76395221ef0887736a55b52c5",
+    "bytes": 8611514,
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mjpeg",
+          "width": 320,
+          "height": 240,
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1",
+          "start_time": "0.000000"
+        }
+      ],
+      "format": {
+        "start_time": "0.000000",
+        "duration": "27.506939"
+      }
+    },
+    "preview_seconds": 13.7534695
+  },
+  {
+    "path": "raw/smoke/pos/testpos12.828.avi",
+    "sha256": "893d2b7fa5d327ac2c7c04165e00db5fffaf0d95aeb5d4706962a866d62acc34",
+    "bytes": 3863668,
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mjpeg",
+          "width": 480,
+          "height": 270,
+          "r_frame_rate": "1497/50",
+          "avg_frame_rate": "1497/50",
+          "start_time": "0.000000"
+        }
+      ],
+      "format": {
+        "start_time": "0.000000",
+        "duration": "12.512653"
+      }
+    },
+    "preview_seconds": 6.2563265
+  },
+  {
+    "path": "raw/smoke/pos/testpos13.829.avi",
+    "sha256": "143add5f9690e87f929d7779d7ca99e820e494370af9d7f116aa77285faef7ee",
+    "bytes": 4635790,
+    "metadata": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "mjpeg",
+          "width": 300,
+          "height": 240,
+          "r_frame_rate": "2997/100",
+          "avg_frame_rate": "2997/100",
+          "start_time": "0.000000"
+        }
+      ],
+      "format": {
+        "start_time": "0.000000",
+        "duration": "15.516735"
+      }
+    },
+    "preview_seconds": 7.7583675
+  }
+]

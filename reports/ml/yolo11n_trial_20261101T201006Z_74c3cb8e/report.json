@@ -1,0 +1,393 @@
+{
+  "run_id": "yolo11n_trial_20261101T201006Z_74c3cb8e",
+  "technical_only": true,
+  "summary": {
+    "status": "success",
+    "batch": 4,
+    "technical_only": true,
+    "started_at": "2026-11-01T20:10:07.950506+00:00",
+    "versions": {
+      "torch": "2.9.1+cu126",
+      "torchvision": "0.24.1+cu126",
+      "ultralytics": "8.4.197",
+      "numpy": "2.2.6",
+      "opencv-python": "4.12.0.88"
+    },
+    "python": "3.12.8 (tags/v3.12.8:2dc476b, Dec  3 2024, 19:30:04) [MSC v.1942 64 bit (AMD64)]",
+    "cuda": "12.6",
+    "gpu": "NVIDIA GeForce RTX 2060",
+    "initial_weights_sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1",
+    "subset_manifest_sha256": "d8a0950b076695e6668d340b40890b890b07c972d1fb8f8c2b4a4574a68943a1",
+    "input_hashes_unchanged": true,
+    "image_verification_policy": "readonly-v1: PIL verify + full decode, no JPEG rewrite",
+    "train_call_seconds": 71.46661279999898,
+    "epochs_completed": 2,
+    "losses_finite": true,
+    "losses": {
+      "epoch_1": {
+        "train/box_loss": 2.21244,
+        "train/cls_loss": 4.744,
+        "train/dfl_loss": 2.11067,
+        "val/box_loss": 2.9761,
+        "val/cls_loss": 4.601,
+        "val/dfl_loss": 2.84719
+      },
+      "epoch_2": {
+        "train/box_loss": 2.26873,
+        "train/cls_loss": 3.41115,
+        "train/dfl_loss": 2.20303,
+        "val/box_loss": 2.29217,
+        "val/cls_loss": 2.98412,
+        "val/dfl_loss": 2.34417
+      }
+    },
+    "results": [
+      {
+        "epoch": "1",
+        "time": "42.037",
+        "train/box_loss": "2.21244",
+        "train/cls_loss": "4.744",
+        "train/dfl_loss": "2.11067",
+        "metrics/precision(B)": "0.07677",
+        "metrics/recall(B)": "0.18272",
+        "metrics/mAP50(B)": "0.03276",
+        "metrics/mAP50-95(B)": "0.00892",
+        "val/box_loss": "2.9761",
+        "val/cls_loss": "4.601",
+        "val/dfl_loss": "2.84719",
+        "lr/pg0": "0.00165398",
+        "lr/pg1": "0.00165398",
+        "lr/pg2": "0.00165398"
+      },
+      {
+        "epoch": "2",
+        "time": "59.398",
+        "train/box_loss": "2.26873",
+        "train/cls_loss": "3.41115",
+        "train/dfl_loss": "2.20303",
+        "metrics/precision(B)": "0.17615",
+        "metrics/recall(B)": "0.17758",
+        "metrics/mAP50(B)": "0.11981",
+        "metrics/mAP50-95(B)": "0.04307",
+        "val/box_loss": "2.29217",
+        "val/cls_loss": "2.98412",
+        "val/dfl_loss": "2.34417",
+        "lr/pg0": "0.000841835",
+        "lr/pg1": "0.000841835",
+        "lr/pg2": "0.000841835"
+      }
+    ],
+    "training_dir": "D:\\FireVision\\runs\\technical\\yolo11n_trial_20261101T201006Z_74c3cb8e\\batch-4\\training",
+    "checkpoint_best": "D:\\FireVision\\runs\\technical\\yolo11n_trial_20261101T201006Z_74c3cb8e\\batch-4\\training\\weights\\best.pt",
+    "checkpoint_last": "D:\\FireVision\\runs\\technical\\yolo11n_trial_20261101T201006Z_74c3cb8e\\batch-4\\training\\weights\\last.pt",
+    "peak_allocated_bytes": 684686848,
+    "peak_reserved_bytes": 933232640,
+    "final_device": "cuda:0",
+    "wall_seconds": 71.68520020000142,
+    "finished_at": "2026-11-01T20:11:19.636729+00:00",
+    "nvidia_smi_peak_whole_device_used_mib": 1418
+  },
+  "subset": {
+    "id": "yolo11n_tech_20261101T195952Z_f9f60144",
+    "seed": 42,
+    "stratification": "equal fire-only/smoke-only/mixed/background; fixed sorted input, random.Random(42)",
+    "counts": {
+      "train": {
+        "images": 512,
+        "categories": {
+          "mixed": 128,
+          "fire-only": 128,
+          "background": 128,
+          "smoke-only": 128
+        },
+        "boxes": {
+          "fire": 651,
+          "smoke": 300
+        }
+      },
+      "val": {
+        "images": 128,
+        "categories": {
+          "mixed": 32,
+          "smoke-only": 32,
+          "background": 32,
+          "fire-only": 32
+        },
+        "boxes": {
+          "fire": 153,
+          "smoke": 69
+        }
+      }
+    },
+    "parent_manifest_sha256": {
+      "data.yaml": "8e860b560658e0f17b85b938cd2d8efc524504b49b1efc91fba0d5ef475c303f",
+      "excluded.jsonl": "bba8b38f0a3fb3bd37fed7d0dc7a01f251c2bcb7dc0fcd2d833b95e14ccfe163",
+      "test.jsonl": "ff8573ed5015bc5777a104917eff8c98a4652b7ae72d73e87ba8320aa322c491",
+      "test.txt": "cf607bb1ae2d31721fea61c2d71d6010904529cae568145adaa09072c5b69bf3",
+      "train.jsonl": "bcd01f7f65b4106e63a5cdbf813a8290048e942c8e68dcb163343ce417c0eab4",
+      "train.txt": "2e406d5950d98ac3d10a8c59df753d1e3aedd854908aaaf74b0ad770376da988",
+      "val.jsonl": "f1599d0f75a46fecfebe6815f9aa6b9291c085f4309b5bda275eafdebf86d884",
+      "val.txt": "bea2675c19b60d83e0a176c81cdc4be1d8c58e98bf9a6e92e50809018890bd0e"
+    },
+    "files_sha256": {
+      "data.yaml": "d9bf0817f6d4828d03b406b212b95024e24913165c39e13914cadd502bf88ae1",
+      "train.jsonl": "af1a65d072faec238252329d237cecec4738a080b62c0613830725bd3e930b9d",
+      "train.txt": "1c513c09fb50688663a6e25c3eb497f9a5671c3284cdac495416ef417415d7ec",
+      "val.jsonl": "dc4392a942f97b24ec8964590514f6dce8849feceab957835cdeed04bb09a1d4",
+      "val.txt": "021d69d5558d0431714bf575b429851d68f164f54c6a904931dc1cc08e85bb95"
+    },
+    "test_used_for_training_or_selection": false
+  },
+  "verification": {
+    "technical_only": true,
+    "checkpoint_checks": {
+      "best": {
+        "path": "D:\\FireVision\\runs\\technical\\yolo11n_trial_20261101T201006Z_74c3cb8e\\batch-4\\training\\weights\\best.pt",
+        "sha256": "e78e087b198d105c4d384e69511b5f9ddcd7e792d8253dcfebae041bce5aa193",
+        "bytes": 5484314,
+        "names": {
+          "0": "smoke",
+          "1": "fire"
+        },
+        "loads": true
+      },
+      "last": {
+        "path": "D:\\FireVision\\runs\\technical\\yolo11n_trial_20261101T201006Z_74c3cb8e\\batch-4\\training\\weights\\last.pt",
+        "sha256": "c02cff6971c9b2e4b461b30f9e0f3f70619a6feb3eace467f6370fd0b48deb8f",
+        "bytes": 5484314,
+        "names": {
+          "0": "smoke",
+          "1": "fire"
+        },
+        "loads": true
+      }
+    },
+    "gpu_device": "cuda:0",
+    "prediction_settings": {
+      "imgsz": 640,
+      "conf": 0.25,
+      "iou": 0.7,
+      "thresholds_tuned": false
+    },
+    "gpu_predictions": [
+      {
+        "image": "raw/data/val/images/PublicDataset00006.jpg",
+        "image_sha256": "121ab3f68379817e092d031e9978c08961bf75aaa6506c6519e47ee6f26b6128",
+        "detections": [],
+        "count": 0,
+        "no_detections": true,
+        "preview": "D:\\FireVision\\runs\\technical\\yolo11n_trial_20261101T201006Z_74c3cb8e\\batch-4\\verification\\PublicDataset00006.jpg",
+        "speed_ms": {
+          "preprocess": 6.678575000023557,
+          "inference": 3.3172124999509833,
+          "postprocess": 4.044525000153953
+        }
+      },
+      {
+        "image": "raw/data/val/images/PublicDataset00015.jpg",
+        "image_sha256": "62a86e5f2f87b425eef936de2e223e55228af3369186d1cfc267d8d06b5fb7e1",
+        "detections": [],
+        "count": 0,
+        "no_detections": true,
+        "preview": "D:\\FireVision\\runs\\technical\\yolo11n_trial_20261101T201006Z_74c3cb8e\\batch-4\\verification\\PublicDataset00015.jpg",
+        "speed_ms": {
+          "preprocess": 6.678575000023557,
+          "inference": 3.3172124999509833,
+          "postprocess": 4.044525000153953
+        }
+      },
+      {
+        "image": "raw/data/val/images/PublicDataset00136.jpg",
+        "image_sha256": "38f7c9ac039290cf55a85cda0a38ba7fc8c5c699e54ba3d1e4e1ae3c3767a079",
+        "detections": [],
+        "count": 0,
+        "no_detections": true,
+        "preview": "D:\\FireVision\\runs\\technical\\yolo11n_trial_20261101T201006Z_74c3cb8e\\batch-4\\verification\\PublicDataset00136.jpg",
+        "speed_ms": {
+          "preprocess": 6.678575000023557,
+          "inference": 3.3172124999509833,
+          "postprocess": 4.044525000153953
+        }
+      },
+      {
+        "image": "raw/data/val/images/PublicDataset00558.jpg",
+        "image_sha256": "6aef45955a6e5d69e9185fbe891046af0cb35adf6b2e0b632c539abbb357f749",
+        "detections": [],
+        "count": 0,
+        "no_detections": true,
+        "preview": "D:\\FireVision\\runs\\technical\\yolo11n_trial_20261101T201006Z_74c3cb8e\\batch-4\\verification\\PublicDataset00558.jpg",
+        "speed_ms": {
+          "preprocess": 6.678575000023557,
+          "inference": 3.3172124999509833,
+          "postprocess": 4.044525000153953
+        }
+      },
+      {
+        "image": "raw/data/val/images/WEB03763.jpg",
+        "image_sha256": "177845d8f73b6f36038dca34dd3e8703b3c9f61d57cfe722fe192c2870425fb5",
+        "detections": [
+          {
+            "class_id": 1,
+            "class_name": "fire",
+            "confidence": 0.3045289218425751,
+            "xyxy_pixels": [
+              541.7490234375,
+              389.44970703125,
+              858.18505859375,
+              527.736328125
+            ]
+          }
+        ],
+        "count": 1,
+        "no_detections": false,
+        "preview": "D:\\FireVision\\runs\\technical\\yolo11n_trial_20261101T201006Z_74c3cb8e\\batch-4\\verification\\WEB03763.jpg",
+        "speed_ms": {
+          "preprocess": 6.678575000023557,
+          "inference": 3.3172124999509833,
+          "postprocess": 4.044525000153953
+        }
+      },
+      {
+        "image": "raw/data/val/images/WEB04308.jpg",
+        "image_sha256": "703662a22e6e92526790c307d85f237e427293e918492341df0efae47ab5400d",
+        "detections": [
+          {
+            "class_id": 1,
+            "class_name": "fire",
+            "confidence": 0.5252906084060669,
+            "xyxy_pixels": [
+              200.4652557373047,
+              136.48846435546875,
+              228.41758728027344,
+              152.7450714111328
+            ]
+          },
+          {
+            "class_id": 1,
+            "class_name": "fire",
+            "confidence": 0.4650719165802002,
+            "xyxy_pixels": [
+              248.7988739013672,
+              142.51870727539062,
+              280.228515625,
+              153.06527709960938
+            ]
+          },
+          {
+            "class_id": 1,
+            "class_name": "fire",
+            "confidence": 0.4172818958759308,
+            "xyxy_pixels": [
+              201.60272216796875,
+              140.72801208496094,
+              227.29061889648438,
+              152.56214904785156
+            ]
+          },
+          {
+            "class_id": 1,
+            "class_name": "fire",
+            "confidence": 0.29156795144081116,
+            "xyxy_pixels": [
+              264.6562194824219,
+              143.01336669921875,
+              280.3243408203125,
+              151.9239501953125
+            ]
+          },
+          {
+            "class_id": 1,
+            "class_name": "fire",
+            "confidence": 0.27609142661094666,
+            "xyxy_pixels": [
+              210.2571258544922,
+              140.41717529296875,
+              227.6427764892578,
+              153.8536834716797
+            ]
+          }
+        ],
+        "count": 5,
+        "no_detections": false,
+        "preview": "D:\\FireVision\\runs\\technical\\yolo11n_trial_20261101T201006Z_74c3cb8e\\batch-4\\verification\\WEB04308.jpg",
+        "speed_ms": {
+          "preprocess": 6.678575000023557,
+          "inference": 3.3172124999509833,
+          "postprocess": 4.044525000153953
+        }
+      },
+      {
+        "image": "raw/data/val/images/PublicDataset00910.jpg",
+        "image_sha256": "8371d323cd40e22f7023cdc54b8ca0ef75e7638c64cddb26e19749ee5933caae",
+        "detections": [],
+        "count": 0,
+        "no_detections": true,
+        "preview": "D:\\FireVision\\runs\\technical\\yolo11n_trial_20261101T201006Z_74c3cb8e\\batch-4\\verification\\PublicDataset00910.jpg",
+        "speed_ms": {
+          "preprocess": 6.678575000023557,
+          "inference": 3.3172124999509833,
+          "postprocess": 4.044525000153953
+        }
+      },
+      {
+        "image": "raw/data/val/images/PublicDataset00969.jpg",
+        "image_sha256": "44a2af251eea43f9ddf23ca6b62f9f8da32886751e5e8a28a238a24ee9b852c9",
+        "detections": [],
+        "count": 0,
+        "no_detections": true,
+        "preview": "D:\\FireVision\\runs\\technical\\yolo11n_trial_20261101T201006Z_74c3cb8e\\batch-4\\verification\\PublicDataset00969.jpg",
+        "speed_ms": {
+          "preprocess": 6.678575000023557,
+          "inference": 3.3172124999509833,
+          "postprocess": 4.044525000153953
+        }
+      }
+    ],
+    "gpu_prediction_wall_seconds": 1.5896718000003602,
+    "cpu": {
+      "success": true,
+      "device": "cpu",
+      "image": "raw/data/val/images/PublicDataset00006.jpg",
+      "detections": [],
+      "wall_seconds": 0.12436399999933201,
+      "preview": "D:\\FireVision\\runs\\technical\\yolo11n_trial_20261101T201006Z_74c3cb8e\\batch-4\\verification\\cpu-example.jpg"
+    },
+    "test_used": false
+  },
+  "main_manifests_unchanged": true,
+  "selected_image_and_label_hashes_unchanged": true,
+  "checkpoint_hashes": {
+    "best": {
+      "path": "D:\\FireVision\\runs\\technical\\yolo11n_trial_20261101T201006Z_74c3cb8e\\batch-4\\training\\weights\\best.pt",
+      "sha256": "e78e087b198d105c4d384e69511b5f9ddcd7e792d8253dcfebae041bce5aa193",
+      "bytes": 5484314,
+      "names": {
+        "0": "smoke",
+        "1": "fire"
+      },
+      "loads": true
+    },
+    "last": {
+      "path": "D:\\FireVision\\runs\\technical\\yolo11n_trial_20261101T201006Z_74c3cb8e\\batch-4\\training\\weights\\last.pt",
+      "sha256": "c02cff6971c9b2e4b461b30f9e0f3f70619a6feb3eace467f6370fd0b48deb8f",
+      "bytes": 5484314,
+      "names": {
+        "0": "smoke",
+        "1": "fire"
+      },
+      "loads": true
+    }
+  },
+  "batch_recommendation": "Початково batch=4, imgsz=640, AMP=true для YOLO11n. Це підтверджено лише технічною підмножиною; піки на повному train потрібно перевіряти окремо, більші batch не тестувалися.",
+  "test_used_for_training_or_inference": false,
+  "log_sha256": "f3f4e0a0c2e3ef7d2ce682de9d16c1c74f4aaca3334786bf3bd3b9b49daf6636",
+  "results_csv_sha256": "2ee754d1fdd1e6abb0f927486996f3f1fbe8bb3d4c149bc4112757935752f96e",
+  "resolved_args_sha256": "56fe77c1f25e8ecc990d1b326f41c3b4ce66d5503ee4c489d10e928d8efa4bf9",
+  "supersedes": {
+    "previous_run": "D:/FireVision/runs/technical/yolo11n_trial_20261101T200230Z_a1c4a98d",
+    "reason": "Auto-repair of two JPEG trailers by Ultralytics; restored original files and made verification read-only.",
+    "prior_epochs_completed": 2,
+    "new_epochs_requested": 2,
+    "not_an_oom_retry": true
+  }
+}

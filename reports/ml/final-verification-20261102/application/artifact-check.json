@@ -1,0 +1,413 @@
+{
+  "run_id": "b4cf3470-3216-42b3-8aff-216e7f8765e0",
+  "experiment_unchanged": true,
+  "experiment_files": 161,
+  "source_file": "D:\\FireVision\\reports\\ml\\final-verification-20261102\\examples\\val-derived-technical-NOT-independent-video.mp4",
+  "result_file": "D:\\FireVision\\storage\\results\\analysis\\b4cf3470-3216-42b3-8aff-216e7f8765e0\\1970257c-68e2-4273-a074-3d2296ad1777\\annotated.mp4",
+  "source_sha256": "9782e2d4daeebc06ce3494b651e4819ea5f84df3bc015e409358f878fe115c3c",
+  "result_sha256": "e9a4c57af09be1b55780cd53600696257fbb5de33a8c432332f5f0aad37a121b",
+  "detections_sha256": "90da47a330e23663bca9bca1c9e7ecc9230fbf1d518cc59748960c46f83aea38",
+  "source_and_output_frames": 64,
+  "max_pts_difference_seconds": 0.0,
+  "jsonl_frame_and_time_alignment": true,
+  "samples": [
+    {
+      "frame_index": 0,
+      "time_seconds": 0.0,
+      "image": "raw/data/val/images/PublicDataset00004.jpg",
+      "detections": [
+        {
+          "class_id": 1,
+          "class_name": "fire",
+          "confidence": 0.7265055775642395,
+          "xyxy": [
+            81.73843383789062,
+            251.3802947998047,
+            301.2799377441406,
+            308.21722412109375
+          ]
+        }
+      ],
+      "comparison": {
+        "true_positives": [
+          {
+            "class_id": 1,
+            "class_name": "fire",
+            "confidence": 0.7265055775642395,
+            "xyxy": [
+              81.73843383789062,
+              251.3802947998047,
+              301.2799377441406,
+              308.21722412109375
+            ],
+            "gt_index": 0,
+            "iou": 0.9006567183279208
+          }
+        ],
+        "false_positives": [],
+        "false_negatives": []
+      }
+    },
+    {
+      "frame_index": 8,
+      "time_seconds": 2.0,
+      "image": "raw/data/val/images/PublicDataset00006.jpg",
+      "detections": [
+        {
+          "class_id": 1,
+          "class_name": "fire",
+          "confidence": 0.680051863193512,
+          "xyxy": [
+            325.43328857421875,
+            219.88113403320312,
+            467.33343505859375,
+            269.2096862792969
+          ]
+        }
+      ],
+      "comparison": {
+        "true_positives": [
+          {
+            "class_id": 1,
+            "class_name": "fire",
+            "confidence": 0.680051863193512,
+            "xyxy": [
+              325.43328857421875,
+              219.88113403320312,
+              467.33343505859375,
+              269.2096862792969
+            ],
+            "gt_index": 0,
+            "iou": 0.7958821242116159
+          }
+        ],
+        "false_positives": [],
+        "false_negatives": []
+      }
+    },
+    {
+      "frame_index": 16,
+      "time_seconds": 4.0,
+      "image": "raw/data/val/images/PublicDataset00135.jpg",
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.6275672316551208,
+          "xyxy": [
+            30.0081787109375,
+            102.40432739257812,
+            446.35845947265625,
+            280.07904052734375
+          ]
+        }
+      ],
+      "comparison": {
+        "true_positives": [
+          {
+            "class_id": 0,
+            "class_name": "smoke",
+            "confidence": 0.6275672316551208,
+            "xyxy": [
+              30.0081787109375,
+              102.40432739257812,
+              446.35845947265625,
+              280.07904052734375
+            ],
+            "gt_index": 0,
+            "iou": 0.9534637015251292
+          }
+        ],
+        "false_positives": [],
+        "false_negatives": []
+      }
+    },
+    {
+      "frame_index": 24,
+      "time_seconds": 6.0,
+      "image": "raw/data/val/images/PublicDataset00136.jpg",
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.671511173248291,
+          "xyxy": [
+            34.36279296875,
+            137.74871826171875,
+            329.607177734375,
+            278.95147705078125
+          ]
+        }
+      ],
+      "comparison": {
+        "true_positives": [
+          {
+            "class_id": 0,
+            "class_name": "smoke",
+            "confidence": 0.671511173248291,
+            "xyxy": [
+              34.36279296875,
+              137.74871826171875,
+              329.607177734375,
+              278.95147705078125
+            ],
+            "gt_index": 0,
+            "iou": 0.7806194788700193
+          }
+        ],
+        "false_positives": [],
+        "false_negatives": []
+      }
+    },
+    {
+      "frame_index": 32,
+      "time_seconds": 8.0,
+      "image": "raw/data/val/images/PublicDataset00114.jpg",
+      "detections": [
+        {
+          "class_id": 1,
+          "class_name": "fire",
+          "confidence": 0.37873008847236633,
+          "xyxy": [
+            392.45855712890625,
+            242.2584228515625,
+            422.44036865234375,
+            257.56475830078125
+          ]
+        },
+        {
+          "class_id": 1,
+          "class_name": "fire",
+          "confidence": 0.3543287515640259,
+          "xyxy": [
+            404.3651123046875,
+            241.99551391601562,
+            422.4437255859375,
+            256.3640441894531
+          ]
+        },
+        {
+          "class_id": 1,
+          "class_name": "fire",
+          "confidence": 0.35170066356658936,
+          "xyxy": [
+            408.365234375,
+            242.38870239257812,
+            422.0987548828125,
+            255.31106567382812
+          ]
+        },
+        {
+          "class_id": 1,
+          "class_name": "fire",
+          "confidence": 0.30628830194473267,
+          "xyxy": [
+            307.52777099609375,
+            260.0670166015625,
+            327.46710205078125,
+            272.31878662109375
+          ]
+        },
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.2797195315361023,
+          "xyxy": [
+            40.3885498046875,
+            189.36053466796875,
+            426.8923645019531,
+            272.79644775390625
+          ]
+        },
+        {
+          "class_id": 1,
+          "class_name": "fire",
+          "confidence": 0.2622351050376892,
+          "xyxy": [
+            269.6483154296875,
+            258.8741760253906,
+            330.3294677734375,
+            274.4037170410156
+          ]
+        }
+      ],
+      "comparison": {
+        "true_positives": [
+          {
+            "class_id": 1,
+            "class_name": "fire",
+            "confidence": 0.37873008847236633,
+            "xyxy": [
+              392.45855712890625,
+              242.2584228515625,
+              422.44036865234375,
+              257.56475830078125
+            ],
+            "gt_index": 1,
+            "iou": 0.7772633997321816
+          },
+          {
+            "class_id": 1,
+            "class_name": "fire",
+            "confidence": 0.30628830194473267,
+            "xyxy": [
+              307.52777099609375,
+              260.0670166015625,
+              327.46710205078125,
+              272.31878662109375
+            ],
+            "gt_index": 0,
+            "iou": 0.8603720529919935
+          },
+          {
+            "class_id": 0,
+            "class_name": "smoke",
+            "confidence": 0.2797195315361023,
+            "xyxy": [
+              40.3885498046875,
+              189.36053466796875,
+              426.8923645019531,
+              272.79644775390625
+            ],
+            "gt_index": 2,
+            "iou": 0.7705382490700381
+          }
+        ],
+        "false_positives": [
+          {
+            "class_id": 1,
+            "class_name": "fire",
+            "confidence": 0.3543287515640259,
+            "xyxy": [
+              404.3651123046875,
+              241.99551391601562,
+              422.4437255859375,
+              256.3640441894531
+            ],
+            "best_unmatched_same_class_iou": 0.0
+          },
+          {
+            "class_id": 1,
+            "class_name": "fire",
+            "confidence": 0.35170066356658936,
+            "xyxy": [
+              408.365234375,
+              242.38870239257812,
+              422.0987548828125,
+              255.31106567382812
+            ],
+            "best_unmatched_same_class_iou": 0.0
+          },
+          {
+            "class_id": 1,
+            "class_name": "fire",
+            "confidence": 0.2622351050376892,
+            "xyxy": [
+              269.6483154296875,
+              258.8741760253906,
+              330.3294677734375,
+              274.4037170410156
+            ],
+            "best_unmatched_same_class_iou": 0
+          }
+        ],
+        "false_negatives": []
+      }
+    },
+    {
+      "frame_index": 40,
+      "time_seconds": 10.0,
+      "image": "raw/data/val/images/PublicDataset00125.jpg",
+      "detections": [
+        {
+          "class_id": 1,
+          "class_name": "fire",
+          "confidence": 0.2561020255088806,
+          "xyxy": [
+            379.1591491699219,
+            235.8201904296875,
+            395.0119323730469,
+            247.05328369140625
+          ]
+        }
+      ],
+      "comparison": {
+        "true_positives": [
+          {
+            "class_id": 1,
+            "class_name": "fire",
+            "confidence": 0.2561020255088806,
+            "xyxy": [
+              379.1591491699219,
+              235.8201904296875,
+              395.0119323730469,
+              247.05328369140625
+            ],
+            "gt_index": 0,
+            "iou": 0.5655164966776393
+          }
+        ],
+        "false_positives": [],
+        "false_negatives": [
+          {
+            "class_id": 0,
+            "xyxy": [
+              124.44444444444447,
+              196.19444444444446,
+              370.962962962963,
+              260.2444444444444
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "frame_index": 48,
+      "time_seconds": 12.0,
+      "image": "raw/data/val/images/PublicDataset00863.jpg",
+      "detections": [
+        {
+          "class_id": 0,
+          "class_name": "smoke",
+          "confidence": 0.25506868958473206,
+          "xyxy": [
+            0.8749542236328125,
+            168.33743286132812,
+            178.90797424316406,
+            235.29336547851562
+          ]
+        }
+      ],
+      "comparison": {
+        "true_positives": [],
+        "false_positives": [
+          {
+            "class_id": 0,
+            "class_name": "smoke",
+            "confidence": 0.25506868958473206,
+            "xyxy": [
+              0.8749542236328125,
+              168.33743286132812,
+              178.90797424316406,
+              235.29336547851562
+            ],
+            "best_unmatched_same_class_iou": 0
+          }
+        ],
+        "false_negatives": []
+      }
+    },
+    {
+      "frame_index": 56,
+      "time_seconds": 14.0,
+      "image": "raw/data/val/images/PublicDataset00871.jpg",
+      "detections": [],
+      "comparison": {
+        "true_positives": [],
+        "false_positives": [],
+        "false_negatives": []
+      }
+    }
+  ],
+  "limitation": "Image-derived val montage. Repeated stills are not natural temporal video, independent scenes or event evaluation."
+}

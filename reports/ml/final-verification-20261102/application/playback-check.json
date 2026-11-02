@@ -1,0 +1,18 @@
+{
+  "result": "passed",
+  "run_id": "b4cf3470-3216-42b3-8aff-216e7f8765e0",
+  "seeks": [
+    {
+      "requested": 8.02,
+      "actual": 8.02
+    },
+    {
+      "requested": 12.02,
+      "actual": 12.02
+    }
+  ],
+  "playback_before": 12.02,
+  "playback_after": 12.6833,
+  "page_errors": [],
+  "browser_gpu_disabled": true
+}

@@ -1,0 +1,14 @@
+﻿id,fire_visible,smoke_visible,transform,duration_seconds,width,height,analyzed_frames,fire_detection_frames,smoke_detection_frames,fire_events,smoke_events,run_id,source_id
+F01,True,False,reference,12.012,480,272,24,24,0,1,0,5227c628-f49d-41e2-8cf1-ce9e8e2d4224,85ec652f-a11f-4097-8457-6f811579b078
+F02,True,True,reference,12.0,352,288,24,24,7,1,1,6f7795a1-0c1d-4ddc-a311-fa0e7713a846,1649ead0-cd54-485a-b0e2-844d514175df
+F03,True,True,reference,7.007007,400,256,14,14,14,5,1,22bedde8-1fdc-41ca-803a-6743bc573637,98291e3e-35b5-4e18-aa90-66569717cbe7
+S01,False,True,reference,12.0,640,360,24,0,24,0,1,2c1c98d0-eedc-4b4d-b61d-0a2d4af99765,d8d7b668-ee96-46b1-bb62-2dfb786b2185
+S02,False,True,reference,12.0,320,240,24,0,0,0,0,d467831f-bb4b-474e-a62c-b72785c24e7f,5f217757-4d66-4f12-95f1-613632830e34
+S03,True,True,reference,11.990648,480,270,24,1,23,0,1,9fe156c8-7968-4a4a-a837-22394c3d1735,52386f20-d4ef-43d2-b559-7c57b0666dd1
+N01,False,False,reference,11.933321000000001,640,480,24,0,0,0,0,4686fda3-9511-4653-99ba-673efe0fd6a4,46714d49-3566-4acb-92dd-35c83c72a171
+N02,False,False,reference,9.0,352,288,18,1,0,0,0,d1133157-b219-4e35-87b7-488369ac3ab2,41fc56b8-6cd8-4fbb-98cf-7c43298ce8b6
+H01,False,False,reference,12.0,320,240,24,1,0,0,0,5c5f858b-4d4f-488a-bf98-13fe01c08d6f,2f62c7eb-3e61-4223-9d25-7cbcce9b58ba
+H02,False,False,reference,12.0,640,368,24,2,0,0,0,80d951ef-726d-403a-8a62-54a7d8f835f3,d0fa401e-72a0-4621-8c63-0866c369dc73
+F02-lowres,True,True,low_resolution,12.0,160,130,24,24,6,1,1,10c95613-70a7-4749-bb34-b981b4bb1262,137cae44-74b4-4a3e-a87c-26f575098279
+F02-blur,True,True,blur,12.0,352,288,24,1,9,0,2,d3863743-5961-4084-9f83-5b4538317106,861fe929-031a-4ace-839c-c3028b853e85
+F02-compressed,True,True,strong_compression,12.0,352,288,24,24,1,2,0,50c610f0-80a4-4b22-bad1-b7448d0399e3,8435e197-44ab-4644-af64-836f7cbb6830
